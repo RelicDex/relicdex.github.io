@@ -1,0 +1,120 @@
+{
+  "rosterCount": 444,
+  "pjrReference": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+  "applied": [
+    {
+      "species": "Regirock",
+      "number": 433,
+      "source": "https://github.com/RelicDex/Pokemon-Johto-Relics/tree/9e9ec181961efbbdba88055876dfa9b18fd0ae64/graphics/pokemon/regirock",
+      "sourceCommit": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+      "front": "assets/sprites/pjr_legendary/regirock/front.png",
+      "back": "assets/sprites/pjr_legendary/regirock/back.png",
+      "shiny": "assets/sprites/pjr_legendary/regirock/shiny.png",
+      "icon": "assets/sprites/pjr_legendary/regirock/icon.png",
+      "status": "PJR source art verified and installed on RelicDex"
+    },
+    {
+      "species": "Regice",
+      "number": 434,
+      "source": "https://github.com/RelicDex/Pokemon-Johto-Relics/tree/9e9ec181961efbbdba88055876dfa9b18fd0ae64/graphics/pokemon/regice",
+      "sourceCommit": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+      "front": "assets/sprites/pjr_legendary/regice/front.png",
+      "back": "assets/sprites/pjr_legendary/regice/back.png",
+      "shiny": "assets/sprites/pjr_legendary/regice/shiny.png",
+      "icon": "assets/sprites/pjr_legendary/regice/icon.png",
+      "status": "PJR source art verified and installed on RelicDex"
+    },
+    {
+      "species": "Registeel",
+      "number": 435,
+      "source": "https://github.com/RelicDex/Pokemon-Johto-Relics/tree/9e9ec181961efbbdba88055876dfa9b18fd0ae64/graphics/pokemon/registeel",
+      "sourceCommit": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+      "front": "assets/sprites/pjr_legendary/registeel/front.png",
+      "back": "assets/sprites/pjr_legendary/registeel/back.png",
+      "shiny": "assets/sprites/pjr_legendary/registeel/shiny.png",
+      "icon": "assets/sprites/pjr_legendary/registeel/icon.png",
+      "status": "PJR source art verified and installed on RelicDex"
+    },
+    {
+      "species": "Latias",
+      "number": 436,
+      "source": "https://github.com/RelicDex/Pokemon-Johto-Relics/tree/9e9ec181961efbbdba88055876dfa9b18fd0ae64/graphics/pokemon/latias",
+      "sourceCommit": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+      "front": "assets/sprites/pjr_legendary/latias/front.png",
+      "back": "assets/sprites/pjr_legendary/latias/back.png",
+      "shiny": "assets/sprites/pjr_legendary/latias/shiny.png",
+      "icon": "assets/sprites/pjr_legendary/latias/icon.png",
+      "status": "PJR source art verified and installed on RelicDex"
+    },
+    {
+      "species": "Latios",
+      "number": 437,
+      "source": "https://github.com/RelicDex/Pokemon-Johto-Relics/tree/9e9ec181961efbbdba88055876dfa9b18fd0ae64/graphics/pokemon/latios",
+      "sourceCommit": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+      "front": "assets/sprites/pjr_legendary/latios/front.png",
+      "back": "assets/sprites/pjr_legendary/latios/back.png",
+      "shiny": "assets/sprites/pjr_legendary/latios/shiny.png",
+      "icon": "assets/sprites/pjr_legendary/latios/icon.png",
+      "status": "PJR source art verified and installed on RelicDex"
+    },
+    {
+      "species": "Kyogre",
+      "number": 438,
+      "source": "https://github.com/RelicDex/Pokemon-Johto-Relics/tree/9e9ec181961efbbdba88055876dfa9b18fd0ae64/graphics/pokemon/kyogre",
+      "sourceCommit": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+      "front": "assets/sprites/pjr_legendary/kyogre/front.png",
+      "back": "assets/sprites/pjr_legendary/kyogre/back.png",
+      "shiny": "assets/sprites/pjr_legendary/kyogre/shiny.png",
+      "icon": "assets/sprites/pjr_legendary/kyogre/icon.png",
+      "status": "PJR source art verified and installed on RelicDex"
+    },
+    {
+      "species": "Groudon",
+      "number": 439,
+      "source": "https://github.com/RelicDex/Pokemon-Johto-Relics/tree/9e9ec181961efbbdba88055876dfa9b18fd0ae64/graphics/pokemon/groudon",
+      "sourceCommit": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+      "front": "assets/sprites/pjr_legendary/groudon/front.png",
+      "back": "assets/sprites/pjr_legendary/groudon/back.png",
+      "shiny": "assets/sprites/pjr_legendary/groudon/shiny.png",
+      "icon": "assets/sprites/pjr_legendary/groudon/icon.png",
+      "status": "PJR source art verified and installed on RelicDex"
+    },
+    {
+      "species": "Rayquaza",
+      "number": 440,
+      "source": "https://github.com/RelicDex/Pokemon-Johto-Relics/tree/9e9ec181961efbbdba88055876dfa9b18fd0ae64/graphics/pokemon/rayquaza",
+      "sourceCommit": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+      "front": "assets/sprites/pjr_legendary/rayquaza/front.png",
+      "back": "assets/sprites/pjr_legendary/rayquaza/back.png",
+      "shiny": "assets/sprites/pjr_legendary/rayquaza/shiny.png",
+      "icon": "assets/sprites/pjr_legendary/rayquaza/icon.png",
+      "status": "PJR source art verified and installed on RelicDex"
+    },
+    {
+      "species": "Jirachi",
+      "number": 442,
+      "source": "https://github.com/RelicDex/Pokemon-Johto-Relics/tree/9e9ec181961efbbdba88055876dfa9b18fd0ae64/graphics/pokemon/jirachi",
+      "sourceCommit": "9e9ec181961efbbdba88055876dfa9b18fd0ae64",
+      "front": "assets/sprites/pjr_legendary/jirachi/front.png",
+      "back": "assets/sprites/pjr_legendary/jirachi/back.png",
+      "shiny": "assets/sprites/pjr_legendary/jirachi/shiny.png",
+      "icon": "assets/sprites/pjr_legendary/jirachi/icon.png",
+      "status": "PJR source art verified and installed on RelicDex"
+    }
+  ],
+  "preserved": [
+    "Mew",
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Mewtwo",
+    "Deoxys",
+    "Raikou",
+    "Entei",
+    "Suicune",
+    "Lugia",
+    "Ho-Oh",
+    "Celebi"
+  ],
+  "policy": "Match PJR canonical species visual; never turn a trainer-only Mega or Primal graphic into an ordinary global Pokémon form."
+}

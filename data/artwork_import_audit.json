@@ -1,0 +1,88 @@
+{
+  "rosterCount": 444,
+  "radicalRedCommit": "488a0918194d567b5f7b02c396118d51fb9c81ce",
+  "approvedPrlCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
+  "applied": [
+    {
+      "species": "Noibat (Sevii)",
+      "number": 418,
+      "status": "verified website-only",
+      "source": "https://github.com/JwowSquared/Radical-Red-Pokedex/tree/488a0918194d567b5f7b02c396118d51fb9c81ce/graphics/species",
+      "assetId": 866,
+      "artistCredit": [
+        "Radical Red sprite contributors: Scipio, Diezombie4114, Gladiator Kraken, pissuinhaaleatoria (RR 4.x credits)."
+      ]
+    },
+    {
+      "species": "Noivern (Sevii)",
+      "number": 419,
+      "status": "verified website-only",
+      "source": "https://github.com/JwowSquared/Radical-Red-Pokedex/tree/488a0918194d567b5f7b02c396118d51fb9c81ce/graphics/species",
+      "assetId": 867,
+      "artistCredit": [
+        "Radical Red sprite contributors: Scipio, Diezombie4114, Gladiator Kraken, pissuinhaaleatoria (RR 4.x credits)."
+      ]
+    },
+    {
+      "species": "Raikou",
+      "number": 426,
+      "status": "approved PRL visual",
+      "source": "https://github.com/RelicDex/Pokemon-Relic-Legacy/tree/6ee9b984521ac6f2beaf995f771a726379e55c88/graphics/pokemon/raikou",
+      "preservedIdentity": true
+    },
+    {
+      "species": "Entei",
+      "number": 427,
+      "status": "approved PRL visual",
+      "source": "https://github.com/RelicDex/Pokemon-Relic-Legacy/tree/6ee9b984521ac6f2beaf995f771a726379e55c88/graphics/pokemon/entei",
+      "preservedIdentity": true
+    },
+    {
+      "species": "Suicune",
+      "number": 428,
+      "status": "approved PRL visual",
+      "source": "https://github.com/RelicDex/Pokemon-Relic-Legacy/tree/6ee9b984521ac6f2beaf995f771a726379e55c88/graphics/pokemon/suicune",
+      "preservedIdentity": true
+    },
+    {
+      "species": "Lugia",
+      "number": 429,
+      "status": "approved PRL visual",
+      "source": "https://github.com/RelicDex/Pokemon-Relic-Legacy/tree/6ee9b984521ac6f2beaf995f771a726379e55c88/graphics/pokemon/lugia",
+      "preservedIdentity": true
+    },
+    {
+      "species": "Ho-Oh",
+      "number": 430,
+      "status": "approved PRL visual",
+      "source": "https://github.com/RelicDex/Pokemon-Relic-Legacy/tree/6ee9b984521ac6f2beaf995f771a726379e55c88/graphics/pokemon/ho_oh",
+      "preservedIdentity": true
+    },
+    {
+      "species": "Celebi",
+      "number": 432,
+      "status": "approved PRL visual",
+      "source": "https://github.com/RelicDex/Pokemon-Relic-Legacy/tree/6ee9b984521ac6f2beaf995f771a726379e55c88/graphics/pokemon/celebi",
+      "preservedIdentity": true
+    }
+  ],
+  "protectedExisting": [
+    "Articuno",
+    "Zapdos",
+    "Moltres",
+    "Mewtwo",
+    "Deoxys"
+  ],
+  "candidatesNotReplaced": [
+    "Rayquaza",
+    "Groudon",
+    "Kyogre",
+    "Latias",
+    "Latios",
+    "Jirachi"
+  ],
+  "credits": [
+    "Radical Red sprite contributors: Scipio, Diezombie4114, Gladiator Kraken, pissuinhaaleatoria (RR 4.x credits)."
+  ],
+  "scope": "RelicDex website art only; PRU game mechanics unchanged"
+}

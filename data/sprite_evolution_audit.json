@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-18",
+  "sourceCommit": "2f7122d692f676ac14665e43f7d0f5477d7ad59e",
+  "sources": [
+    "https://app.notion.com/p/3fb4939d431681afa46fdeb97cf8c79b",
+    "https://app.notion.com/p/3f14939d43168107a9accfa462bf0122"
+  ],
+  "canonicalEntries": 444,
+  "normalizedSprites": 918,
+  "stoneEvolutions": [
+    {
+      "from": "Arbok",
+      "to": "Adnokana"
+    },
+    {
+      "from": "Blastoise",
+      "to": "Fortotoise"
+    },
+    {
+      "from": "Blaziken",
+      "to": "Solaziken"
+    },
+    {
+      "from": "Cacturne",
+      "to": "Cactomb"
+    },
+    {
+      "from": "Charizard",
+      "to": "Charaxis"
+    },
+    {
+      "from": "Donphan",
+      "to": "Donphalanx"
+    },
+    {
+      "from": "Feraligatr",
+      "to": "Feralodon"
+    },
+    {
+      "from": "Gardevoir",
+      "to": "Valkiri"
+    },
+    {
+      "from": "Heracross",
+      "to": "Heracurion"
+    },
+    {
+      "from": "Jynx",
+      "to": "Mystynx"
+    },
+    {
+      "from": "Kangaskhan",
+      "to": "Khang"
+    },
+    {
+      "from": "Mawile",
+      "to": "Mawyrm"
+    },
+    {
+      "from": "Meganium",
+      "to": "Faeranium"
+    },
+    {
+      "from": "Mightyena",
+      "to": "Skulberus"
+    },
+    {
+      "from": "Miltank",
+      "to": "Miltitan"
+    },
+    {
+      "from": "Qwilfish",
+      "to": "Kablowfish"
+    },
+    {
+      "from": "Sableye",
+      "to": "Gemigoyle"
+    },
+    {
+      "from": "Sceptile",
+      "to": "Sceptitan"
+    },
+    {
+      "from": "Shuckle",
+      "to": "Shuckolosse"
+    },
+    {
+      "from": "Skarmory",
+      "to": "Skarmadon"
+    },
+    {
+      "from": "Snorlax",
+      "to": "Nolax"
+    },
+    {
+      "from": "Swampert",
+      "to": "Swamplith"
+    },
+    {
+      "from": "Torkoal",
+      "to": "Torkaldera"
+    },
+    {
+      "from": "Tropius",
+      "to": "Tropisaur"
+    },
+    {
+      "from": "Typhlosion",
+      "to": "Pyroclast"
+    },
+    {
+      "from": "Venusaur",
+      "to": "Edensaur"
+    },
+    {
+      "from": "Weezing",
+      "to": "Cheauking"
+    }
+  ],
+  "noxichuSprite": "verified PRU compiled source (not older PRL pin)",
+  "previewNormalization": "96x96 alpha transparent, 76px content bounding box; original sprite paths retained in spriteOriginal",
+  "remaining": "Individual encounter validation and gameplay testing are distinct tasks"
+}
