@@ -1,0 +1,47 @@
+{
+  "release": "pru-v0.1.0-alpha-hooh-fixed-20261107",
+  "sourceCommit": "7fb281596bec3f0183f47958eaa4df5fc4570698",
+  "sourceFiles": [
+    "src/data/pokemon/pru_dex_order.h",
+    "src/data/wild_encounters.json",
+    "src/data/pokemon/species_info/gen_1_families.h",
+    "src/data/pokemon/species_info/gen_7_families.h",
+    "data/maps/RuinsOfAlph_Lab_hns/scripts.inc",
+    "data/maps/MtSilver_SummitDay_hns/scripts.inc",
+    "data/maps/TinTower_RoofDay_hns/scripts.inc",
+    "data/maps/WhirlIslands_LugiaChamber_hns/scripts.inc",
+    "data/maps/CeruleanCave_B2F_hns/scripts.inc",
+    "data/maps/FarawayIsland_Interior_hns/scripts.inc",
+    "data/maps/SeafoamIslands_SecretCave_hns/scripts.inc",
+    "data/maps/MtSilver_1F_MoltresRoom_hns/scripts.inc",
+    "data/maps/DragonsDen_StormShrine_hns/scripts.inc",
+    "data/maps/SinjohRuins_RegirockRoom_hns/scripts.inc",
+    "data/maps/SinjohRuins_RegiceRoom_hns/scripts.inc",
+    "data/maps/SinjohRuins_RegisteelRoom_hns/scripts.inc",
+    "data/maps/SouthernIsland_Interior_hns/scripts.inc",
+    "data/maps/MtMortar_B1F_hns/scripts.inc"
+  ],
+  "dexCount": 450,
+  "wildEncounterAreas": 170,
+  "speciesWithWildAreas": 297,
+  "speciesWithScriptedOrGiftLocations": 26,
+  "speciesWithoutDirectLocations": 134,
+  "addedSpecies": [
+    "Mimikyu",
+    "Rhyperior",
+    "Electivire",
+    "Magmortar",
+    "Leafeon",
+    "Glaceon",
+    "Sylveon"
+  ],
+  "removedSpecies": [
+    "Luvdisc"
+  ],
+  "renamed": [
+    "Noibat",
+    "Noivern"
+  ],
+  "notes": "Active Johto/Kanto *_HNS encounter maps only; day/night and encounter methods preserved. Directly sourced events are shown separately. Missing wild entries are not invented; availability can be evolution, gift, story-only or pending test.",
+  "correctedEvolutionSourceNumbers": 195
+}
