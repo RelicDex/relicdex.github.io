@@ -1,17 +1,17 @@
 {
   "title": "RelicDex",
-  "stage": "BETA 3 · 444-SPECIES APPROVED ART SOURCING",
+  "stage": "ALPHA · 450-SPECIES PRU CATALOGUE",
   "published": true,
-  "totalSpecies": 444,
+  "totalSpecies": 450,
   "verification": "MOVES/ENCOUNTERS ROM QA PENDING; APPROVED CUSTOMS ONLY; VANILLA PokéSprite FORK",
   "date": "2026-10-16",
   "source": "PRU National Pokédex specification and source candidate registry",
-  "dexCount": 444,
-  "revision": "PRU 444-entry proposal, approved-art-only preview 2026-10-16",
+  "dexCount": 450,
+  "revision": "450-entry PRU source-sync 2026-11-07",
   "sourceStatus": "44X-dex numbers provisional pending ROM QA",
   "spriteDelivery": "local static files only: PokéSprite fork + approved custom sprites + PRL donor",
   "pendingArtwork": [
-    "Noibat (Sevii)",
-    "Noivern (Sevii)"
+    "Noibat",
+    "Noivern"
   ]
 }
