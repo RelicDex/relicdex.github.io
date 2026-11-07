@@ -26149,7 +26149,8 @@
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_KHANG",
     "types": [
-      "Normal"
+      "Normal",
+      "Fighting"
     ],
     "stats": {
       "hp": 105,
@@ -32335,8 +32336,93 @@
     "evolutions": [
       {
         "method": "Item",
+        "requirement": "ITEM_WATER_STONE",
+        "targetConstant": "SPECIES_VAPOREON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_THUNDER_STONE",
+        "targetConstant": "SPECIES_JOLTEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_FIRE_STONE",
+        "targetConstant": "SPECIES_FLAREON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_SUN_STONE",
+        "targetConstant": "SPECIES_ESPEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_MOON_STONE",
+        "targetConstant": "SPECIES_UMBREON"
+      },
+      {
+        "method": "Item",
         "requirement": "ITEM_ANCIENT_STONE",
         "targetConstant": "SPECIES_EEVEEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_SHINY_STONE",
+        "targetConstant": "SPECIES_NIMBEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_LEAF_STONE",
+        "targetConstant": "SPECIES_LEAFEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_ICE_STONE",
+        "targetConstant": "SPECIES_GLACEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_DAWN_STONE",
+        "targetConstant": "SPECIES_SYLVEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_DUSK_STONE",
+        "targetConstant": "SPECIES_OMEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_EXPERT_BELT",
+        "targetConstant": "SPECIES_CHAMPEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_SILVER_POWDER",
+        "targetConstant": "SPECIES_LEPIDEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_SOFT_SAND",
+        "targetConstant": "SPECIES_SPHYNXEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_METAL_COAT",
+        "targetConstant": "SPECIES_GUARDEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_HARD_STONE",
+        "targetConstant": "SPECIES_OBSIDEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_POISON_BARB",
+        "targetConstant": "SPECIES_TOXEON"
+      },
+      {
+        "method": "Item",
+        "requirement": "ITEM_DRAGON_FANG",
+        "targetConstant": "SPECIES_DRAKEON"
       }
     ],
     "levelUpMoves": [
@@ -32619,8 +32705,8 @@
         "source": "Eevee",
         "sourceNumber": 167,
         "method": "Item",
-        "requirement": "ITEM_ANCIENT_STONE",
-        "verification": "donor draft / ROM QA pending"
+        "requirement": "Ancient Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
       }
     ],
     "spriteOriginal": {
@@ -32759,7 +32845,15 @@
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Shiny Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/sprites/nimbeon/front.png",
       "back": "assets/sprites/nimbeon/back.png",
@@ -32915,7 +33009,15 @@
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Expert Belt",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/sprites/champeon/front.png",
       "back": "assets/sprites/champeon/back.png",
@@ -33059,7 +33161,15 @@
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Silver Powder",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/sprites/lepideon/front.png",
       "back": "assets/sprites/lepideon/back.png",
@@ -33211,7 +33321,15 @@
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Soft Sand",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/sprites/sphynxeon/front.png",
       "back": "assets/sprites/sphynxeon/back.png",
@@ -33359,7 +33477,15 @@
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Metal Coat",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/sprites/guardeon/front.png",
       "back": "assets/sprites/guardeon/back.png",
@@ -33511,7 +33637,15 @@
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Hard Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/sprites/obsideon/front.png",
       "back": "assets/sprites/obsideon/back.png",
@@ -33527,7 +33661,7 @@
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_TOXEON",
     "types": [
-      "Psychic"
+      "Poison"
     ],
     "stats": {
       "hp": 65,
@@ -33647,7 +33781,15 @@
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Poison Barb",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/sprites/toxeon/front.png",
       "back": "assets/sprites/toxeon/back.png",
@@ -33795,7 +33937,15 @@
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Dusk Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/sprites/omeon/front.png",
       "back": "assets/sprites/omeon/back.png",
@@ -33915,7 +34065,15 @@
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Dragon Fang",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/sprites/drakeon/front.png",
       "back": "assets/sprites/drakeon/back.png",
@@ -34025,7 +34183,15 @@
     "spriteSheetAnimation": false,
     "spriteDisplayRole": "VANILLA",
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Water Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/pokesprite/pokemon-gen8/regular/vaporeon.png",
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/vaporeon.png",
@@ -34135,7 +34301,15 @@
     "spriteSheetAnimation": false,
     "spriteDisplayRole": "VANILLA",
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Thunder Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/pokesprite/pokemon-gen8/regular/jolteon.png",
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/jolteon.png",
@@ -34245,7 +34419,15 @@
     "spriteSheetAnimation": false,
     "spriteDisplayRole": "VANILLA",
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Fire Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/pokesprite/pokemon-gen8/regular/flareon.png",
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/flareon.png",
@@ -34356,7 +34538,15 @@
     "spriteSheetAnimation": false,
     "spriteDisplayRole": "VANILLA",
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Sun Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/pokesprite/pokemon-gen8/regular/espeon.png",
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/espeon.png",
@@ -34467,7 +34657,15 @@
     "spriteSheetAnimation": false,
     "spriteDisplayRole": "VANILLA",
     "approvedVisualVariants": [],
-    "evolvesFrom": [],
+    "evolvesFrom": [
+      {
+        "source": "Eevee",
+        "sourceNumber": 167,
+        "method": "Item",
+        "requirement": "Moon Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
+      }
+    ],
     "spriteOriginal": {
       "front": "assets/pokesprite/pokemon-gen8/regular/umbreon.png",
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/umbreon.png",
@@ -34520,9 +34718,9 @@
       {
         "source": "Eevee",
         "sourceNumber": 167,
-        "method": "Evolution",
-        "requirement": "Check in-game evolution method",
-        "verification": "Species family; specific method pending"
+        "method": "Item",
+        "requirement": "Leaf Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
       }
     ],
     "locationStatus": "evolution"
@@ -34571,9 +34769,9 @@
       {
         "source": "Eevee",
         "sourceNumber": 167,
-        "method": "Evolution",
-        "requirement": "Check in-game evolution method",
-        "verification": "Species family; specific method pending"
+        "method": "Item",
+        "requirement": "Ice Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
       }
     ],
     "locationStatus": "evolution"
@@ -34622,9 +34820,9 @@
       {
         "source": "Eevee",
         "sourceNumber": 167,
-        "method": "Evolution",
-        "requirement": "Check in-game evolution method",
-        "verification": "Species family; specific method pending"
+        "method": "Item",
+        "requirement": "Dawn Stone",
+        "verification": "PRU Alpha 01 HNS-only source table"
       }
     ],
     "locationStatus": "evolution"
@@ -35679,7 +35877,8 @@
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_NOLAX",
     "types": [
-      "Normal"
+      "Normal",
+      "Dark"
     ],
     "stats": {
       "hp": 100,
