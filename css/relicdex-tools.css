@@ -77,3 +77,17 @@ body.dex-tool-site{background:var(--dex-bg);color:var(--dex-ink);font:15px/1.55 
 .dex-footer{text-align:center;color:#8896b3;font-size:11px;border-top:1px solid #28344b;padding:22px 12px 36px}
 @media(max-width:760px){.dex-columns,.dex-scan-grid{grid-template-columns:1fr}.dex-panel,.dex-tool-site .panel{padding:16px}.dex-main-logo{max-height:160px}.dex-content{padding-top:19px}.dex-brand{font-size:19px}.dex-seed{width:100%}}
 @media(max-width:370px){.dex-tab{font-size:12px;padding:6px 10px}}
+
+.dex-scan-grid .ability-item .ability-link{display:block;text-align:left;background:transparent;border:0;padding:0;margin:4px 0;color:#e2d5ff;font-weight:800;text-decoration:underline;text-decoration-color:#7e73b8;text-underline-offset:3px;overflow-wrap:anywhere;font-size:14px}
+.dex-scan-grid .ability-item .ability-link:hover,.dex-scan-grid .ability-item .ability-original:hover{color:#fff;text-decoration-color:#fff}
+.dex-scan-grid .ability-item .ability-original{display:block;text-align:left;border:0;background:transparent;color:#acbddb;padding:0;font-size:11px;text-decoration:underline;text-decoration-style:dotted;text-underline-offset:3px}
+.dex-scan-grid .ability-item .ability-link:focus-visible,.dex-scan-grid .ability-item .ability-original:focus-visible{outline:2px solid #b4a2ff;outline-offset:3px;border-radius:3px}
+.ability-info-dialog{background:#1c2741;color:#f2f3ff;border:1px solid #8a79dc;border-radius:17px;max-width:min(92vw,460px);width:100%;padding:0;box-shadow:0 22px 70px #0009}
+.ability-info-dialog::backdrop{background:#070b17cc}
+.ability-dialog-content{position:relative;padding:26px}
+.ability-dialog-kicker{font-size:11px;font-weight:800;letter-spacing:.12em;color:#b1a0f8}
+.ability-info-dialog h2{font-size:23px;margin:7px 45px 13px 0;color:#f5efff}
+.ability-info-dialog p{color:#d5def2;line-height:1.6;font-size:15px;margin:0 0 17px}
+.ability-info-dialog small{display:block;color:#9faccc;line-height:1.5}
+.ability-dialog-close{position:absolute;right:16px;top:14px;width:36px;height:36px;border:1px solid #536080;background:#283452;border-radius:50%;color:white;font-size:23px}
+.ability-dialog-close:hover{border-color:#afa1ef;background:#3a416f}

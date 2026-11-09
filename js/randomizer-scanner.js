@@ -7,11 +7,22 @@
  const file = $('save-file'), search = $('scan-search'), resultGrid = $('scan-results'),
        info = $('scan-status'), meta = $('scan-meta'), exportBtn = $('export-csv'),
        toggle = $('ability-toggle'), details = $('scan-details');
- let data = null, dex = [], seed = null, rows = [];
+ let data = null, dex = [], seed = null, rows = [], abilityDescriptions = {};
  const MAX_FILE = 131072;
  const escape = s => String(s||'').replace(/[&<>"']/g,x=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[x]));
  function status(message, type='notice') {info.textContent=message; info.dataset.type=type;}
  function abilityName(original){return String(original||'').trim();}
+ const normalizeAbility = name => abilityName(name).toLowerCase().replace(/[^a-z0-9]/g,'');
+ const dialog = $('ability-dialog');
+ function showAbility(name) {
+   const entry = abilityDescriptions[normalizeAbility(name)];
+   $('ability-heading').textContent = name;
+   $('ability-effect').textContent = entry?.effect || 'No verified effect description is available for this PRU ability.';
+   $('ability-source').textContent = entry?.verified
+     ? 'Effect description from the PRU game source.'
+     : 'Effect not independently verified in the latest PRU game source.';
+   dialog.showModal();
+ }
  function parseSav(arrayBuffer){
    if (arrayBuffer.byteLength !== 65536 && arrayBuffer.byteLength !== 131072)
      throw Error('This does not look like a standard 64 KB or 128 KB GBA .sav file. Export the battery save (.sav), not an emulator save state.');
@@ -86,8 +97,13 @@
    for(const a of r.abilities){
      const e=document.createElement('div');e.className='ability-item';
      const label=document.createElement('span');label.textContent=a.label;
-     const v=document.createElement('strong');v.textContent=abilityName(a.result);
-     const original=document.createElement('small');original.textContent='Normally: '+abilityName(a.original);
+     const v=document.createElement('button');v.type='button';v.className='ability-link';
+     v.textContent=abilityName(a.result);v.setAttribute('aria-label','What does '+abilityName(a.result)+' do?');
+     v.addEventListener('click',()=>showAbility(a.result));
+     const original=document.createElement('button');original.type='button';original.className='ability-original';
+     original.textContent='Normally: '+abilityName(a.original);
+     original.setAttribute('aria-label','What does '+abilityName(a.original)+' do?');
+     original.addEventListener('click',()=>showAbility(a.original));
      e.append(label,v,original);box.append(e);
    }
    card.append(box);return card;
@@ -104,10 +120,12 @@
  }
  async function load(){
    try {
-     const [a,b]=await Promise.all([fetch('data/randomizer-ability-data.json',{cache:'no-cache'}),
-       fetch('data/pokemon.json',{cache:'no-cache'})]);
+     const [a,b,c]=await Promise.all([fetch('data/randomizer-ability-data.json',{cache:'no-cache'}),
+       fetch('data/pokemon.json',{cache:'no-cache'}),
+       fetch('data/ability-descriptions.json',{cache:'no-cache'})]);
      if(!a.ok||!b.ok)throw Error('Required Pokédex data is unavailable.');
      data=await a.json();dex=await b.json();
+     abilityDescriptions=c.ok?(await c.json()).abilities:{};
      $('catalogue-count').textContent=dex.length+' PRU Pokémon in catalogue';
      status('Choose your .sav file. It will be analysed on your device.');
    }catch(err){status('Unable to load PRU data: '+err.message,'error');file.disabled=true;}
@@ -125,6 +143,10 @@
      meta.hidden=false;search.disabled=false;
      status('Save validated. Predictions use PRU’s Trainer ID seed and exact randomizer algorithm.','success');
    }catch(err){meta.hidden=true;search.disabled=true;status(err.message,'error');}
+ });
+ $('ability-close').addEventListener('click',()=>dialog.close());
+ dialog.addEventListener('click',event=>{
+   if(event.target===dialog)dialog.close();
  });
  search.addEventListener('input',render);
  toggle.addEventListener('change',()=>{if(seed!==null){createRows();render()}});

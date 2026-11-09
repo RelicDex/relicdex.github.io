@@ -1,0 +1,1605 @@
+{
+  "source": "PRU src/data/abilities.h; exact in-game effect text where marked verified",
+  "abilities": {
+    "stench": {
+      "name": "Stench",
+      "effect": "May cause a foe to flinch.",
+      "verified": true
+    },
+    "drizzle": {
+      "name": "Drizzle",
+      "effect": "Summons rain in battle.",
+      "verified": true
+    },
+    "speedboost": {
+      "name": "Speed Boost",
+      "effect": "Gradually boosts Speed.",
+      "verified": true
+    },
+    "battlearmor": {
+      "name": "Battle Armor",
+      "effect": "Blocks critical hits.",
+      "verified": true
+    },
+    "sturdy": {
+      "name": "Sturdy",
+      "effect": "Negates 1-hit KO attacks.",
+      "verified": true
+    },
+    "damp": {
+      "name": "Damp",
+      "effect": "Prevents self-destruction.",
+      "verified": true
+    },
+    "limber": {
+      "name": "Limber",
+      "effect": "Prevents paralysis.",
+      "verified": true
+    },
+    "sandveil": {
+      "name": "Sand Veil",
+      "effect": "Ups evasion in a sandstorm.",
+      "verified": true
+    },
+    "static": {
+      "name": "Static",
+      "effect": "Paralyzes on contact.",
+      "verified": true
+    },
+    "voltabsorb": {
+      "name": "Volt Absorb",
+      "effect": "Turns electricity into HP.",
+      "verified": true
+    },
+    "waterabsorb": {
+      "name": "Water Absorb",
+      "effect": "Changes water into HP.",
+      "verified": true
+    },
+    "oblivious": {
+      "name": "Oblivious",
+      "effect": "Prevents attraction.",
+      "verified": true
+    },
+    "cloudnine": {
+      "name": "Cloud Nine",
+      "effect": "Negates weather effects.",
+      "verified": true
+    },
+    "compoundeyes": {
+      "name": "Compound Eyes",
+      "effect": "Raises accuracy.",
+      "verified": true
+    },
+    "insomnia": {
+      "name": "Insomnia",
+      "effect": "Prevents sleep.",
+      "verified": true
+    },
+    "colorchange": {
+      "name": "Color Change",
+      "effect": "Changes type to foe's move.",
+      "verified": true
+    },
+    "immunity": {
+      "name": "Immunity",
+      "effect": "Prevents poisoning.",
+      "verified": true
+    },
+    "flashfire": {
+      "name": "Flash Fire",
+      "effect": "Powers up if hit by fire.",
+      "verified": true
+    },
+    "shielddust": {
+      "name": "Shield Dust",
+      "effect": "Prevents added effects.",
+      "verified": true
+    },
+    "owntempo": {
+      "name": "Own Tempo",
+      "effect": "Prevents confusion.",
+      "verified": true
+    },
+    "suctioncups": {
+      "name": "Suction Cups",
+      "effect": "Firmly anchors the body.",
+      "verified": true
+    },
+    "intimidate": {
+      "name": "Intimidate",
+      "effect": "Lowers the foe's Attack.",
+      "verified": true
+    },
+    "shadowtag": {
+      "name": "Shadow Tag",
+      "effect": "Prevents the foe's escape.",
+      "verified": true
+    },
+    "roughskin": {
+      "name": "Rough Skin",
+      "effect": "Hurts to touch.",
+      "verified": true
+    },
+    "wonderguard": {
+      "name": "Wonder Guard",
+      "effect": "Only “Supereffective” hits.",
+      "verified": true
+    },
+    "levitate": {
+      "name": "Levitate",
+      "effect": "Not hit by Ground attacks.",
+      "verified": true
+    },
+    "effectspore": {
+      "name": "Effect Spore",
+      "effect": "Leaves spores on contact.",
+      "verified": true
+    },
+    "synchronize": {
+      "name": "Synchronize",
+      "effect": "Passes on status problems.",
+      "verified": true
+    },
+    "clearbody": {
+      "name": "Clear Body",
+      "effect": "Prevents ability reduction.",
+      "verified": true
+    },
+    "naturalcure": {
+      "name": "Natural Cure",
+      "effect": "Heals upon switching out.",
+      "verified": true
+    },
+    "lightningrod": {
+      "name": "Lightning Rod",
+      "effect": "Draws electrical moves.",
+      "verified": true
+    },
+    "serenegrace": {
+      "name": "Serene Grace",
+      "effect": "Promotes added effects.",
+      "verified": true
+    },
+    "swiftswim": {
+      "name": "Swift Swim",
+      "effect": "Raises Speed in rain.",
+      "verified": true
+    },
+    "chlorophyll": {
+      "name": "Chlorophyll",
+      "effect": "Raises Speed in sunshine.",
+      "verified": true
+    },
+    "illuminate": {
+      "name": "Illuminate",
+      "effect": "Encounter rate increases.",
+      "verified": true
+    },
+    "trace": {
+      "name": "Trace",
+      "effect": "Copies special ability.",
+      "verified": true
+    },
+    "hugepower": {
+      "name": "Huge Power",
+      "effect": "Raises Attack.",
+      "verified": true
+    },
+    "poisonpoint": {
+      "name": "Poison Point",
+      "effect": "Poisons foe on contact.",
+      "verified": true
+    },
+    "innerfocus": {
+      "name": "Inner Focus",
+      "effect": "Prevents flinching.",
+      "verified": true
+    },
+    "magmaarmor": {
+      "name": "Magma Armor",
+      "effect": "Prevents freezing.",
+      "verified": true
+    },
+    "waterveil": {
+      "name": "Water Veil",
+      "effect": "Prevents burns.",
+      "verified": true
+    },
+    "magnetpull": {
+      "name": "Magnet Pull",
+      "effect": "Traps Steel-type Pokémon.",
+      "verified": true
+    },
+    "soundproof": {
+      "name": "Soundproof",
+      "effect": "Avoids sound-based moves.",
+      "verified": true
+    },
+    "raindish": {
+      "name": "Rain Dish",
+      "effect": "Slight HP recovery in rain.",
+      "verified": true
+    },
+    "sandstream": {
+      "name": "Sand Stream",
+      "effect": "Summons a sandstorm.",
+      "verified": true
+    },
+    "pressure": {
+      "name": "Pressure",
+      "effect": "Raises foe's PP usage.",
+      "verified": true
+    },
+    "thickfat": {
+      "name": "Thick Fat",
+      "effect": "Heat-and-cold protection.",
+      "verified": true
+    },
+    "earlybird": {
+      "name": "Early Bird",
+      "effect": "Awakens quickly from sleep.",
+      "verified": true
+    },
+    "flamebody": {
+      "name": "Flame Body",
+      "effect": "Burns the foe on contact.",
+      "verified": true
+    },
+    "runaway": {
+      "name": "Run Away",
+      "effect": "Makes escaping easier.",
+      "verified": true
+    },
+    "keeneye": {
+      "name": "Keen Eye",
+      "effect": "Prevents loss of accuracy.",
+      "verified": true
+    },
+    "hypercutter": {
+      "name": "Hyper Cutter",
+      "effect": "Prevents Attack reduction.",
+      "verified": true
+    },
+    "pickup": {
+      "name": "Pickup",
+      "effect": "May pick up items.",
+      "verified": true
+    },
+    "truant": {
+      "name": "Truant",
+      "effect": "Moves only every two turns.",
+      "verified": true
+    },
+    "hustle": {
+      "name": "Hustle",
+      "effect": "Trades accuracy for power.",
+      "verified": true
+    },
+    "cutecharm": {
+      "name": "Cute Charm",
+      "effect": "Infatuates on contact.",
+      "verified": true
+    },
+    "plus": {
+      "name": "Plus",
+      "effect": "Powers up with Minus.",
+      "verified": true
+    },
+    "minus": {
+      "name": "Minus",
+      "effect": "Powers up with Plus.",
+      "verified": true
+    },
+    "forecast": {
+      "name": "Forecast",
+      "effect": "Changes with the weather.",
+      "verified": true
+    },
+    "stickyhold": {
+      "name": "Sticky Hold",
+      "effect": "Prevents item theft.",
+      "verified": true
+    },
+    "shedskin": {
+      "name": "Shed Skin",
+      "effect": "Heals the body by shedding.",
+      "verified": true
+    },
+    "guts": {
+      "name": "Guts",
+      "effect": "Ups Attack if suffering.",
+      "verified": true
+    },
+    "marvelscale": {
+      "name": "Marvel Scale",
+      "effect": "Ups Defense if suffering.",
+      "verified": true
+    },
+    "liquidooze": {
+      "name": "Liquid Ooze",
+      "effect": "Draining causes injury.",
+      "verified": true
+    },
+    "overgrow": {
+      "name": "Overgrow",
+      "effect": "Ups Grass moves in a pinch.",
+      "verified": true
+    },
+    "blaze": {
+      "name": "Blaze",
+      "effect": "Ups Fire moves in a pinch.",
+      "verified": true
+    },
+    "torrent": {
+      "name": "Torrent",
+      "effect": "Ups Water moves in a pinch.",
+      "verified": true
+    },
+    "swarm": {
+      "name": "Swarm",
+      "effect": "Ups Bug moves in a pinch.",
+      "verified": true
+    },
+    "rockhead": {
+      "name": "Rock Head",
+      "effect": "Prevents recoil damage.",
+      "verified": true
+    },
+    "drought": {
+      "name": "Drought",
+      "effect": "Summons sunlight in battle.",
+      "verified": true
+    },
+    "arenatrap": {
+      "name": "Arena Trap",
+      "effect": "Prevents fleeing.",
+      "verified": true
+    },
+    "vitalspirit": {
+      "name": "Vital Spirit",
+      "effect": "Prevents sleep.",
+      "verified": true
+    },
+    "whitesmoke": {
+      "name": "White Smoke",
+      "effect": "Prevents ability reduction.",
+      "verified": true
+    },
+    "purepower": {
+      "name": "Pure Power",
+      "effect": "Raises Attack.",
+      "verified": true
+    },
+    "shellarmor": {
+      "name": "Shell Armor",
+      "effect": "Blocks critical hits.",
+      "verified": true
+    },
+    "airlock": {
+      "name": "Air Lock",
+      "effect": "Negates weather effects.",
+      "verified": true
+    },
+    "tangledfeet": {
+      "name": "Tangled Feet",
+      "effect": "Raises evasiveness while the Pokémon is confused.",
+      "verified": false
+    },
+    "motordrive": {
+      "name": "Motor Drive",
+      "effect": "Electricity raises Speed.",
+      "verified": true
+    },
+    "rivalry": {
+      "name": "Rivalry",
+      "effect": "Powers up against rivals.",
+      "verified": true
+    },
+    "steadfast": {
+      "name": "Steadfast",
+      "effect": "Flinching raises Speed.",
+      "verified": true
+    },
+    "snowcloak": {
+      "name": "Snow Cloak",
+      "effect": "Ups evasion in Hail or Snow.",
+      "verified": true
+    },
+    "gluttony": {
+      "name": "Gluttony",
+      "effect": "Eats Berries early.",
+      "verified": true
+    },
+    "angerpoint": {
+      "name": "Anger Point",
+      "effect": "Critical hits raise Attack.",
+      "verified": true
+    },
+    "unburden": {
+      "name": "Unburden",
+      "effect": "Using a hold item ups Speed.",
+      "verified": true
+    },
+    "heatproof": {
+      "name": "Heatproof",
+      "effect": "Heat and burn protection.",
+      "verified": true
+    },
+    "simple": {
+      "name": "Simple",
+      "effect": "Prone to wild stat changes.",
+      "verified": true
+    },
+    "dryskin": {
+      "name": "Dry Skin",
+      "effect": "Prefers moisture to heat.",
+      "verified": true
+    },
+    "download": {
+      "name": "Download",
+      "effect": "Adjusts power favorably.",
+      "verified": true
+    },
+    "ironfist": {
+      "name": "Iron Fist",
+      "effect": "Boosts punching moves.",
+      "verified": true
+    },
+    "poisonheal": {
+      "name": "Poison Heal",
+      "effect": "Restores HP if poisoned.",
+      "verified": true
+    },
+    "adaptability": {
+      "name": "Adaptability",
+      "effect": "Boosts same type attacks.",
+      "verified": true
+    },
+    "skilllink": {
+      "name": "Skill Link",
+      "effect": "Multi-hit moves hit 5 times.",
+      "verified": true
+    },
+    "hydration": {
+      "name": "Hydration",
+      "effect": "Cures status in rain.",
+      "verified": true
+    },
+    "solarpower": {
+      "name": "Solar Power",
+      "effect": "Powers up in sunshine.",
+      "verified": true
+    },
+    "quickfeet": {
+      "name": "Quick Feet",
+      "effect": "Ups Speed if suffering.",
+      "verified": true
+    },
+    "normalize": {
+      "name": "Normalize",
+      "effect": "Moves become Normal-type.",
+      "verified": true
+    },
+    "sniper": {
+      "name": "Sniper",
+      "effect": "Boosts critical hits.",
+      "verified": true
+    },
+    "magicguard": {
+      "name": "Magic Guard",
+      "effect": "Only damaged by attacks.",
+      "verified": true
+    },
+    "noguard": {
+      "name": "No Guard",
+      "effect": "Ensures that all moves hit.",
+      "verified": true
+    },
+    "stall": {
+      "name": "Stall",
+      "effect": "Always moves last.",
+      "verified": true
+    },
+    "technician": {
+      "name": "Technician",
+      "effect": "Boosts weaker moves.",
+      "verified": true
+    },
+    "leafguard": {
+      "name": "Leaf Guard",
+      "effect": "Blocks status in sunshine.",
+      "verified": true
+    },
+    "klutz": {
+      "name": "Klutz",
+      "effect": "Can't use hold items.",
+      "verified": true
+    },
+    "moldbreaker": {
+      "name": "Mold Breaker",
+      "effect": "Moves hit through abilities.",
+      "verified": true
+    },
+    "superluck": {
+      "name": "Super Luck",
+      "effect": "Critical hits land often.",
+      "verified": true
+    },
+    "aftermath": {
+      "name": "Aftermath",
+      "effect": "Fainting damages the foe.",
+      "verified": true
+    },
+    "anticipation": {
+      "name": "Anticipation",
+      "effect": "Senses dangerous moves.",
+      "verified": true
+    },
+    "forewarn": {
+      "name": "Forewarn",
+      "effect": "Determines a foe's move.",
+      "verified": true
+    },
+    "unaware": {
+      "name": "Unaware",
+      "effect": "Ignores stat changes.",
+      "verified": true
+    },
+    "tintedlens": {
+      "name": "Tinted Lens",
+      "effect": "Ups “not very effective”.",
+      "verified": true
+    },
+    "filter": {
+      "name": "Filter",
+      "effect": "Weakens “supereffective”.",
+      "verified": true
+    },
+    "slowstart": {
+      "name": "Slow Start",
+      "effect": "Takes a while to get going.",
+      "verified": true
+    },
+    "scrappy": {
+      "name": "Scrappy",
+      "effect": "Hits Ghost-type Pokémon.",
+      "verified": true
+    },
+    "stormdrain": {
+      "name": "Storm Drain",
+      "effect": "Draws in Water moves.",
+      "verified": true
+    },
+    "icebody": {
+      "name": "Ice Body",
+      "effect": "HP recovery in Hail or Snow.",
+      "verified": true
+    },
+    "solidrock": {
+      "name": "Solid Rock",
+      "effect": "Weakens “supereffective”.",
+      "verified": true
+    },
+    "snowwarning": {
+      "name": "Snow Warning",
+      "effect": "Summons snow in battle.",
+      "verified": true
+    },
+    "honeygather": {
+      "name": "Honey Gather",
+      "effect": "May gather Honey.",
+      "verified": true
+    },
+    "frisk": {
+      "name": "Frisk",
+      "effect": "Checks a foe's item.",
+      "verified": true
+    },
+    "reckless": {
+      "name": "Reckless",
+      "effect": "Boosts moves with recoil.",
+      "verified": true
+    },
+    "multitype": {
+      "name": "Multitype",
+      "effect": "Changes type to its Plate.",
+      "verified": true
+    },
+    "flowergift": {
+      "name": "Flower Gift",
+      "effect": "Allies power up in sunshine.",
+      "verified": true
+    },
+    "baddreams": {
+      "name": "Bad Dreams",
+      "effect": "Damages sleeping Pokémon.",
+      "verified": true
+    },
+    "pickpocket": {
+      "name": "Pickpocket",
+      "effect": "Steals the held item of a Pokémon that makes contact.",
+      "verified": false
+    },
+    "sheerforce": {
+      "name": "Sheer Force",
+      "effect": "Trades effects for power.",
+      "verified": true
+    },
+    "contrary": {
+      "name": "Contrary",
+      "effect": "Inverts stat changes.",
+      "verified": true
+    },
+    "unnerve": {
+      "name": "Unnerve",
+      "effect": "Foes can't eat Berries.",
+      "verified": true
+    },
+    "defiant": {
+      "name": "Defiant",
+      "effect": "Lowered stats up Attack.",
+      "verified": true
+    },
+    "defeatist": {
+      "name": "Defeatist",
+      "effect": "Gives up at half HP.",
+      "verified": true
+    },
+    "cursedbody": {
+      "name": "Cursed Body",
+      "effect": "Disables moves on contact.",
+      "verified": true
+    },
+    "healer": {
+      "name": "Healer",
+      "effect": "Heals partner Pokémon.",
+      "verified": true
+    },
+    "friendguard": {
+      "name": "Friend Guard",
+      "effect": "Lowers damage to partner.",
+      "verified": true
+    },
+    "weakarmor": {
+      "name": "Weak Armor",
+      "effect": "Its stats change when hit.",
+      "verified": true
+    },
+    "heavymetal": {
+      "name": "Heavy Metal",
+      "effect": "Doubles weight.",
+      "verified": true
+    },
+    "lightmetal": {
+      "name": "Light Metal",
+      "effect": "Halves weight.",
+      "verified": true
+    },
+    "multiscale": {
+      "name": "Multiscale",
+      "effect": "Halves damage at full HP.",
+      "verified": true
+    },
+    "toxicboost": {
+      "name": "Toxic Boost",
+      "effect": "Ups Attack if poisoned.",
+      "verified": true
+    },
+    "flareboost": {
+      "name": "Flare Boost",
+      "effect": "Ups Sp. Atk if burned.",
+      "verified": true
+    },
+    "harvest": {
+      "name": "Harvest",
+      "effect": "May recycle a used Berry.",
+      "verified": true
+    },
+    "telepathy": {
+      "name": "Telepathy",
+      "effect": "Can't be damaged by an ally.",
+      "verified": true
+    },
+    "moody": {
+      "name": "Moody",
+      "effect": "Stats change gradually.",
+      "verified": true
+    },
+    "overcoat": {
+      "name": "Overcoat",
+      "effect": "Blocks weather and powder.",
+      "verified": true
+    },
+    "poisontouch": {
+      "name": "Poison Touch",
+      "effect": "Poisons foe on contact.",
+      "verified": true
+    },
+    "regenerator": {
+      "name": "Regenerator",
+      "effect": "Heals upon switching out.",
+      "verified": true
+    },
+    "bigpecks": {
+      "name": "Big Pecks",
+      "effect": "Prevents Defense loss.",
+      "verified": true
+    },
+    "sandrush": {
+      "name": "Sand Rush",
+      "effect": "Ups Speed in a sandstorm.",
+      "verified": true
+    },
+    "wonderskin": {
+      "name": "Wonder Skin",
+      "effect": "May avoid status problems.",
+      "verified": true
+    },
+    "analytic": {
+      "name": "Analytic",
+      "effect": "Moving last boosts power.",
+      "verified": true
+    },
+    "illusion": {
+      "name": "Illusion",
+      "effect": "Appears as a partner.",
+      "verified": true
+    },
+    "imposter": {
+      "name": "Imposter",
+      "effect": "Transforms into the foe.",
+      "verified": true
+    },
+    "infiltrator": {
+      "name": "Infiltrator",
+      "effect": "Passes through barriers.",
+      "verified": true
+    },
+    "mummy": {
+      "name": "Mummy",
+      "effect": "Spreads with contact.",
+      "verified": true
+    },
+    "moxie": {
+      "name": "Moxie",
+      "effect": "KOs raise Attack.",
+      "verified": true
+    },
+    "justified": {
+      "name": "Justified",
+      "effect": "Dark hits raise Attack.",
+      "verified": true
+    },
+    "rattled": {
+      "name": "Rattled",
+      "effect": "Raises Speed when scared.",
+      "verified": true
+    },
+    "magicbounce": {
+      "name": "Magic Bounce",
+      "effect": "Reflects status moves.",
+      "verified": true
+    },
+    "sapsipper": {
+      "name": "Sap Sipper",
+      "effect": "Grass increases Attack.",
+      "verified": true
+    },
+    "prankster": {
+      "name": "Prankster",
+      "effect": "Status moves go first.",
+      "verified": true
+    },
+    "sandforce": {
+      "name": "Sand Force",
+      "effect": "Powers up in a sandstorm.",
+      "verified": true
+    },
+    "ironbarbs": {
+      "name": "Iron Barbs",
+      "effect": "Hurts to touch.",
+      "verified": true
+    },
+    "zenmode": {
+      "name": "Zen Mode",
+      "effect": "Transforms at half HP.",
+      "verified": true
+    },
+    "victorystar": {
+      "name": "Victory Star",
+      "effect": "Raises party accuracy.",
+      "verified": true
+    },
+    "turboblaze": {
+      "name": "Turboblaze",
+      "effect": "Moves hit through abilities.",
+      "verified": true
+    },
+    "teravolt": {
+      "name": "Teravolt",
+      "effect": "Moves hit through abilities.",
+      "verified": true
+    },
+    "aromaveil": {
+      "name": "Aroma Veil",
+      "effect": "Protects the Pokémon and its allies from effects that restrict their move choices.",
+      "verified": false
+    },
+    "flowerveil": {
+      "name": "Flower Veil",
+      "effect": "Protects Grass-types.",
+      "verified": true
+    },
+    "cheekpouch": {
+      "name": "Cheek Pouch",
+      "effect": "Eating Berries restores HP.",
+      "verified": true
+    },
+    "protean": {
+      "name": "Protean",
+      "effect": "Changes type to used move.",
+      "verified": true
+    },
+    "furcoat": {
+      "name": "Fur Coat",
+      "effect": "Raises Defense.",
+      "verified": true
+    },
+    "magician": {
+      "name": "Magician",
+      "effect": "Steals the foe's held item.",
+      "verified": true
+    },
+    "bulletproof": {
+      "name": "Bulletproof",
+      "effect": "Avoids some projectiles.",
+      "verified": true
+    },
+    "competitive": {
+      "name": "Competitive",
+      "effect": "Lowered stats up Sp. Atk.",
+      "verified": true
+    },
+    "strongjaw": {
+      "name": "Strong Jaw",
+      "effect": "Boosts biting moves.",
+      "verified": true
+    },
+    "refrigerate": {
+      "name": "Refrigerate",
+      "effect": "Normal moves become Ice.",
+      "verified": true
+    },
+    "sweetveil": {
+      "name": "Sweet Veil",
+      "effect": "Prevents party from sleep.",
+      "verified": true
+    },
+    "stancechange": {
+      "name": "Stance Change",
+      "effect": "Transforms as it battles.",
+      "verified": true
+    },
+    "galewings": {
+      "name": "Gale Wings",
+      "effect": "Flying moves go first.",
+      "verified": true
+    },
+    "megalauncher": {
+      "name": "Mega Launcher",
+      "effect": "Boosts pulse moves.",
+      "verified": true
+    },
+    "grasspelt": {
+      "name": "Grass Pelt",
+      "effect": "Ups Defense in grass.",
+      "verified": true
+    },
+    "symbiosis": {
+      "name": "Symbiosis",
+      "effect": "Passes its item to an ally.",
+      "verified": true
+    },
+    "toughclaws": {
+      "name": "Tough Claws",
+      "effect": "Boosts contact moves.",
+      "verified": true
+    },
+    "pixilate": {
+      "name": "Pixilate",
+      "effect": "Normal moves become Fairy.",
+      "verified": true
+    },
+    "gooey": {
+      "name": "Gooey",
+      "effect": "Lowers Speed on contact.",
+      "verified": true
+    },
+    "aerilate": {
+      "name": "Aerilate",
+      "effect": "Normal moves become Flying.",
+      "verified": true
+    },
+    "parentalbond": {
+      "name": "Parental Bond",
+      "effect": "Moves hit twice.",
+      "verified": true
+    },
+    "darkaura": {
+      "name": "Dark Aura",
+      "effect": "Boosts Dark moves.",
+      "verified": true
+    },
+    "fairyaura": {
+      "name": "Fairy Aura",
+      "effect": "Boosts Fairy moves.",
+      "verified": true
+    },
+    "aurabreak": {
+      "name": "Aura Break",
+      "effect": "Reverse aura abilities.",
+      "verified": true
+    },
+    "primordialsea": {
+      "name": "Primordial Sea",
+      "effect": "Summons heavy rain.",
+      "verified": true
+    },
+    "desolateland": {
+      "name": "Desolate Land",
+      "effect": "Summons intense sunlight.",
+      "verified": true
+    },
+    "deltastream": {
+      "name": "Delta Stream",
+      "effect": "Summons strong winds.",
+      "verified": true
+    },
+    "stamina": {
+      "name": "Stamina",
+      "effect": "Raises Defense when the Pokémon is hit by an attack.",
+      "verified": false
+    },
+    "wimpout": {
+      "name": "Wimp Out",
+      "effect": "Flees at half HP.",
+      "verified": true
+    },
+    "emergencyexit": {
+      "name": "Emergency Exit",
+      "effect": "Flees at half HP.",
+      "verified": true
+    },
+    "watercompaction": {
+      "name": "Water Compaction",
+      "effect": "Water boosts Defense.",
+      "verified": true
+    },
+    "merciless": {
+      "name": "Merciless",
+      "effect": "Criticals poisoned foes.",
+      "verified": true
+    },
+    "shieldsdown": {
+      "name": "Shields Down",
+      "effect": "Shell breaks at half HP.",
+      "verified": true
+    },
+    "stakeout": {
+      "name": "Stakeout",
+      "effect": "Stronger as foes switch in.",
+      "verified": true
+    },
+    "waterbubble": {
+      "name": "Water Bubble",
+      "effect": "Guards from fire and burns.",
+      "verified": true
+    },
+    "steelworker": {
+      "name": "Steelworker",
+      "effect": "Powers up Steel moves.",
+      "verified": true
+    },
+    "berserk": {
+      "name": "Berserk",
+      "effect": "Boosts Sp. Atk at low HP.",
+      "verified": true
+    },
+    "slushrush": {
+      "name": "Slush Rush",
+      "effect": "Raises Speed in Hail/Snow.",
+      "verified": true
+    },
+    "longreach": {
+      "name": "Long Reach",
+      "effect": "Never makes contact.",
+      "verified": true
+    },
+    "liquidvoice": {
+      "name": "Liquid Voice",
+      "effect": "Makes sound moves Water.",
+      "verified": true
+    },
+    "triage": {
+      "name": "Triage",
+      "effect": "Healing moves go first.",
+      "verified": true
+    },
+    "galvanize": {
+      "name": "Galvanize",
+      "effect": "Normal moves turn Electric.",
+      "verified": true
+    },
+    "surgesurfer": {
+      "name": "Surge Surfer",
+      "effect": "Faster on electricity.",
+      "verified": true
+    },
+    "schooling": {
+      "name": "Schooling",
+      "effect": "Forms a school when strong.",
+      "verified": true
+    },
+    "disguise": {
+      "name": "Disguise",
+      "effect": "Decoy protects it once.",
+      "verified": true
+    },
+    "battlebond": {
+      "name": "Battle Bond",
+      "effect": "Changes form after a KO.",
+      "verified": true
+    },
+    "powerconstruct": {
+      "name": "Power Construct",
+      "effect": "Cells aid it when weakened.",
+      "verified": true
+    },
+    "corrosion": {
+      "name": "Corrosion",
+      "effect": "Poisons any type.",
+      "verified": true
+    },
+    "comatose": {
+      "name": "Comatose",
+      "effect": "Always drowsing.",
+      "verified": true
+    },
+    "queenlymajesty": {
+      "name": "Queenly Majesty",
+      "effect": "Protects from priority.",
+      "verified": true
+    },
+    "innardsout": {
+      "name": "Innards Out",
+      "effect": "Hurts foe when defeated.",
+      "verified": true
+    },
+    "dancer": {
+      "name": "Dancer",
+      "effect": "Dances along with others.",
+      "verified": true
+    },
+    "battery": {
+      "name": "Battery",
+      "effect": "Boosts ally's Sp. Atk.",
+      "verified": true
+    },
+    "fluffy": {
+      "name": "Fluffy",
+      "effect": "Tougher but flammable.",
+      "verified": true
+    },
+    "dazzling": {
+      "name": "Dazzling",
+      "effect": "Protects from priority.",
+      "verified": true
+    },
+    "soulheart": {
+      "name": "Soul Heart",
+      "effect": "KOs raise Sp. Atk.",
+      "verified": true
+    },
+    "tanglinghair": {
+      "name": "Tangling Hair",
+      "effect": "Lowers Speed on contact.",
+      "verified": true
+    },
+    "receiver": {
+      "name": "Receiver",
+      "effect": "Copies ally's ability.",
+      "verified": true
+    },
+    "powerofalchemy": {
+      "name": "Power Of Alchemy",
+      "effect": "Copies ally's ability.",
+      "verified": true
+    },
+    "beastboost": {
+      "name": "Beast Boost",
+      "effect": "KOs boost best stat.",
+      "verified": true
+    },
+    "rkssystem": {
+      "name": "Rks System",
+      "effect": "Memories change its type.",
+      "verified": true
+    },
+    "electricsurge": {
+      "name": "Electric Surge",
+      "effect": "Field becomes Electric.",
+      "verified": true
+    },
+    "psychicsurge": {
+      "name": "Psychic Surge",
+      "effect": "Field becomes weird.",
+      "verified": true
+    },
+    "mistysurge": {
+      "name": "Misty Surge",
+      "effect": "Field becomes misty.",
+      "verified": true
+    },
+    "grassysurge": {
+      "name": "Grassy Surge",
+      "effect": "Field becomes grassy.",
+      "verified": true
+    },
+    "fullmetalbody": {
+      "name": "Full Metal Body",
+      "effect": "Prevents stat reduction.",
+      "verified": true
+    },
+    "shadowshield": {
+      "name": "Shadow Shield",
+      "effect": "Halves damage at full HP.",
+      "verified": true
+    },
+    "prismarmor": {
+      "name": "Prism Armor",
+      "effect": "Weakens “supereffective”.",
+      "verified": true
+    },
+    "neuroforce": {
+      "name": "Neuroforce",
+      "effect": "Ups “supereffective”.",
+      "verified": true
+    },
+    "intrepidsword": {
+      "name": "Intrepid Sword",
+      "effect": "Boosts Attack on entering battle.",
+      "verified": false
+    },
+    "dauntlessshield": {
+      "name": "Dauntless Shield",
+      "effect": "Ups Defense on entry.",
+      "verified": true
+    },
+    "libero": {
+      "name": "Libero",
+      "effect": "Changes type to move's.",
+      "verified": true
+    },
+    "ballfetch": {
+      "name": "Ball Fetch",
+      "effect": "Fetches failed Poké Ball.",
+      "verified": true
+    },
+    "cottondown": {
+      "name": "Cotton Down",
+      "effect": "Lower Speed of all when hit.",
+      "verified": true
+    },
+    "propellertail": {
+      "name": "Propeller Tail",
+      "effect": "Ignores foe's redirection.",
+      "verified": true
+    },
+    "mirrorarmor": {
+      "name": "Mirror Armor",
+      "effect": "Reflect stat decreases.",
+      "verified": true
+    },
+    "gulpmissile": {
+      "name": "Gulp Missile",
+      "effect": "If hit, spits prey from sea.",
+      "verified": true
+    },
+    "stalwart": {
+      "name": "Stalwart",
+      "effect": "Ignores foe's redirection.",
+      "verified": true
+    },
+    "steamengine": {
+      "name": "Steam Engine",
+      "effect": "Fire or Water hits up Speed.",
+      "verified": true
+    },
+    "punkrock": {
+      "name": "Punk Rock",
+      "effect": "Ups and resists sound.",
+      "verified": true
+    },
+    "sandspit": {
+      "name": "Sand Spit",
+      "effect": "Creates a sandstorm if hit.",
+      "verified": true
+    },
+    "icescales": {
+      "name": "Ice Scales",
+      "effect": "Halves special damage.",
+      "verified": true
+    },
+    "ripen": {
+      "name": "Ripen",
+      "effect": "Doubles effect of Berries.",
+      "verified": true
+    },
+    "iceface": {
+      "name": "Ice Face",
+      "effect": "Hail or Snow renew free hit.",
+      "verified": true
+    },
+    "powerspot": {
+      "name": "Power Spot",
+      "effect": "Powers up ally moves.",
+      "verified": true
+    },
+    "mimicry": {
+      "name": "Mimicry",
+      "effect": "Changes type on terrain.",
+      "verified": true
+    },
+    "screencleaner": {
+      "name": "Screen Cleaner",
+      "effect": "Removes walls of light.",
+      "verified": true
+    },
+    "steelyspirit": {
+      "name": "Steely Spirit",
+      "effect": "Boosts ally's Steel moves.",
+      "verified": true
+    },
+    "perishbody": {
+      "name": "Perish Body",
+      "effect": "Foe faints in 3 turns if hit.",
+      "verified": true
+    },
+    "wanderingspirit": {
+      "name": "Wandering Spirit",
+      "effect": "Trade abilities on contact.",
+      "verified": true
+    },
+    "gorillatactics": {
+      "name": "Gorilla Tactics",
+      "effect": "Ups Attack and locks move.",
+      "verified": true
+    },
+    "neutralizinggas": {
+      "name": "Neutralizing Gas",
+      "effect": "All Abilities are nullified.",
+      "verified": true
+    },
+    "pastelveil": {
+      "name": "Pastel Veil",
+      "effect": "Protects team from poison.",
+      "verified": true
+    },
+    "hungerswitch": {
+      "name": "Hunger Switch",
+      "effect": "Changes form each turn.",
+      "verified": true
+    },
+    "quickdraw": {
+      "name": "Quick Draw",
+      "effect": "Moves first occasionally.",
+      "verified": true
+    },
+    "unseenfist": {
+      "name": "Unseen Fist",
+      "effect": "Contact evades protection.",
+      "verified": true
+    },
+    "curiousmedicine": {
+      "name": "Curious Medicine",
+      "effect": "Remove ally's stat changes.",
+      "verified": true
+    },
+    "transistor": {
+      "name": "Transistor",
+      "effect": "Ups Electric-type moves.",
+      "verified": true
+    },
+    "dragonsmaw": {
+      "name": "Dragons Maw",
+      "effect": "Ups Dragon-type moves.",
+      "verified": true
+    },
+    "chillingneigh": {
+      "name": "Chilling Neigh",
+      "effect": "KOs boost Attack stat.",
+      "verified": true
+    },
+    "grimneigh": {
+      "name": "Grim Neigh",
+      "effect": "KOs boost Sp. Atk stat.",
+      "verified": true
+    },
+    "asoneicerider": {
+      "name": "As One Ice Rider",
+      "effect": "Unnerve and Chilling Neigh.",
+      "verified": true
+    },
+    "asoneshadowrider": {
+      "name": "As One Shadow Rider",
+      "effect": "Unnerve and Grim Neigh.",
+      "verified": true
+    },
+    "lingeringaroma": {
+      "name": "Lingering Aroma",
+      "effect": "Contact with this Pokémon changes the attacker's Ability to Lingering Aroma.",
+      "verified": false
+    },
+    "seedsower": {
+      "name": "Seed Sower",
+      "effect": "Affects terrain when hit.",
+      "verified": true
+    },
+    "thermalexchange": {
+      "name": "Thermal Exchange",
+      "effect": "Fire hits up Attack.",
+      "verified": true
+    },
+    "angershell": {
+      "name": "Anger Shell",
+      "effect": "Gets angry at half HP.",
+      "verified": true
+    },
+    "purifyingsalt": {
+      "name": "Purifying Salt",
+      "effect": "Protected by pure salts.",
+      "verified": true
+    },
+    "wellbakedbody": {
+      "name": "Well Baked Body",
+      "effect": "Strengthened by Fire.",
+      "verified": true
+    },
+    "windrider": {
+      "name": "Wind Rider",
+      "effect": "Ups Attack if hit by wind.",
+      "verified": true
+    },
+    "guarddog": {
+      "name": "Guard Dog",
+      "effect": "Cannot be intimidated.",
+      "verified": true
+    },
+    "rockypayload": {
+      "name": "Rocky Payload",
+      "effect": "Powers up Rock moves.",
+      "verified": true
+    },
+    "windpower": {
+      "name": "Wind Power",
+      "effect": "Gets charged by wind.",
+      "verified": true
+    },
+    "zerotohero": {
+      "name": "Zero To Hero",
+      "effect": "Changes form on switch out.",
+      "verified": true
+    },
+    "commander": {
+      "name": "Commander",
+      "effect": "Commands from Dondozo.",
+      "verified": true
+    },
+    "electromorphosis": {
+      "name": "Electromorphosis",
+      "effect": "Gets Charged when hit.",
+      "verified": true
+    },
+    "protosynthesis": {
+      "name": "Protosynthesis",
+      "effect": "Sun boosts best stat.",
+      "verified": true
+    },
+    "quarkdrive": {
+      "name": "Quark Drive",
+      "effect": "Elec. field ups best stat.",
+      "verified": true
+    },
+    "goodasgold": {
+      "name": "Good As Gold",
+      "effect": "Avoids status moves.",
+      "verified": true
+    },
+    "vesselofruin": {
+      "name": "Vessel Of Ruin",
+      "effect": "Lowers foes' sp. damage.",
+      "verified": true
+    },
+    "swordofruin": {
+      "name": "Sword Of Ruin",
+      "effect": "Lowers foes' Defense.",
+      "verified": true
+    },
+    "tabletsofruin": {
+      "name": "Tablets Of Ruin",
+      "effect": "Lowers foes' damage.",
+      "verified": true
+    },
+    "beadsofruin": {
+      "name": "Beads Of Ruin",
+      "effect": "Lowers foes' Sp. Defense.",
+      "verified": true
+    },
+    "orichalcumpulse": {
+      "name": "Orichalcum Pulse",
+      "effect": "Summons sunlight in battle.",
+      "verified": true
+    },
+    "hadronengine": {
+      "name": "Hadron Engine",
+      "effect": "Field becomes Electric.",
+      "verified": true
+    },
+    "opportunist": {
+      "name": "Opportunist",
+      "effect": "Copies foe's stat change.",
+      "verified": true
+    },
+    "cudchew": {
+      "name": "Cud Chew",
+      "effect": "Eats a used berry again.",
+      "verified": true
+    },
+    "sharpness": {
+      "name": "Sharpness",
+      "effect": "Strengthens slicing moves.",
+      "verified": true
+    },
+    "supremeoverlord": {
+      "name": "Supreme Overlord",
+      "effect": "Inherits fallen's strength.",
+      "verified": true
+    },
+    "costar": {
+      "name": "Costar",
+      "effect": "Copies ally's stat changes.",
+      "verified": true
+    },
+    "toxicdebris": {
+      "name": "Toxic Debris",
+      "effect": "Throws poison spikes if hit.",
+      "verified": true
+    },
+    "armortail": {
+      "name": "Armor Tail",
+      "effect": "Protects from priority.",
+      "verified": true
+    },
+    "eartheater": {
+      "name": "Earth Eater",
+      "effect": "Eats ground to heal HP.",
+      "verified": true
+    },
+    "myceliummight": {
+      "name": "Mycelium Might",
+      "effect": "Status moves never fail.",
+      "verified": true
+    },
+    "hospitality": {
+      "name": "Hospitality",
+      "effect": "Restores ally's HP.",
+      "verified": true
+    },
+    "mindseye": {
+      "name": "Minds Eye",
+      "effect": "Keen Eye and Scrappy.",
+      "verified": true
+    },
+    "embodyaspecttealmask": {
+      "name": "Embody Aspect Teal Mask",
+      "effect": "Raises Speed.",
+      "verified": true
+    },
+    "embodyaspecthearthflamemask": {
+      "name": "Embody Aspect Hearthflame Mask",
+      "effect": "Raises Attack.",
+      "verified": true
+    },
+    "embodyaspectwellspringmask": {
+      "name": "Embody Aspect Wellspring Mask",
+      "effect": "Raises Sp. Def.",
+      "verified": true
+    },
+    "embodyaspectcornerstonemask": {
+      "name": "Embody Aspect Cornerstone Mask",
+      "effect": "Raises Defense.",
+      "verified": true
+    },
+    "toxicchain": {
+      "name": "Toxic Chain",
+      "effect": "Moves can poison.",
+      "verified": true
+    },
+    "supersweetsyrup": {
+      "name": "Supersweet Syrup",
+      "effect": "Lowers the foe's Evasion.",
+      "verified": true
+    },
+    "terashift": {
+      "name": "Tera Shift",
+      "effect": "Terastallizes upon entry.",
+      "verified": true
+    },
+    "terashell": {
+      "name": "Tera Shell",
+      "effect": "Resists all at full HP.",
+      "verified": true
+    },
+    "teraformzero": {
+      "name": "Teraform Zero",
+      "effect": "Zeroes weather and terrain.",
+      "verified": true
+    },
+    "poisonpuppeteer": {
+      "name": "Poison Puppeteer",
+      "effect": "Confuses poisoned foes.",
+      "verified": true
+    },
+    "ancientbastion": {
+      "name": "Ancient Bastion",
+      "effect": "Physical hits scatter stones up to three times.",
+      "verified": true
+    },
+    "ancientbloom": {
+      "name": "Ancient Bloom",
+      "effect": "Heals and grows Grassy Terrain.",
+      "verified": true
+    },
+    "ancientcore": {
+      "name": "Ancient Core",
+      "effect": "Fortifies and empowers ancient moves.",
+      "verified": true
+    },
+    "ancientgrove": {
+      "name": "Ancient Grove",
+      "effect": "Raises Defense for five turns.",
+      "verified": true
+    },
+    "cinderveil": {
+      "name": "Cinder Veil",
+      "effect": "Softens first hit; burns contact.",
+      "verified": true
+    },
+    "solardiscipline": {
+      "name": "Solar Discipline",
+      "effect": "Empowers Fire and Psychic moves.",
+      "verified": true
+    },
+    "stygianrush": {
+      "name": "Stygian Rush",
+      "effect": "Dark moves strike first at full HP.",
+      "verified": true
+    },
+    "tidalbastion": {
+      "name": "Tidal Bastion",
+      "effect": "Softens supereffective hits.",
+      "verified": true
+    },
+    "tidalroar": {
+      "name": "Tidal Roar",
+      "effect": "Lowers foes' Atk and Sp. Atk.",
+      "verified": true
+    },
+    "wishmaker": {
+      "name": "Wishmaker",
+      "effect": "Grants five turns of wishlight.",
+      "verified": true
+    }
+  }
+}
