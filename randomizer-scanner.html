@@ -1,67 +1,34 @@
 <!doctype html>
-<html lang="en-GB">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="theme-color" content="#080f1b">
-<meta name="description" content="Scan a Pokémon Relics Ultimate battery save locally to reveal source-derived randomized abilities for your Trainer ID.">
-<link rel="icon" type="image/svg+xml" href="assets/relicdex-logo.svg">
-<link rel="stylesheet" href="css/randomizer-scanner.css">
-<title>Randomizer Save Scanner | RelicDex</title>
-<!-- Cloudflare Web Analytics --><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token":"fa3295d431ae4395afd47dcfc98441ad"}'></script>
-<script src="js/randomizer-scanner.js" defer></script>
-</head>
-<body>
-<header class="topbar">
- <div class="container nav-wrap"><a class="brand" href="index.html"><span class="brand-symbol">◇</span>RelicDex<span class="brand-dot">.</span><small>PRU COMPANION</small></a>
- <nav aria-label="Website navigation"><a href="pru/">The Game</a><a href="pokedex.html">Pokédex</a><a href="team-builder.html">Team Builder</a><a href="randomizer-scanner.html" aria-current="page">Save Scanner</a></nav>
- </div>
-</header>
-<main>
- <div class="hero">
-  <div class="container">
-   <p class="eyebrow"><span class="tiny-star">✦</span> Pokémon Relics Ultimate / Randomizer Tools</p>
-   <h1>Every ability.<br><em>Your randomizer.</em></h1>
-   <p class="lead">Upload your PRU battery save to reveal the randomized abilities assigned to Pokémon in <strong>your</strong> playthrough. Search the Pokédex, discover powerful combinations and plan your next team.</p>
-   <div class="hero-points"><span>◇ Locally processed</span><span>◇ No account</span><span>◇ Built for PRU</span></div>
-  </div>
- </div>
- <section class="container main-layout" aria-label="Randomizer save scanner">
-  <div class="scanner-panel">
-   <div class="panel-heading"><div><span class="step">01 / SCAN YOUR SAVE</span><h2>Drop in your <span>.sav</span> file</h2></div><span class="lock-mark">⌁ PRIVATE BY DESIGN</span></div>
-   <div class="upload-target">
-    <div class="upload-icon" aria-hidden="true">↥</div><strong>Choose a Pokémon Relics Ultimate save</strong>
-    <p>Your emulator's battery save (.sav or .srm), not a save state.</p>
-    <input id="save-file" type="file" accept=".sav,.srm,application/octet-stream" aria-label="Choose PRU battery save">
-   </div>
-   <div id="scan-status" data-type="notice" class="status" role="status" aria-live="polite">Loading PRU catalogue…</div>
-   <div class="privacy"><span aria-hidden="true">♢</span> Your file never leaves this browser. The scanner reads it without changing it.</div>
-   <div class="toggles"><label class="mode-toggle"><input type="checkbox" id="ability-toggle" checked><span><strong>Randomized Abilities enabled</strong><small>Match the setting used in your game; the save reader verifies the Trainer ID, not this game-mode flag.</small></span></label></div>
-  </div>
-  <aside class="info-panel">
-   <div class="panel-heading"><div><span class="step">WHAT IT DOES</span><h2>The same seed.<br><span>A different team.</span></h2></div></div>
-   <p>PRU assigns abilities deterministically using your Trainer ID, the Pokémon's internal species ID and its ability slot. We mirror that calculation using PRU's source-derived ability list.</p>
-   <div class="mini-stat"><strong id="catalogue-count">450 PRU Pokémon</strong><small>from the RelicDex catalogue</small></div>
-   <div class="mini-stat"><strong>Read-only scanner</strong><small>supports standard 64 KB and 128 KB battery saves</small></div>
-   <p class="disclaimer">Note: predictions are based on PRU source as of 9 November 2026. A different ROM build, unverified slot, or disabled randomizer option can produce different results. Verify important combinations in-game.</p>
-  </aside>
- </section>
- <section id="scan-meta" class="container result-wrap" hidden aria-live="polite">
-  <div class="result-top"><div><span class="step">02 / YOUR RANDOMIZER</span><h2>Ability results <span class="glow">unlocked.</span></h2><p id="save-file-label" class="filename"></p></div>
-   <div class="seed-readout"><small>TRAINER SEED</small><strong id="trainer-id">—</strong><code id="seed-hex">—</code></div>
-  </div>
-  <div class="toolbar">
-   <label class="search"><span aria-hidden="true">⌕</span><input id="scan-search" type="search" placeholder="Search Pokémon or ability…" disabled aria-label="Search Pokémon or randomized abilities"></label>
-   <button type="button" id="export-csv" disabled>↓ Export CSV</button>
-  </div>
-  <div class="result-summary"><span id="scan-count"></span><span id="scan-verified"></span><span id="scan-pending"></span></div>
-  <div id="scan-details" hidden><div id="scan-results" class="scan-grid"></div></div>
- </section>
- <section class="container lower">
-  <div class="lower-left"><span class="step">HELP / SAVE FORMATS</span><h2>Where do I get my save?</h2><p>In mGBA, Pizza Boy or another GBA emulator, use the game's normal <strong>Save</strong> option first, then locate or export the battery save file ending in <strong>.sav</strong>. A quick-save state (.ss0 / .state) is not the same thing.</p></div>
-  <a class="more-link" href="pru/">Explore Pokémon Relics Ultimate <span>↗</span></a>
- </section>
-</main>
-<footer><div class="container foot"><span>RelicDex · Pokémon Relics Ultimate · Independent, non-commercial fan project.</span><a href="pokedex.html">Explore the Pokédex ↗</a></div></footer>
-</body>
-</html>
+<html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#141b31"><meta name="description" content="Load your PRU GBA battery save to view predicted randomized abilities. Processed locally.">
+<link rel="icon" href="assets/relicdex-logo.svg" type="image/svg+xml"><link rel="stylesheet" href="css/relicdex-tools.css">
+<title>Randomizer Save Scanner · RelicDex</title><script src="js/randomizer-scanner.js" defer></script></head>
+<body class="dex-tool-site"><header class="dex-header"><div class="dex-wrap">
+<a href="index.html" aria-label="RelicDex Pokédex"><img class="dex-main-logo" src="assets/relicdex-hd-header.webp" alt="Official RelicDex logo" width="2172" height="724"></a>
+<div class="dex-brand-row"><div><div class="dex-brand">PRU <em>RelicDex</em></div><div class="dex-subtitle">Pokémon Relics Ultimate · illustrated reference</div></div><div class="dex-count">450 species<br>Current PRU source</div></div>
+<nav class="dex-tabs" aria-label="RelicDex navigation">
+<a class="dex-tab" href="index.html">Pokémon</a><a class="dex-tab" href="index.html?tab=trainers">Trainers</a><a class="dex-tab" href="index.html?tab=about">About</a><a class="dex-tab" href="team-builder.html" data-tool="team">Team Builder</a><a class="dex-tab active" href="randomizer-scanner.html" aria-current="page">Save Scanner</a>
+</nav></div></header>
+<main class="dex-wrap dex-content">
+<h1>Randomizer Save Scanner</h1>
+<p class="dex-intro">See the abilities assigned by PRU's ability randomizer. Select your in-game battery save and search all 450 Pokémon. Your file stays on your device.</p>
+<div class="dex-columns">
+<section class="dex-panel" aria-label="Load save"><h2>Load your save</h2>
+<p class="dex-caption">Choose a 64 KB or 128 KB battery save. A filename without .sav is fine; quick-save states are not supported.</p>
+<input id="save-file" class="dex-file" type="file" aria-label="Select PRU battery save file">
+<div id="scan-status" class="dex-status" data-type="notice" role="status" aria-live="polite">Loading PRU ability data…</div>
+<label class="dex-toggle"><input id="ability-toggle" type="checkbox" checked><span><strong>Randomized Abilities enabled</strong><small>Turn this off only if you played without randomized abilities.</small></span></label>
+</section>
+<aside class="dex-panel"><h2>How the scanner works</h2><ul class="dex-steps"><li><b>1.</b> Export your emulator's battery save after saving in-game.</li><li><b>2.</b> We check its genuine GBA save sectors and read the Trainer ID.</li><li><b>3.</b> Ability predictions are calculated using PRU's source-derived randomizer list.</li></ul>
+<p class="dex-caption" id="catalogue-count">450 PRU Pokémon</p>
+<p class="dex-caption">Predictions depend on ROM build and randomizer settings. Confirm critical abilities in-game.</p></aside>
+</div>
+<section class="dex-detail" id="scan-meta" hidden aria-live="polite"><div class="dex-result-header">
+<div><h2>Randomized ability results</h2><div class="dex-filename" id="save-file-label"></div></div>
+<div class="dex-seed"><small>Trainer seed</small><strong id="trainer-id">—</strong><code id="seed-hex">—</code></div></div>
+<div class="dex-search-row"><input id="scan-search" type="search" placeholder="Search Pokémon or ability…" disabled aria-label="Search randomized abilities">
+<button id="export-csv" type="button" class="dex-button" disabled>Export CSV</button></div>
+<div class="dex-result-meta"><span id="scan-count"></span><span id="scan-verified"></span><span id="scan-pending"></span></div>
+<div id="scan-details" hidden><div class="dex-scan-grid" id="scan-results"></div></div></section>
+</main><footer class="dex-footer">RelicDex · Pokémon Relics Ultimate · Unofficial non-commercial fan project</footer>
+</body></html>

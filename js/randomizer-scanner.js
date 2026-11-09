@@ -20,12 +20,16 @@
    for(let i=0;i<sectors;i++){
      const start=i*4096, id=view.getUint16(start+0xFF4,true);
      if(id!==0 || view.getUint32(start+0xFF8,true)!==0x08012025)continue;
-     // SaveBlock2's PRU source size is 0xF2C. Checksum is a sum of 32-bit words
-     // folded into a 16-bit result; this prevents reading a stale/garbled slot.
-     let sum=0;
-     for(let j=0;j<0xF2C;j+=4)sum=(sum+view.getUint32(start+j,true))>>>0;
-     const actual=((sum>>>16)+(sum&0xFFFF))&0xFFFF;
-     if(actual!==view.getUint16(start+0xFF6,true))continue;
+     // Current PRU saves checksum SaveBlock2 over 0xF80 bytes.
+     // Older PRU builds can use 0xF2C. The current slot can be in
+     // either 64 KB bank, so validate every physical sector.
+     const expected=view.getUint16(start+0xFF6,true);
+     const valid=[0xF80,0xF2C].some(length=>{
+       let sum=0;
+       for(let j=0;j<length;j+=4)sum=(sum+view.getUint32(start+j,true))>>>0;
+       return (((sum>>>16)+(sum&0xFFFF))&0xFFFF)===expected;
+     });
+     if(!valid)continue;
      const trainerId=view.getUint32(start+0x0A,true);
      candidates.push({trainerId,counter:view.getUint32(start+0xFFC,true),sector:i});
    }
