@@ -7,11 +7,43 @@
   "date": "2026-10-16",
   "source": "PRU National Pokédex specification and source candidate registry",
   "dexCount": 450,
-  "revision": "450-entry PRU source-sync 2026-11-07",
+  "revision": "450-entry PRU source-sync and Alpha 2.5 artwork refresh 2026-11-10",
   "sourceStatus": "44X-dex numbers provisional pending ROM QA",
   "spriteDelivery": "local static files only: PokéSprite fork + approved custom sprites + PRL donor",
   "pendingArtwork": [
     "Noibat",
     "Noivern"
-  ]
+  ],
+  "currentAlpha": {
+    "version": "2.5",
+    "date": "2026-11-10",
+    "type": "graphics",
+    "rom": "https://github.com/jamesthoward2112-tech/Pokemon-Relics-Ultimate/releases/download/pru-alpha-2.5-graphics-20261110/Pru.gba",
+    "sha256": "3f0ebf750017e2f2c40beb506c362271de65e3f26b3b0e8fda418f2cee7a7165"
+  },
+  "artworkSync": {
+    "romSource": "b9db7ad7",
+    "authoritativeCustomSpritesRefreshed": 19,
+    "slugs": [
+      "charaxis",
+      "noxichu",
+      "eeveeon",
+      "nimbeon",
+      "champeon",
+      "lepideon",
+      "sphynxeon",
+      "guardeon",
+      "obsideon",
+      "toxeon",
+      "omeon",
+      "drakeon",
+      "pyroclast",
+      "scarabub",
+      "mootiny",
+      "miltitan",
+      "gemlin",
+      "torkaldera",
+      "tropisaur"
+    ]
+  }
 }
