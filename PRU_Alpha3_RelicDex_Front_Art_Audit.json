@@ -1,0 +1,54 @@
+{
+  "fronts_updated": {
+    "kablowfish": "767e505860dfc0ca1fe04acdb3d512be89d80a2eb6051d349544db4e8068c2ac",
+    "astrachi": "55b53a72323906955f0d1ec1cb4b9e169a9e5525a89c090fe81a7ac2eb6c4acb",
+    "nolax": "c134242ec5168bb43ff2a83bf9f4a3dfd4eb21efb791886b50ca1f0bad8e3bc7",
+    "khang": "6862ddf69c54e8378f12557a52f8c82dde6aa5a2f8be4feea7e7f8276e45f053",
+    "jollibird": "917b22a4eaf4c6c081cdedb8c6a5d55dd755b186d45933b451df717edaa14ee0",
+    "mootiny": "ef6e150bebd69b42efa35e7adefe5b0063746fecfb2853b7c8865992eeefc490",
+    "heracurion": "3534c7dc5f271add3448e51557410b013b0cb103bf72acdf73d1774aa715bb6f",
+    "solaziken": "816dcfddbd8f562e4f723e8b85230f68b3c84f7a8828a5692169935fe2c67c09",
+    "nimbeon": "04cbc2953268014e632c2871a7af09d070d7732a7f82a100cd022a31f17709a7",
+    "eeveeon": "fc40525a197b152cfac9254134454a1c2a96e39d01b5135361d5f3e9e8ac9584",
+    "champeon": "49ee39a2319af3449591b98280bca228fee853e1220e43bf76542f75787db958",
+    "lepideon": "1117ffff4e7056728b5d15bc39496e9aff8d3d15352f52d25cdc79ca5cf6fc49",
+    "sphynxeon": "82ec19e3eb856bd2ecb7b475432e03f3f9de208a70b2fe64c6852f5223a80743",
+    "guardeon": "7c4bab85947108e33dbc559be185250adcf9b73fa939bc7cfe78d16e74d0f2aa",
+    "obsideon": "2f8580ca5fa40ed32bbd7abba87be9c5e806588b268274a07e12c5730a277528",
+    "toxeon": "67a5ffd3812e103a045241ac192c5d4698462f4db4ab9ec33bc65fbc6a37c5ab",
+    "omeon": "9ffce027f836fb00b95eed46fa588077d48624564904d6510be6849c7335527a",
+    "drakeon": "95a2f4068d0bd0fed0dd3709a6876cb584a70e2e17ab73e3bf20582c97b0b56c"
+  },
+  "names_aligned": [
+    [
+      "Nimbeon",
+      "Aereon"
+    ],
+    [
+      "Lepideon",
+      "Moffeon"
+    ],
+    [
+      "Sphynxeon",
+      "Eartheon"
+    ],
+    [
+      "Guardeon",
+      "Galveon"
+    ],
+    [
+      "Obsideon",
+      "Pebleon"
+    ],
+    [
+      "Omeon",
+      "Obliveon"
+    ],
+    [
+      "Drakeon",
+      "Mytheon"
+    ]
+  ],
+  "frontend": "RelicDex current live source; 450 entries retained",
+  "total_fronts": 18
+}

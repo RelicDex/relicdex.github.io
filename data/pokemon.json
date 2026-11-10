@@ -32720,7 +32720,7 @@
   {
     "id": "nimbeon",
     "number": 169,
-    "name": "Nimbeon",
+    "name": "Aereon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_NIMBEON",
     "types": [
@@ -33029,7 +33029,7 @@
   {
     "id": "lepideon",
     "number": 171,
-    "name": "Lepideon",
+    "name": "Moffeon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_LEPIDEON",
     "types": [
@@ -33181,7 +33181,7 @@
   {
     "id": "sphynxeon",
     "number": 172,
-    "name": "Sphynxeon",
+    "name": "Eartheon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SPHYNXEON",
     "types": [
@@ -33341,7 +33341,7 @@
   {
     "id": "guardeon",
     "number": 173,
-    "name": "Guardeon",
+    "name": "Galveon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_GUARDEON",
     "types": [
@@ -33497,7 +33497,7 @@
   {
     "id": "obsideon",
     "number": 174,
-    "name": "Obsideon",
+    "name": "Pebleon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_OBSIDEON",
     "types": [
@@ -33801,7 +33801,7 @@
   {
     "id": "omeon",
     "number": 176,
-    "name": "Omeon",
+    "name": "Obliveon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_OMEON",
     "types": [
@@ -33957,7 +33957,7 @@
   {
     "id": "drakeon",
     "number": 177,
-    "name": "Drakeon",
+    "name": "Mytheon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_DRAKEON",
     "types": [
