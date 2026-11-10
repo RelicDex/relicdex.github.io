@@ -15,11 +15,11 @@
     "Noivern"
   ],
   "currentAlpha": {
-    "version": "2.5",
+    "version": "3",
     "date": "2026-11-10",
-    "type": "graphics",
-    "rom": "https://github.com/jamesthoward2112-tech/Pokemon-Relics-Ultimate/releases/download/pru-alpha-2.5-graphics-20261110/Pru.gba",
-    "sha256": "3f0ebf750017e2f2c40beb506c362271de65e3f26b3b0e8fda418f2cee7a7165"
+    "type": "approved graphics and background-map corrections",
+    "rom": "https://github.com/RelicDex/relicdex.github.io/releases/download/pru-alpha-3/Pokemon.Relic.Ultimate.-.Alpha.3.gba",
+    "sha256": "abacfd9c6deec54979fd887dbcccb42fd5a6f0f064d3f0f679b6275203e2090f"
   },
   "artworkSync": {
     "romSource": "b9db7ad7",
