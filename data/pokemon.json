@@ -58314,8 +58314,8 @@
     ],
     "pru_verified_sprite_palettes": {
       "normal": "green",
-      "shiny": "blue",
-      "art": "approved PRL, unchanged"
+      "shiny": "blue/purple",
+      "art": "approved PRL, palettes matched to compiled Alpha 2.5"
     },
     "pru_verified_shop_item": "Throat Spray · Goldenrod Dept Store 2F · ₽10,000",
     "evolvesFrom": [
@@ -58328,9 +58328,9 @@
       }
     ],
     "spriteOriginal": {
-      "front": "assets/sprites/valkyvoir/shiny.png",
+      "front": "assets/sprites/valkyvoir/front.png",
       "back": "assets/sprites/valkyvoir/back.png",
-      "shiny": "assets/sprites/valkyvoir/front.png",
+      "shiny": "assets/sprites/valkyvoir/shiny.png",
       "icon": "assets/sprites/valkyvoir/icon.png"
     },
     "specialLocations": [],
