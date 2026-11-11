@@ -3710,12 +3710,12 @@
     "number": 338,
     "name": "Gemlin",
     "role": "PLAYABLE_CUSTOM",
-    "default_art": "assets/sprites/gemlin/front.png",
-    "provenance": "PRL sprite archive (PRU exceptions above override)",
-    "status": "FRONT_LINK_OR_BUNDLED",
+    "default_art": "assets/previews/gemlin_front.png",
+    "provenance": "Approved Gemlin Alpha 3 QA ROM 2026-11-11 SHA-256 7be1f821f66084941c61cd1d0349a2db8f9a6638d2a7d8de37cb9becd103d59e; extracted and decoded from gSpeciesInfo[1624] compressed sprite/normal palette, no edits to pixels or palette",
+    "status": "APPROVED_FRONT_BACK_EXACT_ROM_EXTRACTION",
     "approved_special_variants": "",
     "manifest": "PRL_Custom_Sprite_Port_Manifest_2026-10-06.txt + 16 Oct PRU overrides",
-    "notes": ""
+    "notes": "front 64x64 SHA256 55236548aec48e8c3a854d7c98318c9b6f7841c9f6f4d8d6b69d8920a5fc93e6; back 64x64 SHA256 643511aef4516642df302e03648d6b458dd8b034f05f54e94b88bb9de27bf36d; icon unchanged"
   },
   {
     "number": 339,

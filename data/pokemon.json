@@ -5140,7 +5140,15 @@
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/pichu.png",
       "icon": "assets/pokesprite/pokemon-gen8/regular/pichu.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Odd Egg",
+        "note": "STATIC / ELECTRIC / WAAAH / PLAY. Classic gift: one of these seven per save.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
     "locationStatus": "wild"
   },
   {
@@ -6731,7 +6739,15 @@
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/cleffa.png",
       "icon": "assets/pokesprite/pokemon-gen8/regular/cleffa.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Odd Egg",
+        "note": "CUTE CHARM / NORMAL / EEK / LOOKS. Classic gift: one of these seven per save.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
     "locationStatus": "not_documented"
   },
   {
@@ -7325,7 +7341,15 @@
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/igglybuff.png",
       "icon": "assets/pokesprite/pokemon-gen8/regular/igglybuff.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Odd Egg",
+        "note": "CUTE CHARM / NORMAL / LALALA / SLEEP. Classic gift: one of these seven per save.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
     "locationStatus": "wild"
   },
   {
@@ -23977,6 +24001,13 @@
         "note": "",
         "source": "PRU release script",
         "sourceFile": "data/maps/MtMortar_B1F_hns/scripts.inc"
+      },
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Odd Egg",
+        "note": "GUTS / FIGHTING / HIYAH / TRAINS. Classic gift: one of these seven per save.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
     ],
     "locationStatus": "wild"
@@ -28785,7 +28816,15 @@
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/smoochum.png",
       "icon": "assets/pokesprite/pokemon-gen8/regular/smoochum.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Odd Egg",
+        "note": "OBLIVIOUS / ICE / EHEHE / SHOW. Classic gift: one of these seven per save.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
     "locationStatus": "wild"
   },
   {
@@ -29290,7 +29329,15 @@
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/elekid.png",
       "icon": "assets/pokesprite/pokemon-gen8/regular/elekid.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Odd Egg",
+        "note": "STATIC / ELECTRIC / OI OI OI / STORES. Classic gift: one of these seven per save.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
     "locationStatus": "wild"
   },
   {
@@ -29692,7 +29739,15 @@
       "shiny": "assets/pokesprite/pokemon-gen8/shiny/magby.png",
       "icon": "assets/pokesprite/pokemon-gen8/regular/magby.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Odd Egg",
+        "note": "FLAME BODY / FIRE / TCH / ANGERS. Classic gift: one of these seven per save.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
     "locationStatus": "wild"
   },
   {
@@ -48401,21 +48456,7 @@
     "sourceCommit": "PRU branch current HEAD",
     "region": "Johto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route31",
-        "map": "MAP_ROUTE31_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 5,
-        "maxLevel": 5
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/scarabub_front.png",
@@ -48437,8 +48478,16 @@
       "back": "assets/sprites/scarabub/back.png",
       "icon": "assets/sprites/scarabub/icon.png"
     },
-    "specialLocations": [],
-    "locationStatus": "wild"
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Secret Odd Egg",
+        "note": "Baby Bug: GUTS / BUG / BABY / PLAY. One per save file. Upcoming ROM source change; not in public Alpha 3.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
+    "locationStatus": "scripted"
   },
   {
     "id": "heracross",
@@ -51380,21 +51429,7 @@
     "sourceCommit": "PRU branch current HEAD",
     "region": "Johto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route46",
-        "map": "MAP_ROUTE46_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 2,
-        "maxLevel": 3
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/skarmet_front.png",
@@ -51416,8 +51451,16 @@
       "back": "assets/sprites/skarmet/back.png",
       "icon": "assets/sprites/skarmet/icon.png"
     },
-    "specialLocations": [],
-    "locationStatus": "wild"
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Secret Odd Egg",
+        "note": "Baby Bird: STURDY / FLYING / SILVER / SHINE. One per save file. Upcoming ROM source change; not in public Alpha 3.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
+    "locationStatus": "scripted"
   },
   {
     "id": "skarmory",
@@ -52971,21 +53014,7 @@
     "sourceCommit": "PRU branch current HEAD",
     "region": "Johto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route29",
-        "map": "MAP_ROUTE29_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 2,
-        "maxLevel": 3
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/mootiny_front.png",
@@ -53007,8 +53036,16 @@
       "back": "assets/sprites/mootiny/back.png",
       "icon": "assets/sprites/mootiny/icon.png"
     },
-    "specialLocations": [],
-    "locationStatus": "wild"
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Secret Odd Egg",
+        "note": "Baby Calf: THICK FAT / NORMAL / CUTE / SLEEP. One per save file. Upcoming ROM source change; not in public Alpha 3.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
+    "locationStatus": "scripted"
   },
   {
     "id": "miltank",
@@ -58288,7 +58325,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/valkyvoir_front.png",
+      "front": "assets/previews/valkyvoir_front.png?v=20261111-green-normal",
       "back": "assets/previews/valkyvoir_back.png",
       "shiny": "assets/previews/valkyvoir_shiny.png",
       "icon": "assets/sprites/valkyvoir/icon.png"
@@ -60731,8 +60768,16 @@
       "back": "assets/sprites/gemlin/back.png",
       "icon": "assets/sprites/gemlin/icon.png"
     },
-    "specialLocations": [],
-    "locationStatus": "not_documented"
+    "specialLocations": [
+      {
+        "area": "Route 34 Day-Care",
+        "method": "Secret Odd Egg",
+        "note": "Baby Gem: KEEN EYE / GHOST / MYSTERY / SHINE. One per save file. Upcoming ROM source change; not in public Alpha 3.",
+        "source": "PRU source branch (11 November 2026)",
+        "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
+      }
+    ],
+    "locationStatus": "scripted"
   },
   {
     "id": "sableye",

@@ -131,18 +131,6 @@
         ],
         "minLevel": 10,
         "maxLevel": 10
-      },
-      {
-        "speciesConstant": "SPECIES_MOOTINY",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 2,
-        "maxLevel": 3
       }
     ]
   },
@@ -232,18 +220,6 @@
         ],
         "minLevel": 20,
         "maxLevel": 20
-      },
-      {
-        "speciesConstant": "SPECIES_SKARMET",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 2,
-        "maxLevel": 3
       },
       {
         "speciesConstant": "SPECIES_PHANPY",
@@ -635,18 +611,6 @@
         ],
         "minLevel": 10,
         "maxLevel": 10
-      },
-      {
-        "speciesConstant": "SPECIES_SCARABUB",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 5,
-        "maxLevel": 5
       }
     ]
   },

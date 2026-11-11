@@ -7,7 +7,7 @@
   "date": "2026-10-16",
   "source": "PRU National Pokédex specification and source candidate registry",
   "dexCount": 450,
-  "revision": "450-entry PRU source-sync and Alpha 2.5 artwork refresh 2026-11-10",
+  "revision": "2026-11-11 nursery secret eggs source documentation (upcoming, not in public Alpha 3)",
   "sourceStatus": "44X-dex numbers provisional pending ROM QA",
   "spriteDelivery": "local static files only: PokéSprite fork + approved custom sprites + PRL donor",
   "pendingArtwork": [
@@ -52,5 +52,41 @@
       "toxeon",
       "tropisaur"
     ]
+  },
+  "upcomingSecretEggs": {
+    "status": "Source implemented, in-game QA pending, NOT in Alpha 3",
+    "sourceBranch": "fix/pru-four-secret-eggs-and-nursery-clues-20261111",
+    "guide": "odd-eggs.html",
+    "pokemon": [
+      "SCARABUB",
+      "SKARMET",
+      "MOOTINY",
+      "GEMLIN"
+    ]
+  },
+  "approvedGemlinArtwork": {
+    "source": "Confirmed Alpha 3 Gemlin + corrected battle backgrounds QA ROM 2026-11-11",
+    "romSha256": "7be1f821f66084941c61cd1d0349a2db8f9a6638d2a7d8de37cb9becd103d59e",
+    "front": "assets/previews/gemlin_front.png",
+    "back": "assets/previews/gemlin_back.png",
+    "frontSha256": "55236548aec48e8c3a854d7c98318c9b6f7841c9f6f4d8d6b69d8920a5fc93e6",
+    "backSha256": "643511aef4516642df302e03648d6b458dd8b034f05f54e94b88bb9de27bf36d",
+    "palette": "GBA BGR555 normal palette extracted exactly from approved test ROM",
+    "partyIcon": "unchanged"
+  },
+  "upcomingPurchasedEggs": {
+    "price": 5000,
+    "eligibleSpecies": [
+      "Bulbasaur",
+      "Charmander",
+      "Squirtle",
+      "Chikorita",
+      "Cyndaquil",
+      "Totodile",
+      "Treecko",
+      "Torchic",
+      "Mudkip"
+    ],
+    "status": "Development source only; not in public Alpha 3"
   }
 }

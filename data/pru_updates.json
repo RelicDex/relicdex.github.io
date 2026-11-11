@@ -5,6 +5,16 @@
   "googleSheet": "https://docs.google.com/spreadsheets/d/1btIGLXVmJmUNLjeU-01-AEj8gYMnrjDxtAnSGQ23P0U/edit",
   "updates": [
     {
+      "title": "Upcoming: nine classic purchased starter eggs",
+      "detail": "Paid Mystery Eggs are restricted to the nine classic Kanto, Johto and Hoenn starters; custom babies remain available through secret Odd Eggs. RelicDex now includes clickable ability explanations and the correct green normal Valkiri art alongside approved Gemlin art.",
+      "status": "Website source prepared; egg pool needs a new compiled ROM"
+    },
+    {
+      "title": "Upcoming: Four secret nursery eggs",
+      "detail": "Scarabub, Skarmet, Mootiny and Gemlin become egg-exclusive via four cryptic four-word Route 34 nursery rhymes. The original seven baby eggs remain; each custom egg is separately claimable once per save. The Pokémon summary-screen Move Relearner shortcut is removed, while the NPC remains.",
+      "status": "Development branch source implementation, NOT yet in public Alpha 3, no ROM QA"
+    },
+    {
       "title": "Alpha 2.5 — Eeveelutions & 22 battle backgrounds",
       "detail": "Ten new native 64×64 Eeveelution art sets, 22 battle backgrounds (12 original, 10 CC0) and ROM-matched RelicDex sprites including Noxichu, Charaxis, and other updated custom forms. No additional unapproved SpriteCook sprites.",
       "status": "ROM build verified; in-game display and save QA outstanding"
