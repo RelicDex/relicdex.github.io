@@ -10471,7 +10471,11 @@
       "spDefense": 40,
       "speed": 90
     },
-    "abilities": [],
+    "abilities": [
+      "Pickup",
+      "Technician",
+      "Unnerve"
+    ],
     "evolutions": [
       {
         "method": "Level",
@@ -20320,7 +20324,10 @@
       "spAttack": 130,
       "speed": 110
     },
-    "abilities": [],
+    "abilities": [
+      "Levitate",
+      "Cursed Body"
+    ],
     "evolutions": [],
     "levelUpMoves": [
       {
@@ -32502,7 +32509,11 @@
       "spDefense": 65,
       "speed": 55
     },
-    "abilities": [],
+    "abilities": [
+      "Run Away",
+      "Adaptability",
+      "Anticipation"
+    ],
     "evolutions": [
       {
         "method": "Item",
@@ -45770,7 +45781,9 @@
     "speciesConstant": "SPECIES_UNOWN",
     "types": [],
     "stats": {},
-    "abilities": [],
+    "abilities": [
+      "Wonder Guard"
+    ],
     "evolutions": [],
     "levelUpMoves": [],
     "notes": "Includes I-Unown / Eye RELICS encounter as form; does not get a standalone number.",
@@ -45854,7 +45867,10 @@
     "forms": [
       {
         "name": "I-Unown",
-        "note": "Shares the Unown display number; in-game relic story form."
+        "note": "Shares the Unown display number; in-game relic story form.",
+        "abilities": [
+          "Relic Eye"
+        ]
       }
     ],
     "spriteSourcePriority": "Explicit PRU lock > current approved PRL/PKR/PHR > approved PJR > vanilla fork PokéSprite; candidate banks NOT automatic",
@@ -67721,7 +67737,9 @@
     "speciesConstant": "SPECIES_CASTFORM",
     "types": [],
     "stats": {},
-    "abilities": [],
+    "abilities": [
+      "Forecast"
+    ],
     "evolutions": [],
     "levelUpMoves": [],
     "notes": "",
@@ -71873,8 +71891,7 @@
       "speed": 130
     },
     "abilities": [
-      "Pressure",
-      "Pressure"
+      "Duel Soul"
     ],
     "evolutions": [],
     "levelUpMoves": [
@@ -72557,7 +72574,7 @@
     },
     "abilities": [
       "Pressure",
-      "Regenerator"
+      "Golden Sovereign"
     ],
     "evolutions": [],
     "levelUpMoves": [
@@ -72646,7 +72663,10 @@
     "forms": [
       {
         "name": "Relic Ho-Oh",
-        "note": "Shares #427 with base Ho-Oh; show special front/back within same species entry after approved asset import."
+        "note": "Shares #427 with base Ho-Oh; show special front/back within same species entry after approved asset import.",
+        "abilities": [
+          "Golden Sovereign"
+        ]
       }
     ],
     "spriteSourcePriority": "Explicit PRU lock > current approved PRL/PKR/PHR > approved PJR > vanilla fork PokéSprite; candidate banks NOT automatic",

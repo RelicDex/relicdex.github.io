@@ -384,7 +384,7 @@
     "tangledfeet": {
       "name": "Tangled Feet",
       "effect": "Raises evasiveness while the Pokémon is confused.",
-      "verified": false
+      "verified": true
     },
     "motordrive": {
       "name": "Motor Drive",
@@ -619,7 +619,7 @@
     "pickpocket": {
       "name": "Pickpocket",
       "effect": "Steals the held item of a Pokémon that makes contact.",
-      "verified": false
+      "verified": true
     },
     "sheerforce": {
       "name": "Sheer Force",
@@ -824,7 +824,7 @@
     "aromaveil": {
       "name": "Aroma Veil",
       "effect": "Protects the Pokémon and its allies from effects that restrict their move choices.",
-      "verified": false
+      "verified": true
     },
     "flowerveil": {
       "name": "Flower Veil",
@@ -959,7 +959,7 @@
     "stamina": {
       "name": "Stamina",
       "effect": "Raises Defense when the Pokémon is hit by an attack.",
-      "verified": false
+      "verified": true
     },
     "wimpout": {
       "name": "Wimp Out",
@@ -1169,7 +1169,7 @@
     "intrepidsword": {
       "name": "Intrepid Sword",
       "effect": "Boosts Attack on entering battle.",
-      "verified": false
+      "verified": true
     },
     "dauntlessshield": {
       "name": "Dauntless Shield",
@@ -1339,7 +1339,7 @@
     "lingeringaroma": {
       "name": "Lingering Aroma",
       "effect": "Contact with this Pokémon changes the attacker's Ability to Lingering Aroma.",
-      "verified": false
+      "verified": true
     },
     "seedsower": {
       "name": "Seed Sower",
@@ -1599,6 +1599,26 @@
     "wishmaker": {
       "name": "Wishmaker",
       "effect": "Grants five turns of wishlight.",
+      "verified": true
+    },
+    "duelsoul": {
+      "name": "Duel Soul",
+      "effect": "Damaging moves hit twice, including moves that target both opponents.",
+      "verified": true
+    },
+    "goldensovereign": {
+      "name": "Golden Sovereign",
+      "effect": "Blocks status moves and boosts the power of Fire- and Steel-type attacks.",
+      "verified": true
+    },
+    "reliceye": {
+      "name": "Relic Eye",
+      "effect": "Only super-effective attacks can damage the Pokémon, and its move accuracy is boosted.",
+      "verified": true
+    },
+    "phoenixsoul": {
+      "name": "Phoenix Soul",
+      "effect": "Survives one lethal hit per battle and restores 25% of its maximum HP.",
       "verified": true
     }
   }
