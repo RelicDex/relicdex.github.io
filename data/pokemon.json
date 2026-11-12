@@ -1045,7 +1045,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/charaxis_front.png",
+      "front": "assets/pru-art/dex/charaxis_black_orange.png",
       "back": "assets/previews/charaxis_back.png",
       "shiny": "assets/previews/charaxis_shiny.png",
       "icon": "assets/sprites/charaxis/icon.png"
@@ -1055,7 +1055,7 @@
     "verifiedSourceFrontUrl": "https://raw.githubusercontent.com/RelicDex/Pokemon-Relic-Legacy/6ee9b984521ac6f2beaf995f771a726379e55c88/graphics/pokemon/charaxis/front.png",
     "sourceFrontPage": "https://github.com/RelicDex/Pokemon-Relic-Legacy/blob/6ee9b984521ac6f2beaf995f771a726379e55c88/graphics/pokemon/charaxis/front.png",
     "spriteSourcePriority": "Explicit PRU lock > current approved PRL/PKR/PHR > approved PJR > vanilla fork PokéSprite; candidate banks NOT automatic",
-    "spriteProvenance": "PRL sprite archive (PRU exceptions above override)",
+    "spriteProvenance": "User-approved PRU black/orange Charaxis battle front, retained in relicdex assets/pru-art/dex. This overrides the orange legacy front.",
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
@@ -1079,7 +1079,8 @@
     "dexEntry": "It climbs on fierce updrafts, then dives like an arrow with its burning wings tucked close.",
     "heightM": 2.0,
     "weightKg": 103.0,
-    "dexCategory": "Blaze Wing"
+    "dexCategory": "Blaze Wing",
+    "websiteApprovedFrontLocked": true
   },
   {
     "id": "squirtle",
@@ -5021,7 +5022,7 @@
     "region": "Kanto",
     "bst": 570,
     "sprite": {
-      "front": "assets/previews/adnokana_front.png",
+      "front": "assets/sprites/web-fronts/028_adnokana.png",
       "back": "assets/previews/adnokana_back.png",
       "shiny": "assets/previews/adnokana_shiny.png",
       "icon": "assets/sprites/adnokana/icon.png"
@@ -5540,7 +5541,7 @@
     "specialLocations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/mimikyu_front.png",
+      "front": "assets/sprites/web-fronts/033_mimikyu.png",
       "back": "assets/previews/mimikyu_back.png",
       "icon": "assets/previews/mimikyu_icon.png"
     },
@@ -24962,7 +24963,7 @@
     "region": "Kanto",
     "bst": 555,
     "sprite": {
-      "front": "assets/previews/cheauking_front.png",
+      "front": "assets/sprites/web-fronts/131_cheauking.png",
       "back": "assets/previews/cheauking_back.png",
       "shiny": "assets/previews/cheauking_shiny.png",
       "icon": "assets/sprites/cheauking/icon.png"
@@ -25131,7 +25132,7 @@
     "region": "Kanto",
     "bst": 520,
     "sprite": {
-      "front": "assets/previews/frytning_front.png",
+      "front": "assets/sprites/web-fronts/132_frytning.png",
       "back": "assets/previews/frytning_back.png",
       "shiny": "assets/previews/frytning_shiny.png",
       "icon": "assets/sprites/frytning/icon.png"
@@ -25549,7 +25550,7 @@
     "specialLocations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/rhyperior_front.png",
+      "front": "assets/sprites/web-fronts/135_rhyperior.png",
       "back": "assets/previews/rhyperior_back.png",
       "icon": "assets/previews/rhyperior_icon.png"
     },
@@ -29754,7 +29755,7 @@
     "specialLocations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/electivire_front.png",
+      "front": "assets/sprites/web-fronts/157_electivire.png",
       "back": "assets/previews/electivire_back.png",
       "icon": "assets/previews/electivire_icon.png"
     },
@@ -30189,7 +30190,7 @@
     "specialLocations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/magmortar_front.png",
+      "front": "assets/sprites/web-fronts/160_magmortar.png",
       "back": "assets/previews/magmortar_back.png",
       "icon": "assets/previews/magmortar_icon.png"
     },
@@ -33721,7 +33722,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/guardeon_front.png",
+      "front": "assets/sprites/web-fronts/174_galveon.png",
       "back": "assets/previews/guardeon_back.png",
       "icon": "assets/sprites/guardeon/icon.png"
     },
@@ -33885,7 +33886,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/obsideon_front.png",
+      "front": "assets/sprites/web-fronts/175_pebleon.png",
       "back": "assets/previews/obsideon_back.png",
       "icon": "assets/sprites/obsideon/icon.png"
     },
@@ -34033,7 +34034,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/toxeon_front.png",
+      "front": "assets/sprites/web-fronts/176_toxeon.png",
       "back": "assets/previews/toxeon_back.png",
       "icon": "assets/sprites/toxeon/icon.png"
     },
@@ -34985,7 +34986,7 @@
     "specialLocations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/leafeon_front.png",
+      "front": "assets/sprites/web-fronts/184_leafeon.png",
       "back": "assets/previews/leafeon_back.png",
       "icon": "assets/previews/leafeon_icon.png"
     },
@@ -35036,7 +35037,7 @@
     "specialLocations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/glaceon_front.png",
+      "front": "assets/sprites/web-fronts/185_glaceon.png",
       "back": "assets/previews/glaceon_back.png",
       "icon": "assets/previews/glaceon_icon.png"
     },
@@ -35087,7 +35088,7 @@
     "specialLocations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/sylveon_front.png",
+      "front": "assets/sprites/web-fronts/186_sylveon.png",
       "back": "assets/previews/sylveon_back.png",
       "icon": "assets/previews/sylveon_icon.png"
     },
@@ -37254,7 +37255,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/faeranium_front.png",
+      "front": "assets/sprites/web-fronts/202_faeranium.png",
       "back": "assets/previews/faeranium_back.png",
       "icon": "assets/sprites/faeranium/icon.png"
     },
@@ -37793,7 +37794,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/pyroclast_front.png",
+      "front": "assets/sprites/web-fronts/206_pyroclast.png",
       "back": "assets/previews/pyroclast_back.png",
       "icon": "assets/sprites/pyroclast/icon.png"
     },
@@ -49216,7 +49217,7 @@
     ],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/heracurion_front.png",
+      "front": "assets/sprites/web-fronts/262_heracurion.png",
       "back": "assets/previews/heracurion_back.png",
       "icon": "assets/sprites/heracurion/icon.png"
     },
@@ -52923,7 +52924,7 @@
     ],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/donphalanx_front.png",
+      "front": "assets/sprites/web-fronts/283_donphalanx.png",
       "back": "assets/previews/donphalanx_back.png",
       "icon": "assets/sprites/donphalanx/icon.png"
     },
@@ -72192,7 +72193,7 @@
     "region": "Special",
     "bst": 680,
     "sprite": {
-      "front": "assets/previews/mewsion_front.png",
+      "front": "assets/sprites/web-fronts/431_mewduo.png",
       "back": "assets/previews/mewsion_back.png",
       "shiny": "assets/previews/mewsion_shiny.png",
       "icon": "assets/sprites/mewsion/icon.png"
@@ -72311,7 +72312,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/raikou_front.png",
+      "front": "assets/sprites/relic_raikou/approved_front_still.png",
       "shiny": "assets/previews/raikou_shiny.png",
       "icon": "assets/sprites/approved_prl_legendary/raikou/icon.png",
       "back": "assets/previews/raikou_back.png"
@@ -72348,7 +72349,9 @@
         "sourceFile": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "websiteApprovedFrontLocked": true,
+    "websiteFrontSource": "Approved PRU RELICS encounter front"
   },
   {
     "id": "entei",
@@ -72440,7 +72443,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/entei_front.png",
+      "front": "assets/sprites/relic_entei/approved_front_still.png",
       "shiny": "assets/previews/entei_shiny.png",
       "icon": "assets/sprites/approved_prl_legendary/entei/icon.png",
       "back": "assets/previews/entei_back.png"
@@ -72477,7 +72480,9 @@
         "sourceFile": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "websiteApprovedFrontLocked": true,
+    "websiteFrontSource": "Approved PRU RELICS encounter front"
   },
   {
     "id": "suicune",
@@ -72569,7 +72574,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/suicune_front.png",
+      "front": "assets/sprites/relic_suicune/approved_front_still.png",
       "shiny": "assets/previews/suicune_shiny.png",
       "icon": "assets/sprites/approved_prl_legendary/suicune/icon.png",
       "back": "assets/previews/suicune_back.png"
@@ -72604,7 +72609,9 @@
         "note": "Alpha 5 TEST 2 compiled lab clue verified, Route 25."
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "websiteApprovedFrontLocked": true,
+    "websiteFrontSource": "Approved PRU RELICS encounter front"
   },
   {
     "id": "lugia",
@@ -72705,7 +72712,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/lugia_front.png",
+      "front": "assets/sprites/relic_lugia/front.png",
       "shiny": "assets/previews/lugia_shiny.png",
       "icon": "assets/sprites/approved_prl_legendary/lugia/icon.png",
       "back": "assets/previews/lugia_back.png"
@@ -72742,7 +72749,9 @@
         "sourceFile": "data/maps/WhirlIslands_LugiaChamber_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "websiteApprovedFrontLocked": true,
+    "websiteFrontSource": "Approved PRU RELICS encounter front"
   },
   {
     "id": "ho-oh",
@@ -72843,7 +72852,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/ho-oh_front.png",
+      "front": "assets/sprites/relic_ho_oh/front.png",
       "shiny": "assets/previews/ho-oh_shiny.png",
       "icon": "assets/sprites/approved_prl_legendary/ho_oh/icon.png",
       "back": "assets/previews/ho-oh_back.png"
@@ -72889,7 +72898,9 @@
         "sourceFile": "data/maps/MtSilver_SummitDay_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "websiteApprovedFrontLocked": true,
+    "websiteFrontSource": "Approved PRU RELICS encounter front"
   },
   {
     "id": "alphoracle",
@@ -73089,7 +73100,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/celebi_front.png",
+      "front": "assets/sprites/relic_celebi/front.png",
       "shiny": "assets/previews/celebi_shiny.png",
       "icon": "assets/sprites/approved_prl_legendary/celebi/icon.png",
       "back": "assets/previews/celebi_back.png"
@@ -73126,7 +73137,9 @@
         "sourceFile": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "websiteApprovedFrontLocked": true,
+    "websiteFrontSource": "Approved PRU RELICS encounter front"
   },
   {
     "id": "regirock",
@@ -74055,7 +74068,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/rayquaza_front.png",
+      "front": "assets/previews/rayquaza_shiny.png",
       "shiny": "assets/previews/rayquaza_shiny.png",
       "icon": "assets/sprites/pjr_legendary/rayquaza/icon.png",
       "back": "assets/previews/rayquaza_back.png"
@@ -74084,7 +74097,9 @@
         "sourceFile": "data/maps/DragonsDen_StormShrine_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "websiteFrontSource": "Black Rayquaza front (permanent shiny-locked PRU form)",
+    "websiteApprovedFrontLocked": true
   },
   {
     "id": "coelossus",

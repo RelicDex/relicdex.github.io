@@ -59,7 +59,7 @@
       "how": "Source lists a scripted encounter here; exact trigger not tested.",
       "group": "Other",
       "status": "SOURCE",
-      "sprite": "assets/previews/mewsion_front.png"
+      "sprite": "assets/sprites/web-fronts/431_mewduo.png"
     },
     {
       "name": "Raikou",
@@ -68,7 +68,7 @@
       "how": "After becoming Johto Champion, speak to the Ruins of Alph scientist. Investigate the old generator, catch Raikou and return to the lab.",
       "group": "RELICS",
       "status": "ROM",
-      "sprite": "assets/previews/raikou_front.png"
+      "sprite": "assets/sprites/relic_raikou/approved_front_still.png"
     },
     {
       "name": "Entei",
@@ -77,7 +77,7 @@
       "how": "After Raikou, enter Mt. Mortar and reach its farthest cavern. Return to the lab after catching.",
       "group": "RELICS",
       "status": "ROM",
-      "sprite": "assets/previews/entei_front.png"
+      "sprite": "assets/sprites/relic_entei/approved_front_still.png"
     },
     {
       "name": "Suicune",
@@ -86,7 +86,7 @@
       "how": "Follow the lab clue to the far end of Route 25. NOT Ruins of Alph.",
       "group": "RELICS",
       "status": "ROM",
-      "sprite": "assets/previews/suicune_front.png"
+      "sprite": "assets/sprites/relic_suicune/approved_front_still.png"
     },
     {
       "name": "Lugia",
@@ -95,7 +95,7 @@
       "how": "After Entei, reach the deepest chamber of Whirl Islands.",
       "group": "RELICS",
       "status": "ROM",
-      "sprite": "assets/previews/lugia_front.png"
+      "sprite": "assets/sprites/relic_lugia/front.png"
     },
     {
       "name": "Ho-Oh",
@@ -104,7 +104,7 @@
       "how": "Golden Ho-Oh finale: catch all seven RELICS, complete the Elite 20 and meet Professor Oak on the summit.",
       "group": "Finale",
       "status": "SOURCE",
-      "sprite": "assets/previews/ho-oh_front.png"
+      "sprite": "assets/sprites/relic_ho_oh/front.png"
     },
     {
       "name": "Alphoracle",
@@ -122,7 +122,7 @@
       "how": "After I-Unown, follow the Alpha 5 ROM-confirmed clue: Celebi awaits in Ilex Forest. Examine the old forest shrine.",
       "group": "RELICS",
       "status": "ROM",
-      "sprite": "assets/previews/celebi_front.png"
+      "sprite": "assets/sprites/relic_celebi/front.png"
     },
     {
       "name": "Regirock",
@@ -194,7 +194,7 @@
       "how": "Source-documented encounter; permanent Mega form in PRU.",
       "group": "Other",
       "status": "SOURCE",
-      "sprite": "assets/previews/rayquaza_front.png"
+      "sprite": "assets/previews/rayquaza_shiny.png"
     },
     {
       "name": "Coelossus",
@@ -239,7 +239,7 @@
       "how": "The I clue sends you below Ruins of Alph to the Eye statue after Lugia. This form shares the Unown Pokédex number.",
       "group": "RELICS",
       "status": "ROM",
-      "sprite": "assets/previews/unown_front.png"
+      "sprite": "assets/sprites/i_unown/front.png"
     },
     {
       "name": "Ancient Guardian Dragonite",
@@ -248,7 +248,8 @@
       "how": "A separate Kimono Girls ceremony, reached by the Bellchime Trail roof shortcut. It is not one of the seven RELICS.",
       "group": "Special",
       "status": "SOURCE",
-      "sprite": "assets/previews/dragonite_front.png"
+      "sprite": null,
+      "artworkStatus": "Exclusive Ancient Guardian sprite is not in the currently approved website sprite archive; no incorrect generic replacement shown."
     }
   ]
 }

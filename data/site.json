@@ -7,7 +7,7 @@
   "date": "2026-11-12",
   "source": "PRU National Pokédex specification and source candidate registry",
   "dexCount": 450,
-  "revision": "2026-11-12 approved graphics, Alpha 5 binary-verified RELICS guide and custom Pokédex biographies",
+  "revision": "2026-11-12 corrected 19 opaque fronts; black Charaxis; approved RELICS single-front stills; frontend front-only display",
   "sourceStatus": "450 entries; Alpha 5 test ROM confirmation for RELICS clues; final release remains pending",
   "spriteDelivery": "local static files only: PokéSprite fork + approved custom sprites + PRL donor",
   "pendingArtwork": [
@@ -120,5 +120,13 @@
     "build": "Alpha5_TEST_2.gba",
     "sha256": "742d94ef340e2e5dc0239692f4a66309153b2ce86e5346b662fdf65869c1d932",
     "verifiedScope": "Compiled text for RELICS lab clues only; does not prove every encounter object or flag"
+  },
+  "spriteFrontAudit": {
+    "audited": 450,
+    "opaqueFrontsCorrected": 18,
+    "charaxis": "approved black-orange front",
+    "relicAnimationStillFrames": 3,
+    "frontOnlyDisplay": true,
+    "guardianArtwork": "Unverified; no generic sprite displayed"
   }
 }
