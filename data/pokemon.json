@@ -73870,7 +73870,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/sprites/approved-front-updates/kyogre_dark.png",
+      "front": "assets/sprites/approved-front-updates/kyogre_primal_black.png",
       "shiny": "assets/previews/kyogre_shiny.png",
       "icon": "assets/sprites/pjr_legendary/kyogre/icon.png",
       "back": "assets/previews/kyogre_back.png"
@@ -73986,7 +73986,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/sprites/approved-front-updates/groudon_dark.png",
+      "front": "assets/sprites/approved-front-updates/groudon_primal_black.png",
       "shiny": "assets/previews/groudon_shiny.png",
       "icon": "assets/sprites/pjr_legendary/groudon/icon.png",
       "back": "assets/previews/groudon_back.png"

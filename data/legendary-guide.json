@@ -176,7 +176,7 @@
       "how": "Source-documented encounter; Primal form is permanent in PRU.",
       "group": "Other",
       "status": "SOURCE",
-      "sprite": "assets/sprites/approved-front-updates/kyogre_dark.png"
+      "sprite": "assets/sprites/approved-front-updates/kyogre_primal_black.png"
     },
     {
       "name": "Groudon",
@@ -185,7 +185,7 @@
       "how": "Source-documented encounter; Primal form is permanent in PRU.",
       "group": "Other",
       "status": "SOURCE",
-      "sprite": "assets/sprites/approved-front-updates/groudon_dark.png"
+      "sprite": "assets/sprites/approved-front-updates/groudon_primal_black.png"
     },
     {
       "name": "Rayquaza",
