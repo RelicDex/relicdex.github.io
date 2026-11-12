@@ -119,9 +119,9 @@
       "name": "Celebi",
       "number": 438,
       "location": "Ilex Forest Shrine",
-      "how": "After I-Unown, examine the forest shrine and catch Celebi. This clue is source-backed and awaits exact ROM string verification.",
+      "how": "After I-Unown, follow the Alpha 5 ROM-confirmed clue: Celebi awaits in Ilex Forest. Examine the old forest shrine.",
       "group": "RELICS",
-      "status": "SOURCE",
+      "status": "ROM",
       "sprite": "assets/previews/celebi_front.png"
     },
     {
