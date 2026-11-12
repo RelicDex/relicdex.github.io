@@ -7,7 +7,7 @@
   "date": "2026-11-12",
   "source": "PRU National Pokédex specification and source candidate registry",
   "dexCount": 450,
-  "revision": "2026-11-12 corrected 19 opaque fronts; black Charaxis; approved RELICS single-front stills; frontend front-only display",
+  "revision": "2026-11-12 website corrections: Noxichu, Space Mew, Shadow Mewtwo, black primal fronts, legendary encounter guide and Guardian Dragonite",
   "sourceStatus": "450 entries; Alpha 5 test ROM confirmation for RELICS clues; final release remains pending",
   "spriteDelivery": "local static files only: PokéSprite fork + approved custom sprites + PRL donor",
   "pendingArtwork": [
@@ -128,5 +128,18 @@
     "relicAnimationStillFrames": 3,
     "frontOnlyDisplay": true,
     "guardianArtwork": "Unverified; no generic sprite displayed"
+  },
+  "websiteCorrections": {
+    "trainerGallery": "Hidden when no verified trainer-specific variants exist",
+    "noxichu": "Relic Overdrive and Eclipse Bolt Lv54; final game QA pending",
+    "sprites": [
+      "Space Mew",
+      "Shadow Mewtwo",
+      "Mewduo white tail filler removed",
+      "Kyogre and Groudon dark PRU-approved front art",
+      "Ancient Guardian Dragonite approved front"
+    ],
+    "legendaryLocations": "Source-checked Kanto birds, roaming Latias/Latios, Mt Moon Jirachi and Astrachi, Birth Island Deoxys",
+    "items": "Unfinished Items page removed from navigation"
   }
 }

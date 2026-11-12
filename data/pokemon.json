@@ -5402,7 +5402,7 @@
       "speed": 125
     },
     "abilities": [
-      "Infiltrator"
+      "Relic Overdrive"
     ],
     "evolutions": [],
     "levelUpMoves": [
@@ -5447,6 +5447,11 @@
         "move": "Sucker Punch"
       },
       {
+        "level": 54,
+        "move": "Eclipse Bolt",
+        "source": "Approved Alpha 5 design; ROM QA pending"
+      },
+      {
         "level": 56,
         "move": "Discharge"
       },
@@ -5455,7 +5460,7 @@
         "move": "Dark Pulse"
       }
     ],
-    "notes": "Pikachu alternate Moon Stone evolution; PRL runtime species-info block needs repair.",
+    "notes": "Approved Alpha 5 buff: Relic Overdrive boosts Electric/Dark moves by 20%. Learns Eclipse Bolt at Level 54. ROM gameplay QA pending.",
     "sourceTier": "PRL-Kanto",
     "sourceStatus": "SOURCE_REFERENCE_ROM_QA_PENDING",
     "sourceFile": "include/constants/species.h + src/data/pokemon/level_up_learnsets/prl_custom.h",
@@ -5505,7 +5510,18 @@
     "dexEntry": "Relic lightning races across its shadowy fur. It watches over allies without flinching.",
     "heightM": 1.0,
     "weightKg": 18.0,
-    "dexCategory": "Eclipse"
+    "dexCategory": "Eclipse",
+    "signatureMove": {
+      "name": "Eclipse Bolt",
+      "type": "Electric",
+      "category": "Special",
+      "power": 95,
+      "accuracy": 100,
+      "effect": "20% chance to paralyse the target.",
+      "animation": "Fusion Bolt",
+      "learnLevel": 54,
+      "designStatus": "Approved Alpha 5 design; final ROM implementation QA pending"
+    }
   },
   {
     "id": "mimikyu",
@@ -71605,7 +71621,14 @@
       "shiny": "assets/sprites/articuno_p/shiny.png",
       "icon": "assets/sprites/articuno_p/icon.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Seafoam Islands B1F (Kanto)",
+        "method": "Source-backed legendary encounter",
+        "note": "Static Lv50 encounter in Seafoam Islands B1F. The checked event does not require a weather condition.",
+        "verification": "ROM gameplay not yet exhaustively tested"
+      }
+    ],
     "locationStatus": "not_documented"
   },
   {
@@ -71717,7 +71740,14 @@
       "shiny": "assets/sprites/zapdos_p/shiny.png",
       "icon": "assets/sprites/zapdos_p/icon.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Route 10, Power Plant area (Kanto)",
+        "method": "Source-backed legendary encounter",
+        "note": "Static Lv50 encounter on Route 10 near the Power Plant. The checked event does not require a weather condition.",
+        "verification": "ROM gameplay not yet exhaustively tested"
+      }
+    ],
     "locationStatus": "not_documented"
   },
   {
@@ -71829,7 +71859,14 @@
       "shiny": "assets/sprites/moltres_p/shiny.png",
       "icon": "assets/sprites/moltres_p/icon.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Mt. Silver 1F — Moltres Room",
+        "method": "Source-backed legendary encounter",
+        "note": "Static Lv50 encounter in the Mt. Silver first-floor Moltres Room; not a roaming Kanto encounter.",
+        "verification": "ROM gameplay not yet exhaustively tested"
+      }
+    ],
     "locationStatus": "not_documented"
   },
   {
@@ -71839,7 +71876,8 @@
     "category": "Legendary / Mythical / special",
     "speciesConstant": "SPECIES_MEWTWO",
     "types": [
-      "Psychic"
+      "Psychic",
+      "Dark"
     ],
     "stats": {
       "hp": 106,
@@ -71849,8 +71887,7 @@
       "speed": 130
     },
     "abilities": [
-      "Pressure",
-      "Unnerve"
+      "Intimidate"
     ],
     "evolutions": [],
     "levelUpMoves": [
@@ -71923,7 +71960,7 @@
         "move": "Aura Sphere"
       }
     ],
-    "notes": "",
+    "notes": "Insurgence Shadow Mewtwo is the standard Mewtwo appearance in PRU. Source-based info; final Alpha 5 QA pending.",
     "sourceTier": "PRL-Kanto",
     "sourceStatus": "SOURCE_REFERENCE_ROM_QA_PENDING",
     "sourceFile": "src/data/pokemon/species_info/gen_1_families.h",
@@ -71933,7 +71970,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/mewtwo_front.png",
+      "front": "assets/sprites/approved-front-updates/mewtwo_shadow.png",
       "back": "assets/previews/mewtwo_back.png",
       "icon": "assets/sprites/mewtwo_mega_x_art/icon.png"
     },
@@ -72042,7 +72079,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/mew_front.png",
+      "front": "assets/sprites/approved-front-updates/mew_space.png",
       "shiny": "assets/previews/mew_shiny.png",
       "icon": "assets/pokesprite/pokemon-gen8/regular/mew.png"
     },
@@ -73616,11 +73653,10 @@
     },
     "specialLocations": [
       {
-        "area": "Southern Island Interior",
-        "method": "Scripted encounter",
-        "note": "",
-        "source": "PRU release script",
-        "sourceFile": "data/maps/SouthernIsland_Interior_hns/scripts.inc"
+        "area": "Roaming Kanto / Southern Island",
+        "method": "Source-backed legendary encounter",
+        "note": "After the Steven encounter at Vermilion City, one of Latias or Latios becomes a Kanto roamer. The alternate scripted Southern Island encounter depends on access flags. Weather not verified as a trigger.",
+        "verification": "ROM gameplay not yet exhaustively tested"
       }
     ],
     "locationStatus": "scripted"
@@ -73741,11 +73777,10 @@
     },
     "specialLocations": [
       {
-        "area": "Southern Island Interior",
-        "method": "Scripted encounter",
-        "note": "",
-        "source": "PRU release script",
-        "sourceFile": "data/maps/SouthernIsland_Interior_hns/scripts.inc"
+        "area": "Roaming Kanto / Southern Island",
+        "method": "Source-backed legendary encounter",
+        "note": "After the Steven encounter at Vermilion City, one of Latias or Latios becomes a Kanto roamer. The alternate scripted Southern Island encounter depends on access flags. Weather not verified as a trigger.",
+        "verification": "ROM gameplay not yet exhaustively tested"
       }
     ],
     "locationStatus": "scripted"
@@ -73835,7 +73870,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/kyogre_front.png",
+      "front": "assets/sprites/approved-front-updates/kyogre_dark.png",
       "shiny": "assets/previews/kyogre_shiny.png",
       "icon": "assets/sprites/pjr_legendary/kyogre/icon.png",
       "back": "assets/previews/kyogre_back.png"
@@ -73951,7 +73986,7 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/groudon_front.png",
+      "front": "assets/sprites/approved-front-updates/groudon_dark.png",
       "shiny": "assets/previews/groudon_shiny.png",
       "icon": "assets/sprites/pjr_legendary/groudon/icon.png",
       "back": "assets/previews/groudon_back.png"
@@ -74319,7 +74354,14 @@
       "icon": "assets/sprites/pjr_legendary/jirachi/icon.png",
       "back": "assets/sprites/pjr_legendary/jirachi/back.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Mt. Moon Square — White Rock",
+        "method": "Source-backed legendary encounter",
+        "note": "Touch the White Rock outside Mt. Moon. A time-of-day branch controls the summoning scene. Catch Jirachi (Lv50) before seeking Astrachi.",
+        "verification": "ROM gameplay not yet exhaustively tested"
+      }
+    ],
     "locationStatus": "not_documented"
   },
   {
@@ -74443,7 +74485,14 @@
       "back": "assets/sprites/astrachi/back.png",
       "icon": "assets/sprites/astrachi/icon.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Mt. Moon Square — White Rock",
+        "method": "Source-backed legendary encounter",
+        "note": "After catching Jirachi, interact with the same White Rock again to summon the separate Lv70 Astrachi. It appears at the pool; the capture is one-time.",
+        "verification": "ROM gameplay not yet exhaustively tested"
+      }
+    ],
     "locationStatus": "not_documented",
     "dexEntry": "It drifts across the night sky like a tiny star. Old shrines glow softly when it passes.",
     "heightM": 0.3,
@@ -74558,7 +74607,14 @@
       "icon": "assets/sprites/deoxys/icon.png",
       "shiny": "assets/sprites/deoxys/front_shiny.png"
     },
-    "specialLocations": [],
+    "specialLocations": [
+      {
+        "area": "Birth Island — triangular rock puzzle",
+        "method": "Source-backed legendary encounter",
+        "note": "Travel to Birth Island and complete the triangular-rock puzzle to trigger Deoxys. Exact travel unlock is still awaiting Alpha 5 playtesting.",
+        "verification": "ROM gameplay not yet exhaustively tested"
+      }
+    ],
     "locationStatus": "not_documented"
   }
 ]

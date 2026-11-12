@@ -10,28 +10,28 @@
     {
       "name": "Articuno",
       "number": 426,
-      "location": null,
-      "how": "A catchable location has not been verified. Oak’s P-form legendary is a trainer battle, not a confirmed wild encounter.",
+      "location": "Seafoam Islands B1F (Kanto)",
+      "how": "Static Lv50 encounter in Seafoam Islands B1F. The checked event does not require a weather condition.",
       "group": "Other",
-      "status": "UNKNOWN",
+      "status": "SOURCE",
       "sprite": "assets/previews/articuno_front.png"
     },
     {
       "name": "Zapdos",
       "number": 427,
-      "location": null,
-      "how": "A catchable location has not been verified. Oak’s P-form legendary is a trainer battle, not a confirmed wild encounter.",
+      "location": "Route 10, Power Plant area (Kanto)",
+      "how": "Static Lv50 encounter on Route 10 near the Power Plant. The checked event does not require a weather condition.",
       "group": "Other",
-      "status": "UNKNOWN",
+      "status": "SOURCE",
       "sprite": "assets/previews/zapdos_front.png"
     },
     {
       "name": "Moltres",
       "number": 428,
-      "location": null,
-      "how": "A catchable location has not been verified. Oak’s P-form legendary is a trainer battle, not a confirmed wild encounter.",
+      "location": "Mt. Silver 1F — Moltres Room",
+      "how": "Static Lv50 encounter in the Mt. Silver first-floor Moltres Room; not a roaming Kanto encounter.",
       "group": "Other",
-      "status": "UNKNOWN",
+      "status": "SOURCE",
       "sprite": "assets/previews/moltres_front.png"
     },
     {
@@ -41,7 +41,7 @@
       "how": "Find the scripted encounter. Exact Alpha 5 access prerequisite not tested.",
       "group": "Other",
       "status": "SOURCE",
-      "sprite": "assets/previews/mewtwo_front.png"
+      "sprite": "assets/sprites/approved-front-updates/mewtwo_shadow.png"
     },
     {
       "name": "Mew",
@@ -50,7 +50,7 @@
       "how": "Source lists a scripted encounter. Method of travelling here not tested.",
       "group": "Other",
       "status": "SOURCE",
-      "sprite": "assets/previews/mew_front.png"
+      "sprite": "assets/sprites/approved-front-updates/mew_space.png"
     },
     {
       "name": "Mewduo",
@@ -154,8 +154,8 @@
     {
       "name": "Latias",
       "number": 442,
-      "location": "Southern Island Interior",
-      "how": "Source-documented scripted encounter; travel requirements unverified.",
+      "location": "Roaming Kanto / Southern Island",
+      "how": "After the Steven encounter at Vermilion City, one of Latias or Latios becomes a Kanto roamer. The alternate scripted Southern Island encounter depends on access flags. Weather not verified as a trigger.",
       "group": "Other",
       "status": "SOURCE",
       "sprite": "assets/previews/latias_front.png"
@@ -163,8 +163,8 @@
     {
       "name": "Latios",
       "number": 443,
-      "location": "Southern Island Interior",
-      "how": "Source-documented scripted encounter; travel requirements unverified.",
+      "location": "Roaming Kanto / Southern Island",
+      "how": "After the Steven encounter at Vermilion City, one of Latias or Latios becomes a Kanto roamer. The alternate scripted Southern Island encounter depends on access flags. Weather not verified as a trigger.",
       "group": "Other",
       "status": "SOURCE",
       "sprite": "assets/previews/latios_front.png"
@@ -176,7 +176,7 @@
       "how": "Source-documented encounter; Primal form is permanent in PRU.",
       "group": "Other",
       "status": "SOURCE",
-      "sprite": "assets/previews/kyogre_front.png"
+      "sprite": "assets/sprites/approved-front-updates/kyogre_dark.png"
     },
     {
       "name": "Groudon",
@@ -185,7 +185,7 @@
       "how": "Source-documented encounter; Primal form is permanent in PRU.",
       "group": "Other",
       "status": "SOURCE",
-      "sprite": "assets/previews/groudon_front.png"
+      "sprite": "assets/sprites/approved-front-updates/groudon_dark.png"
     },
     {
       "name": "Rayquaza",
@@ -208,28 +208,28 @@
     {
       "name": "Jirachi",
       "number": 448,
-      "location": null,
-      "how": "Exact catchable location and unlock conditions not verified from this test ROM.",
+      "location": "Mt. Moon Square — White Rock",
+      "how": "Touch the White Rock outside Mt. Moon. A time-of-day branch controls the summoning scene. Catch Jirachi (Lv50) before seeking Astrachi.",
       "group": "Other",
-      "status": "UNKNOWN",
+      "status": "SOURCE",
       "sprite": "assets/previews/jirachi_front.png"
     },
     {
       "name": "Astrachi",
       "number": 449,
-      "location": null,
-      "how": "Exact catchable location and unlock conditions not verified from this test ROM.",
+      "location": "Mt. Moon Square — White Rock",
+      "how": "After catching Jirachi, interact with the same White Rock again to summon the separate Lv70 Astrachi. It appears at the pool; the capture is one-time.",
       "group": "Other",
-      "status": "UNKNOWN",
+      "status": "SOURCE",
       "sprite": "assets/previews/astrachi_front.png"
     },
     {
       "name": "Deoxys",
       "number": 450,
-      "location": null,
-      "how": "Exact catchable location and unlock conditions not verified from this test ROM.",
+      "location": "Birth Island — triangular rock puzzle",
+      "how": "Travel to Birth Island and complete the triangular-rock puzzle to trigger Deoxys. Exact travel unlock is still awaiting Alpha 5 playtesting.",
       "group": "Other",
-      "status": "UNKNOWN",
+      "status": "SOURCE",
       "sprite": "assets/previews/deoxys-normal_front.png"
     },
     {
@@ -244,12 +244,11 @@
     {
       "name": "Ancient Guardian Dragonite",
       "number": 198,
-      "location": "Tin Tower Roof",
-      "how": "A separate Kimono Girls ceremony, reached by the Bellchime Trail roof shortcut. It is not one of the seven RELICS.",
+      "location": "Tin Tower Roof — Kimono Girls ceremony",
+      "how": "Special non-catchable Lv60 Guardian battle during the Kimono Girls ceremony. This is the approved blue-crystal Elite Redux Mega Dragonite artwork, not standard Dragonite.",
       "group": "Special",
       "status": "SOURCE",
-      "sprite": null,
-      "artworkStatus": "Exclusive Ancient Guardian sprite is not in the currently approved website sprite archive; no incorrect generic replacement shown."
+      "sprite": "assets/sprites/approved-front-updates/ancient_guardian_dragonite.png"
     }
   ]
 }

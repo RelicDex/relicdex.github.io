@@ -1620,6 +1620,12 @@
       "name": "Phoenix Soul",
       "effect": "Survives one lethal hit per battle and restores 25% of its maximum HP.",
       "verified": true
+    },
+    "relicoverdrive": {
+      "name": "Relic Overdrive",
+      "effect": "Boosts Electric- and Dark-type attack power by 20%.",
+      "verified": true,
+      "note": "Approved Alpha 5 Noxichu design; gameplay verification pending"
     }
   }
 }
