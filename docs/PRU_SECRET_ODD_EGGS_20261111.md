@@ -1,42 +1,41 @@
-# PRU Secret Odd Eggs — 11 November 2026
+# PRU Odd Eggs — single-word guide (updated 12 November 2026)
 
-**Status:** Development branch only. **NOT yet in public Alpha 3.** Static source checks passed; gameplay QA and new ROM build pending.
+**Current design:** ONE typed word per egg using the GBA keyboard (not Easy Chat phrases). Case-insensitive. This replaces the 11 November four-part password specification.
 
-## How to get the eggs
-At the Route 34 Day-Care, south of Goldenrod City, the clerk accepts four Easy Chat words. A separate NPC outdoors has Pichu, Cleffa, Igglybuff and Togepi overworld sprites wandering around them. They provide the cryptic nursery rhyme clue labels, not an explanation.
+## Compatibility / testing
 
-## PRU custom eggs
-| NPC clue | Egg Pokémon | Four words |
-|---|---|---|
-| Baby Bug | Scarabub | GUTS / BUG / BABY / PLAY |
-| Baby Bird | Skarmet | STURDY / FLYING / SILVER / SHINE |
-| Baby Calf | Mootiny | THICK FAT / NORMAL / CUTE / SLEEP |
-| Baby Gem | Gemlin | KEEN EYE / GHOST / MYSTERY / SHINE |
+The new keyboard input was implemented in the Alpha 4.2 development/test lineage and carried forward to Alpha 5 test builds. The player has confirmed receiving Kan's egg in Alpha 5 testing. The final Baby Expert dialogue needs a check to ensure it says the Baby Kan / JOEY clue (and no longer mentions nursery rhymes). The public Alpha 3 release does not have these new instructions. Do not describe the design as shipped in public Alpha 3.
 
-Each custom egg has its own one-time saved claim flag, so all four are obtainable in one playthrough. Scarabub, Skarmet and Mootiny are removed from six day/night fixed wild slots; Gemlin was not listed as wild. Evolution lines unchanged.
+## Route 34 secret custom eggs
 
-## Original Odd Eggs
-| Pokémon | Four words |
-|---|---|
-| Pichu | STATIC / ELECTRIC / WAAAH / PLAY |
-| Cleffa | CUTE CHARM / NORMAL / EEK / LOOKS |
-| Igglybuff | CUTE CHARM / NORMAL / LALALA / SLEEP |
-| Tyrogue | GUTS / FIGHTING / HIYAH / TRAINS |
-| Smoochum | OBLIVIOUS / ICE / EHEHE / SHOW |
-| Elekid | STATIC / ELECTRIC / OI OI OI / STORES |
-| Magby | FLAME BODY / FIRE / TCH / ANGERS |
+Speak to the Day-Care couple's son south of Goldenrod City. Make room for the egg and type a **single word**.
 
-Only one of the seven original choices is claimable per save; the four custom eggs have independent flags.
+| Baby Expert hint | Egg | Password | Evolution |
+| --- | --- | --- | --- |
+| Baby Bug | Scarabub | BEETLE | Heracross |
+| Baby Bird | Skarmet | FEATHER | Skarmory |
+| Baby Calf | Mootiny | MILK | Miltank |
+| Baby Gem | Gemlin | CRYSTAL | Sableye |
+| Baby Kan | Kan | JOEY | Kangaskhan |
 
-## Other source fix
-The Pokémon summary-screen Move Relearner shortcut is disabled; NPC move relearning remains available.
+Each custom baby has an independent once-per-save egg claim. Custom babies are not standard wild encounters or purchasable Mystery Eggs. New baby evolutions are at level 20 (distinct Tyrogue branch conditions are not overwritten). Kan is #139, Kangaskhan #140, Khang #141 in the updated **450-species** Pokédex.
 
-## Artwork
-The approved 11 November Gemlin GBA sprite should be used unaltered on RelicDex; the older small purple sprite must not be mistaken for the new artwork.
+The Baby Expert outdoors should give short, mysterious spoken-word clues without saying what the passwords unlock. The Baby Kan clue must include **JOEY**; never use the old nursery-rhyme text.
 
-## Sources
-PRU branch: fix/pru-four-secret-eggs-and-nursery-clues-20261111. Implementation: src/easy_chat.c; src/scrcmd.c; data/maps/Route34_DayCare_hns/scripts.inc; data/maps/Route34_hns/map.json and scripts.inc; src/data/wild_encounters.json; include/constants/flags_hns.h; include/config/summary_screen.h.
+## Seven classic Odd Eggs
 
+The same **one-word keyboard** accepts: PICHU, CLEFFA, IGGLYBUFF, TYROGUE, SMOOCHUM, ELEKID, MAGBY. Only **one classic egg total** can be claimed per save; this limit is independent from the five custom eggs.
 
-## Purchased mystery eggs
-The separate ¥5,000 mystery egg seller now uses only nine classic Kanto/Johto/Hoenn starters: Bulbasaur, Charmander, Squirtle, Chikorita, Cyndaquil, Totodile, Treecko, Torchic and Mudkip. Each has an equal chance. Scarabub, Skarmet, Mootiny and Gemlin are removed from this paid pool. Source change only, not public Alpha 3.
+## Purchased Mystery Eggs
+
+The separate Day-Care seller's **¥5,000** egg pool includes only the nine Kanto/Johto/Hoenn regular starters, at equal probability:
+
+- Bulbasaur, Charmander, Squirtle
+- Chikorita, Cyndaquil, Totodile
+- Treecko, Torchic, Mudkip
+
+No custom baby Pokémon are in the purchased pool.
+
+## Provenance and verification boundary
+
+The 11 November branch \`fix/pru-four-secret-eggs-and-nursery-clues-20261111\` introduced the earlier concept, but its four-word Easy Chat passwords and nursery-rhyme dialogue are obsolete. The 12 November Alpha 4.2 / Alpha 5 test-era design uses single words including JOEY. Final release verification should confirm the in-game Baby Expert dialogue, individual claim flags, purchased-egg distribution, and level-20 evolutions against the exact final release ROM. Updating this website does **not** change the game ROM.

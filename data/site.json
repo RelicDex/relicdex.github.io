@@ -7,7 +7,7 @@
   "date": "2026-10-16",
   "source": "PRU National Pokédex specification and source candidate registry",
   "dexCount": 450,
-  "revision": "2026-11-11 nursery secret eggs source documentation (upcoming, not in public Alpha 3)",
+  "revision": "2026-11-12 Odd Eggs: Alpha 4.2/5 test-era single-word passwords, Kan JOEY, starter-only purchased eggs",
   "sourceStatus": "44X-dex numbers provisional pending ROM QA",
   "spriteDelivery": "local static files only: PokéSprite fork + approved custom sprites + PRL donor",
   "pendingArtwork": [
@@ -54,15 +54,36 @@
     ]
   },
   "upcomingSecretEggs": {
-    "status": "Source implemented, in-game QA pending, NOT in Alpha 3",
-    "sourceBranch": "fix/pru-four-secret-eggs-and-nursery-clues-20261111",
+    "status": "Single-word GBA keyboard implemented in Alpha 4.2 / Alpha 5 test lineage; public Alpha 3 does not include it; Baby Kan clue dialogue pending final QA",
+    "legacySourceBranch": "fix/pru-four-secret-eggs-and-nursery-clues-20261111 (four-word design superseded)",
     "guide": "odd-eggs.html",
+    "passwordMode": "one typed word per egg, case-insensitive",
     "pokemon": [
       "SCARABUB",
       "SKARMET",
       "MOOTINY",
-      "GEMLIN"
-    ]
+      "GEMLIN",
+      "KAN"
+    ],
+    "passwords": {
+      "SCARABUB": "BEETLE",
+      "SKARMET": "FEATHER",
+      "MOOTINY": "MILK",
+      "GEMLIN": "CRYSTAL",
+      "KAN": "JOEY"
+    },
+    "classicEggPasswords": [
+      "PICHU",
+      "CLEFFA",
+      "IGGLYBUFF",
+      "TYROGUE",
+      "SMOOCHUM",
+      "ELEKID",
+      "MAGBY"
+    ],
+    "classicEggClaimLimit": 1,
+    "customEggClaimLimit": 1,
+    "testNote": "Kan egg obtained in Alpha 5 testing; Baby Expert JOEY clue requires final dialogue QA"
   },
   "approvedGemlinArtwork": {
     "source": "Confirmed Alpha 3 Gemlin + corrected battle backgrounds QA ROM 2026-11-11",
@@ -87,6 +108,6 @@
       "Torchic",
       "Mudkip"
     ],
-    "status": "Development source only; not in public Alpha 3"
+    "status": "Nine-starter-only pool in Alpha 4.2 / Alpha 5 test-era source; not in public Alpha 3"
   }
 }
