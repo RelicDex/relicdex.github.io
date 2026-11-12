@@ -528,9 +528,10 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/edensaur_front.png",
-      "back": "assets/previews/edensaur_back.png",
-      "icon": "assets/sprites/edensaur/icon.png"
+      "front": "assets/sprites/edensaur/front.png",
+      "back": "assets/sprites/edensaur/back.png",
+      "icon": "assets/sprites/edensaur/icon.png",
+      "shiny": "assets/sprites/edensaur/shiny.png"
     },
     "spriteNote": "PRL sprite archive (PRU exceptions above override)",
     "bst": 580,
@@ -540,7 +541,9 @@
     "spriteProvenance": "PRL sprite archive (PRU exceptions above override)",
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
-    "approvedVisualVariants": [],
+    "approvedVisualVariants": [
+      "Approved 12 Nov 2026: G-Max Venusaur — front, back, shiny, icon"
+    ],
     "evolvesFrom": [
       {
         "source": "Venusaur",
@@ -556,7 +559,12 @@
       "icon": "assets/sprites/edensaur/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "spriteBackShiny": "assets/sprites/edensaur/back_shiny.png",
+    "dexEntry": "Ancient roots spread beneath its flower. Soil touched by them bursts into sudden greenery.",
+    "heightM": 2.1,
+    "weightKg": 145.0,
+    "dexCategory": "Bloom Relic"
   },
   {
     "id": "charmander",
@@ -1067,7 +1075,11 @@
       "icon": "assets/sprites/charaxis/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "It climbs on fierce updrafts, then dives like an arrow with its burning wings tucked close.",
+    "heightM": 2.0,
+    "weightKg": 103.0,
+    "dexCategory": "Blaze Wing"
   },
   {
     "id": "squirtle",
@@ -1608,7 +1620,11 @@
       "icon": "assets/sprites/fortotoise/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its fortress shell withstands mighty blows. Water cannons fire through iron-plated ports.",
+    "heightM": 1.8,
+    "weightKg": 190.0,
+    "dexCategory": "Fortress"
   },
   {
     "id": "caterpie",
@@ -5032,7 +5048,11 @@
       "icon": "assets/sprites/adnokana/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its metal-tipped fangs pierce ore. The venom they deliver can eat through reinforced armor.",
+    "heightM": 3.5,
+    "weightKg": 110.0,
+    "dexCategory": "Iron Cobra"
   },
   {
     "id": "pichu",
@@ -5144,7 +5164,7 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Odd Egg",
-        "note": "STATIC / ELECTRIC / WAAAH / PLAY. Classic gift: one of these seven per save.",
+        "note": "Type PICHU on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
@@ -5480,7 +5500,11 @@
       "icon": "assets/sprites/noxichu/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Relic lightning races across its shadowy fur. It watches over allies without flinching.",
+    "heightM": 1.0,
+    "weightKg": 18.0,
+    "dexCategory": "Eclipse"
   },
   {
     "id": "mimikyu",
@@ -6743,7 +6767,7 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Odd Egg",
-        "note": "CUTE CHARM / NORMAL / EEK / LOOKS. Classic gift: one of these seven per save.",
+        "note": "Type CLEFFA on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
@@ -7345,7 +7369,7 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Odd Egg",
-        "note": "CUTE CHARM / NORMAL / LALALA / SLEEP. Classic gift: one of these seven per save.",
+        "note": "Type IGGLYBUFF on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
@@ -8820,7 +8844,11 @@
       "icon": "assets/sprites/ghoulbat/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its wings make no sound at all. It drains warmth from cave walls before fading into darkness.",
+    "heightM": 2.1,
+    "weightKg": 44.0,
+    "dexCategory": "Wraith"
   },
   {
     "id": "oddish",
@@ -23784,7 +23812,11 @@
       "icon": "assets/sprites/osteodian/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its ancient skeleton has hardened into natural armor. It stands guard over weaker Pokémon without retreating.",
+    "heightM": 2.0,
+    "weightKg": 120.0,
+    "dexCategory": "Guardian"
   },
   {
     "id": "maroghost",
@@ -23912,7 +23944,11 @@
       "icon": "assets/sprites/maroghost/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "A pale flame clings to its bone club. It prowls old burial sites without making a sound.",
+    "heightM": 1.6,
+    "weightKg": 26.0,
+    "dexCategory": "Bone Wraith"
   },
   {
     "id": "tyrogue",
@@ -24012,7 +24048,7 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Odd Egg",
-        "note": "GUTS / FIGHTING / HIYAH / TRAINS. Classic gift: one of these seven per save.",
+        "note": "Type TYROGUE on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
@@ -24953,7 +24989,11 @@
       "icon": "assets/sprites/cheauking/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "It stores poisonous fumes inside its armored body, then releases them as a choking black cloud.",
+    "heightM": 1.2,
+    "weightKg": 23.0,
+    "dexCategory": "Smog King"
   },
   {
     "types": [
@@ -25110,7 +25150,11 @@
       "icon": "assets/sprites/frytning/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "Thunder builds inside its dark, smoky body. It releases the charge in brief, blinding flashes.",
+    "heightM": 1.2,
+    "weightKg": 9.5,
+    "dexCategory": "Storm Cloud"
   },
   {
     "id": "rhyhorn",
@@ -26121,7 +26165,7 @@
       {
         "area": "Route 34 Day Care",
         "method": "Secret Odd Egg",
-        "note": "Secret Odd Egg"
+        "note": "Type JOEY on the single-word GBA keyboard. See Odd Eggs guide for claim limits."
       }
     ],
     "locationStatus": "egg_only",
@@ -26136,7 +26180,8 @@
       "icon": "assets/sprites/kan/icon.png",
       "shiny": "assets/sprites/kan/shiny.png"
     },
-    "evolvesFrom": []
+    "evolvesFrom": [],
+    "dexCategory": "Joey"
   },
   {
     "id": "kangaskhan",
@@ -26390,7 +26435,10 @@
     },
     "specialLocations": [],
     "locationStatus": "evolution",
-    "dexEntry": "It wears the tooth of its fallen mother Kangaskhan around its neck. Once a Kan, it now fights to honour her memory."
+    "dexEntry": "It wears the tooth of its fallen mother, Kangaskhan, around its neck. Once a Kan, it now fights to honour her memory.",
+    "heightM": 2.3,
+    "weightKg": 126.0,
+    "dexCategory": "Heir"
   },
   {
     "id": "horsea",
@@ -28941,7 +28989,7 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Odd Egg",
-        "note": "OBLIVIOUS / ICE / EHEHE / SHOW. Classic gift: one of these seven per save.",
+        "note": "Type SMOOCHUM on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
@@ -29331,7 +29379,11 @@
       "icon": "assets/sprites/mystynx/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "wild"
+    "locationStatus": "wild",
+    "dexEntry": "It sketches secret runes in frost. Those who follow the glittering marks often lose their way.",
+    "heightM": 1.7,
+    "weightKg": 45.0,
+    "dexCategory": "Mystic"
   },
   {
     "id": "elekid",
@@ -29455,7 +29507,7 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Odd Egg",
-        "note": "STATIC / ELECTRIC / OI OI OI / STORES. Classic gift: one of these seven per save.",
+        "note": "Type ELEKID on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
@@ -29865,7 +29917,7 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Odd Egg",
-        "note": "FLAME BODY / FIRE / TCH / ANGERS. Classic gift: one of these seven per save.",
+        "note": "Type MAGBY on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
@@ -30471,7 +30523,11 @@
       "icon": "assets/sprites/pinsirex/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "wild"
+    "locationStatus": "wild",
+    "dexEntry": "Ancient power has awakened its wings. It dives at high speed before locking its mighty horns around its foe.",
+    "heightM": 1.7,
+    "weightKg": 59.0,
+    "dexCategory": "Relic Stag"
   },
   {
     "id": "tauros",
@@ -32896,7 +32952,11 @@
       "icon": "assets/sprites/eeveeon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Unlike its kin, its genes remain remarkably stable. It can adapt to change without evolving.",
+    "heightM": 0.8,
+    "weightKg": 17.5,
+    "dexCategory": "Balance"
   },
   {
     "id": "nimbeon",
@@ -33041,7 +33101,11 @@
       "icon": "assets/sprites/nimbeon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "Cloudlike fur softens its landing. It rides warm air currents and leaves no tracks on snowy peaks.",
+    "heightM": 0.9,
+    "weightKg": 12.0,
+    "dexCategory": "Cloud"
   },
   {
     "id": "champeon",
@@ -33205,7 +33269,11 @@
       "icon": "assets/sprites/champeon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "It trains its forelegs until its strikes blur. A trusted partner never backs down from a match.",
+    "heightM": 1.0,
+    "weightKg": 23.0,
+    "dexCategory": "Champion"
   },
   {
     "id": "lepideon",
@@ -33357,7 +33425,11 @@
       "icon": "assets/sprites/lepideon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "Its powdery wings leave patterns of glowing dust. It weaves silk nests high in the forest canopy.",
+    "heightM": 1.1,
+    "weightKg": 12.0,
+    "dexCategory": "Silk Moth"
   },
   {
     "id": "sphynxeon",
@@ -33517,7 +33589,11 @@
       "icon": "assets/sprites/sphynxeon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "It reads distant footsteps from vibrations in the sand. By day, it sleeps beneath cool dunes.",
+    "heightM": 0.9,
+    "weightKg": 24.0,
+    "dexCategory": "Desert"
   },
   {
     "id": "guardeon",
@@ -33673,7 +33749,11 @@
       "icon": "assets/sprites/guardeon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "Metallic fur hardens when danger approaches. It guards its trainer with the poise of an old knight.",
+    "heightM": 1.2,
+    "weightKg": 58.5,
+    "dexCategory": "Iron Knight"
   },
   {
     "id": "obsideon",
@@ -33833,7 +33913,11 @@
       "icon": "assets/sprites/obsideon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "Its rocky coat gleams like black glass. It sheds razor-sharp chips to ward off approaching foes.",
+    "heightM": 1.3,
+    "weightKg": 78.0,
+    "dexCategory": "Obsidian"
   },
   {
     "id": "toxeon",
@@ -33977,7 +34061,11 @@
       "icon": "assets/sprites/toxeon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "Bright marks on its fur warn off predators. It stores poison in small glands along its tail.",
+    "heightM": 1.1,
+    "weightKg": 23.0,
+    "dexCategory": "Toxic"
   },
   {
     "id": "omeon",
@@ -34133,7 +34221,11 @@
       "icon": "assets/sprites/omeon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "Its shadow moves a moment before its body does. Travelers say its cry foretells a sudden change.",
+    "heightM": 1.1,
+    "weightKg": 18.0,
+    "dexCategory": "Omen"
   },
   {
     "id": "drakeon",
@@ -34261,7 +34353,11 @@
       "icon": "assets/sprites/drakeon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "It sharpens its claws on cliffs and calls to passing dragons. Its scales shine in moonlight.",
+    "heightM": 1.3,
+    "weightKg": 39.0,
+    "dexCategory": "Wyvern"
   },
   {
     "id": "vaporeon",
@@ -36159,7 +36255,11 @@
       "icon": "assets/sprites/nolax/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "It never sleeps through danger. Its restless strength turns even short charges into heavy blows.",
+    "heightM": 2.1,
+    "weightKg": 210.0,
+    "dexCategory": "Restless"
   },
   {
     "id": "dratini",
@@ -37182,7 +37282,11 @@
       "icon": "assets/sprites/faeranium/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "The scent of its glowing flowers calms raging Pokemon. Ancient groves bloom in its footsteps.",
+    "heightM": 2.0,
+    "weightKg": 135.0,
+    "dexCategory": "Bloom Relic"
   },
   {
     "id": "cyndaquil",
@@ -37717,7 +37821,11 @@
       "icon": "assets/sprites/pyroclast/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its back burns like a volcano. Ghostly cinders drift for hours after it unleashes its flames.",
+    "heightM": 1.9,
+    "weightKg": 90.0,
+    "dexCategory": "Cinder Relic"
   },
   {
     "id": "totodile",
@@ -38250,9 +38358,10 @@
     "locations": [],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/feralodon_front.png",
-      "back": "assets/previews/feralodon_back.png",
-      "icon": "assets/sprites/feralodon/icon.png"
+      "front": "assets/sprites/feralodon/front.png",
+      "back": "assets/sprites/feralodon/back.png",
+      "icon": "assets/sprites/feralodon/icon.png",
+      "shiny": "assets/sprites/feralodon/shiny.png"
     },
     "spriteNote": "PRL sprite archive (PRU exceptions above override)",
     "bst": 580,
@@ -38262,7 +38371,9 @@
     "spriteProvenance": "PRL sprite archive (PRU exceptions above override)",
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
-    "approvedVisualVariants": [],
+    "approvedVisualVariants": [
+      "Approved 12 Nov 2026: Elite Redux Mega Feraligatr Y in original Feraligatr blue with red crest — front, back, shiny, icon"
+    ],
     "evolvesFrom": [
       {
         "source": "Feraligatr",
@@ -38278,7 +38389,12 @@
       "icon": "assets/sprites/feralodon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "spriteBackShiny": "assets/sprites/feralodon/back_shiny.png",
+    "dexEntry": "Its roar churns rivers into whirlpools. Even rough currents cannot slow its massive tail.",
+    "heightM": 2.8,
+    "weightKg": 125.0,
+    "dexCategory": "Tidal Relic"
   },
   {
     "id": "sentret",
@@ -39416,7 +39532,11 @@
       "icon": "assets/sprites/grimfowl/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "It circles above silent woods before a storm. Its dark feathers muffle the sound of its flight.",
+    "heightM": 2.4,
+    "weightKg": 70.0,
+    "dexCategory": "Harbinger"
   },
   {
     "id": "ledyba",
@@ -44381,7 +44501,11 @@
       "icon": "assets/sprites/sunflorid/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its petals hold heat long after sunset. A ring of warm earth follows it through cold fields.",
+    "heightM": 1.0,
+    "weightKg": 34.0,
+    "dexCategory": "Sunfire"
   },
   {
     "id": "yanma",
@@ -45895,11 +46019,9 @@
     },
     "specialLocations": [
       {
-        "area": "Ruins of Alph — Eye Statue",
+        "area": "Ruins of Alph — Eye statue",
         "method": "RELICS encounter",
-        "note": "Special I-Unown RELICS encounter; shares the Unown species entry",
-        "source": "PRU release script",
-        "sourceFile": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
+        "note": "Special I-Unown form; shares the regular Unown number."
       }
     ],
     "locationStatus": "wild"
@@ -48251,7 +48373,11 @@
       "icon": "assets/sprites/kablowfish/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "wild"
+    "locationStatus": "wild",
+    "dexEntry": "Its armored spines click as it swells with pressure. It bursts forward like a drifting mine.",
+    "heightM": 1.7,
+    "weightKg": 98.0,
+    "dexCategory": "Naval Mine"
   },
   {
     "id": "shuckle",
@@ -48523,7 +48649,11 @@
       "icon": "assets/sprites/shuckolosse/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its shell withstands falling rock. Smaller Pokemon find shelter in its shadow during landslides.",
+    "heightM": 1.4,
+    "weightKg": 185.0,
+    "dexCategory": "Bastion"
   },
   {
     "id": "scarabub",
@@ -48613,12 +48743,16 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Secret Odd Egg",
-        "note": "Baby Bug: GUTS / BUG / BABY / PLAY. One per save file. Upcoming ROM source change; not in public Alpha 3.",
+        "note": "Type BEETLE on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "dexEntry": "Its small horn grows harder every time it wrestles a rival. It drags fallen friends out of danger.",
+    "heightM": 0.6,
+    "weightKg": 12.0,
+    "dexCategory": "Scarab"
   },
   {
     "id": "heracross",
@@ -49110,7 +49244,11 @@
       "icon": "assets/sprites/heracurion/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "wild"
+    "locationStatus": "wild",
+    "dexEntry": "Its ancient horn can pierce stone. It stands firm while protecting weaker Pokémon.",
+    "heightM": 1.8,
+    "weightKg": 95.0,
+    "dexCategory": "Relic Horn"
   },
   {
     "id": "sneasel",
@@ -51301,7 +51439,11 @@
       "icon": "assets/sprites/jollibird/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "It wraps berries in packed snow and leaves them on lonely paths. Its gifts can revive the weary.",
+    "heightM": 1.1,
+    "weightKg": 29.0,
+    "dexCategory": "Present"
   },
   {
     "id": "mantine",
@@ -51586,12 +51728,16 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Secret Odd Egg",
-        "note": "Baby Bird: STURDY / FLYING / SILVER / SHINE. One per save file. Upcoming ROM source change; not in public Alpha 3.",
+        "note": "Type FEATHER on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "dexEntry": "Its light metal feathers harden as it grows. It practices short flights while testing its sharp wings on stone.",
+    "heightM": 0.5,
+    "weightKg": 18.0,
+    "dexCategory": "Armor Chick"
   },
   {
     "id": "skarmory",
@@ -51954,7 +52100,11 @@
       "icon": "assets/sprites/skarmadon/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its relic-plated wings ring like forged steel. It rides violent winds without yielding.",
+    "heightM": 2.0,
+    "weightKg": 88.0,
+    "dexCategory": "Relic Armor"
   },
   {
     "id": "houndour",
@@ -52801,7 +52951,11 @@
       "icon": "assets/sprites/donphalanx/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "wild"
+    "locationStatus": "wild",
+    "dexEntry": "Its heavy tusks form a moving wall. Herds follow behind it through fierce sandstorms.",
+    "heightM": 1.8,
+    "weightKg": 170.0,
+    "dexCategory": "War Tusk"
   },
   {
     "id": "stantler",
@@ -53171,12 +53325,16 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Secret Odd Egg",
-        "note": "Baby Calf: THICK FAT / NORMAL / CUTE / SLEEP. One per save file. Upcoming ROM source change; not in public Alpha 3.",
+        "note": "Type MILK on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "dexEntry": "This cheerful calf builds strong legs by running in circles. It is surprisingly stubborn when protecting its friends.",
+    "heightM": 0.5,
+    "weightKg": 28.0,
+    "dexCategory": "Calf"
   },
   {
     "id": "miltank",
@@ -53495,7 +53653,11 @@
       "icon": "assets/sprites/miltitan/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "It charges through open fields with its horns lowered. Herds gather behind it in fierce winters.",
+    "heightM": 1.9,
+    "weightKg": 155.0,
+    "dexCategory": "Relic Cow"
   },
   {
     "id": "larvitar",
@@ -54536,7 +54698,11 @@
       "shiny": "assets/sprites/sceptitan/shiny.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Ancient vines entwine its claws. One sweep splits stone, yet new shoots rise wherever it rests.",
+    "heightM": 2.2,
+    "weightKg": 71.0,
+    "dexCategory": "Grove Wyrm"
   },
   {
     "id": "torchic",
@@ -55050,7 +55216,11 @@
       "shiny": "assets/sprites/solaziken/shiny.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its kicks scatter sparks like dawn. It senses a foe's next motion before the strike begins.",
+    "heightM": 2.0,
+    "weightKg": 60.0,
+    "dexCategory": "Solar Sage"
   },
   {
     "id": "mudkip",
@@ -55560,7 +55730,11 @@
       "icon": "assets/sprites/swamplith/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Stone plates line its broad arms. It raises walls of water to guard smaller Pokemon from floods.",
+    "heightM": 1.8,
+    "weightKg": 125.0,
+    "dexCategory": "Tide Bastion"
   },
   {
     "id": "poochyena",
@@ -55995,7 +56169,11 @@
       "icon": "assets/sprites/skulberus/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its distant howl unsettles even brave travelers. It never loses the scent of a fleeing foe.",
+    "heightM": 1.4,
+    "weightKg": 52.0,
+    "dexCategory": "Dread Hound"
   },
   {
     "id": "zigzagoon",
@@ -58502,7 +58680,11 @@
       "icon": "assets/sprites/valkyvoir/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Its lance shines with psychic light. It shields its allies with a veil of powerful fairy energy.",
+    "heightM": 1.6,
+    "weightKg": 48.4,
+    "dexCategory": "Sky Knight"
   },
   {
     "id": "surskit",
@@ -60903,12 +61085,16 @@
       {
         "area": "Route 34 Day-Care",
         "method": "Secret Odd Egg",
-        "note": "Baby Gem: KEEN EYE / GHOST / MYSTERY / SHINE. One per save file. Upcoming ROM source change; not in public Alpha 3.",
+        "note": "Type CRYSTAL on the single-word GBA keyboard. See Odd Eggs guide for claim limits.",
         "source": "PRU source branch (11 November 2026)",
         "sourceFile": "data/maps/Route34_DayCare_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "dexEntry": "It slips through cracks in old ruins. Its gemlike eyes glow brightly when Relic energy gathers nearby.",
+    "heightM": 0.4,
+    "weightKg": 6.8,
+    "dexCategory": "Gem Sprite"
   },
   {
     "id": "sableye",
@@ -61174,7 +61360,11 @@
       "icon": "assets/sprites/gemigoyle/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "It waits upon ruined towers as still as carved stone. At dusk, its gem eyes glow with spirits.",
+    "heightM": 0.9,
+    "weightKg": 34.0,
+    "dexCategory": "Gem Gargoyle"
   },
   {
     "id": "mawile",
@@ -61415,7 +61605,11 @@
       "icon": "assets/sprites/mawyrm/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "Ancient steel hardens the jaws behind its head. It draws foes close before snapping them shut.",
+    "heightM": 1.4,
+    "weightKg": 48.0,
+    "dexCategory": "Iron Wyrm"
   },
   {
     "id": "aron",
@@ -64373,7 +64567,11 @@
       "icon": "assets/sprites/torkaldera/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "wild"
+    "locationStatus": "wild",
+    "dexEntry": "Magma simmers beneath its shell. When threatened, it vents ash hot enough to glaze nearby rocks.",
+    "heightM": 1.3,
+    "weightKg": 190.0,
+    "dexCategory": "Magma Shell"
   },
   {
     "id": "spoink",
@@ -65383,7 +65581,11 @@
       "icon": "assets/sprites/cactomb/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "A restless spirit guards its thorn-covered body. Faint voices follow it across desert graves.",
+    "heightM": 1.6,
+    "weightKg": 80.0,
+    "dexCategory": "Thorn Wraith"
   },
   {
     "id": "swablu",
@@ -68890,7 +69092,11 @@
       "icon": "assets/sprites/tropisaur/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "wild"
+    "locationStatus": "wild",
+    "dexEntry": "Its enormous leaves form a living canopy. Fruit ripens on the soil where it rests in sunlight.",
+    "heightM": 2.5,
+    "weightKg": 185.0,
+    "dexCategory": "Canopy"
   },
   {
     "id": "chimecho",
@@ -71028,8 +71234,8 @@
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_NOIBAT",
     "types": [
-      "Rock",
-      "Ghost"
+      "Flying",
+      "Dragon"
     ],
     "stats": {
       "hp": 40,
@@ -71040,9 +71246,9 @@
       "speed": 55
     },
     "abilities": [
-      "Levitate",
-      "Rock Head",
-      "Sturdy"
+      "Frisk",
+      "Infiltrator",
+      "Telepathy"
     ],
     "evolutions": [
       {
@@ -71117,7 +71323,7 @@
         "move": "Hurricane"
       }
     ],
-    "notes": "PRU Rock/Ghost species, displayed using its actual in-game name.",
+    "notes": "",
     "sourceTier": "Radical Red / PRU override",
     "sourceStatus": "PRU_GAME_SOURCE_VERIFIED",
     "sourceFile": "src/data/pokemon/species_info/gen_6_families.h",
@@ -71135,17 +71341,10 @@
     "bst": 245,
     "statusOverride": "Approved PRU Rock/Ghost variant.",
     "spriteSourcePriority": "Explicit PRU lock > current approved PRL/PKR/PHR > approved PJR > vanilla fork PokéSprite; candidate banks NOT automatic",
-    "spriteProvenance": "Actual Radical Red Seviian Rock/Ghost art, form index 866; JwowSquared/Radical-Red-Pokedex at 488a0918194d567b5f7b02c396118d51fb9c81ce.",
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "spriteBackShiny": "assets/sprites/radical_red_sevii/noibat/shiny_back.png",
     "evolvesFrom": [],
-    "spriteOriginal": {
-      "front": "assets/sprites/radical_red_sevii/noibat/front.png",
-      "back": "assets/sprites/radical_red_sevii/noibat/back.png",
-      "shiny": "assets/sprites/radical_red_sevii/noibat/shiny.png"
-    },
     "specialLocations": [],
     "locationStatus": "not_documented"
   },
@@ -71156,8 +71355,8 @@
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_NOIVERN",
     "types": [
-      "Rock",
-      "Ghost"
+      "Flying",
+      "Dragon"
     ],
     "stats": {
       "hp": 85,
@@ -71168,9 +71367,9 @@
       "speed": 123
     },
     "abilities": [
-      "Levitate",
-      "Rock Head",
-      "Sturdy"
+      "Frisk",
+      "Infiltrator",
+      "Telepathy"
     ],
     "evolutions": [],
     "levelUpMoves": [
@@ -71263,7 +71462,7 @@
         "move": "Boomburst"
       }
     ],
-    "notes": "PRU Rock/Ghost species, displayed using its actual in-game name.",
+    "notes": "",
     "sourceTier": "Radical Red / PRU override",
     "sourceStatus": "PRU_GAME_SOURCE_VERIFIED",
     "sourceFile": "src/data/pokemon/species_info/gen_6_families.h",
@@ -71281,25 +71480,18 @@
     "bst": 540,
     "statusOverride": "Approved PRU Rock/Ghost variant.",
     "spriteSourcePriority": "Explicit PRU lock > current approved PRL/PKR/PHR > approved PJR > vanilla fork PokéSprite; candidate banks NOT automatic",
-    "spriteProvenance": "Actual Radical Red Seviian Rock/Ghost art, form index 867; JwowSquared/Radical-Red-Pokedex at 488a0918194d567b5f7b02c396118d51fb9c81ce.",
     "spriteDisplayRole": "PLAYABLE_CUSTOM",
     "spriteSheetAnimation": false,
     "approvedVisualVariants": [],
-    "spriteBackShiny": "assets/sprites/radical_red_sevii/noivern/shiny_back.png",
     "evolvesFrom": [
       {
         "source": "Noibat",
         "sourceNumber": 424,
         "method": "Level",
         "requirement": "48",
-        "verification": "donor draft / ROM QA pending"
+        "verification": "PRU source"
       }
     ],
-    "spriteOriginal": {
-      "front": "assets/sprites/radical_red_sevii/noivern/front.png",
-      "back": "assets/sprites/radical_red_sevii/noivern/back.png",
-      "shiny": "assets/sprites/radical_red_sevii/noivern/shiny.png"
-    },
     "specialLocations": [],
     "locationStatus": "evolution"
   },
@@ -72407,11 +72599,9 @@
     },
     "specialLocations": [
       {
-        "area": "Ruins of Alph — RELICS event",
+        "area": "Cerulean Cape / far end of Route 25",
         "method": "RELICS encounter",
-        "note": "Event encounter recorded in the Ruins of Alph quest script",
-        "source": "PRU release script",
-        "sourceFile": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
+        "note": "Alpha 5 TEST 2 compiled lab clue verified, Route 25."
       }
     ],
     "locationStatus": "scripted"
@@ -72803,7 +72993,11 @@
         "sourceFile": "data/maps/RuinsOfAlph_Lab_hns/scripts.inc"
       }
     ],
-    "locationStatus": "scripted"
+    "locationStatus": "scripted",
+    "dexEntry": "It speaks in patterns older than the Ruins of Alph. Each whisper stirs dormant Relic energy.",
+    "heightM": 2.5,
+    "weightKg": 99.9,
+    "dexCategory": "First Voice"
   },
   {
     "id": "celebi",
@@ -73990,7 +74184,11 @@
       "icon": "assets/sprites/coelossus/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "The deep sea hardened its fossil armor. It rises from the abyss only when the tides shift.",
+    "heightM": 3.5,
+    "weightKg": 215.0,
+    "dexCategory": "Abyss Fossil"
   },
   {
     "id": "jirachi",
@@ -74231,7 +74429,11 @@
       "icon": "assets/sprites/astrachi/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "not_documented"
+    "locationStatus": "not_documented",
+    "dexEntry": "It drifts across the night sky like a tiny star. Old shrines glow softly when it passes.",
+    "heightM": 0.3,
+    "weightKg": 1.1,
+    "dexCategory": "Wish Star"
   },
   {
     "id": "deoxys-normal",

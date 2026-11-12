@@ -4,11 +4,11 @@
   "published": true,
   "totalSpecies": 450,
   "verification": "MOVES/ENCOUNTERS ROM QA PENDING; APPROVED CUSTOMS ONLY; VANILLA PokéSprite FORK",
-  "date": "2026-10-16",
+  "date": "2026-11-12",
   "source": "PRU National Pokédex specification and source candidate registry",
   "dexCount": 450,
-  "revision": "2026-11-12 Odd Eggs: Alpha 4.2/5 test-era single-word passwords, Kan JOEY, starter-only purchased eggs",
-  "sourceStatus": "44X-dex numbers provisional pending ROM QA",
+  "revision": "2026-11-12 approved graphics, Alpha 5 binary-verified RELICS guide and custom Pokédex biographies",
+  "sourceStatus": "450 entries; Alpha 5 test ROM confirmation for RELICS clues; final release remains pending",
   "spriteDelivery": "local static files only: PokéSprite fork + approved custom sprites + PRL donor",
   "pendingArtwork": [
     "Noibat",
@@ -109,5 +109,16 @@
       "Mudkip"
     ],
     "status": "Nine-starter-only pool in Alpha 4.2 / Alpha 5 test-era source; not in public Alpha 3"
+  },
+  "nextAlpha": {
+    "version": "5",
+    "status": "Likely next release — not yet publicly released",
+    "download": null
+  },
+  "customDexBiographiesImported": 54,
+  "latestRomVerification": {
+    "build": "Alpha5_TEST_2.gba",
+    "sha256": "742d94ef340e2e5dc0239692f4a66309153b2ce86e5346b662fdf65869c1d932",
+    "verifiedScope": "Compiled text for RELICS lab clues only; does not prove every encounter object or flag"
   }
 }

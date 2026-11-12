@@ -1,0 +1,254 @@
+{
+  "build": "Alpha5_TEST_2.gba",
+  "romSHA256": "742d94ef340e2e5dc0239692f4a66309153b2ce86e5346b662fdf65869c1d932",
+  "statusCodes": {
+    "ROM": "Alpha 5 compiled dialogue confirmed",
+    "SOURCE": "Previously documented PRU game script; ROM encounter not fully verified",
+    "UNKNOWN": "Not verified"
+  },
+  "entries": [
+    {
+      "name": "Articuno",
+      "number": 426,
+      "location": null,
+      "how": "A catchable location has not been verified. Oak’s P-form legendary is a trainer battle, not a confirmed wild encounter.",
+      "group": "Other",
+      "status": "UNKNOWN",
+      "sprite": "assets/previews/articuno_front.png"
+    },
+    {
+      "name": "Zapdos",
+      "number": 427,
+      "location": null,
+      "how": "A catchable location has not been verified. Oak’s P-form legendary is a trainer battle, not a confirmed wild encounter.",
+      "group": "Other",
+      "status": "UNKNOWN",
+      "sprite": "assets/previews/zapdos_front.png"
+    },
+    {
+      "name": "Moltres",
+      "number": 428,
+      "location": null,
+      "how": "A catchable location has not been verified. Oak’s P-form legendary is a trainer battle, not a confirmed wild encounter.",
+      "group": "Other",
+      "status": "UNKNOWN",
+      "sprite": "assets/previews/moltres_front.png"
+    },
+    {
+      "name": "Mewtwo",
+      "number": 429,
+      "location": "Cerulean Cave B2F",
+      "how": "Find the scripted encounter. Exact Alpha 5 access prerequisite not tested.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/mewtwo_front.png"
+    },
+    {
+      "name": "Mew",
+      "number": 430,
+      "location": "Faraway Island Interior",
+      "how": "Source lists a scripted encounter. Method of travelling here not tested.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/mew_front.png"
+    },
+    {
+      "name": "Mewduo",
+      "number": 431,
+      "location": "Cerulean Cave B2F",
+      "how": "Source lists a scripted encounter here; exact trigger not tested.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/mewsion_front.png"
+    },
+    {
+      "name": "Raikou",
+      "number": 432,
+      "location": "Power Plant — Route 10",
+      "how": "After becoming Johto Champion, speak to the Ruins of Alph scientist. Investigate the old generator, catch Raikou and return to the lab.",
+      "group": "RELICS",
+      "status": "ROM",
+      "sprite": "assets/previews/raikou_front.png"
+    },
+    {
+      "name": "Entei",
+      "number": 433,
+      "location": "Mt. Mortar — deepest cavern",
+      "how": "After Raikou, enter Mt. Mortar and reach its farthest cavern. Return to the lab after catching.",
+      "group": "RELICS",
+      "status": "ROM",
+      "sprite": "assets/previews/entei_front.png"
+    },
+    {
+      "name": "Suicune",
+      "number": 434,
+      "location": "Cerulean Cape — far end of Route 25",
+      "how": "Follow the lab clue to the far end of Route 25. NOT Ruins of Alph.",
+      "group": "RELICS",
+      "status": "ROM",
+      "sprite": "assets/previews/suicune_front.png"
+    },
+    {
+      "name": "Lugia",
+      "number": 435,
+      "location": "Whirl Islands — deepest chamber",
+      "how": "After Entei, reach the deepest chamber of Whirl Islands.",
+      "group": "RELICS",
+      "status": "ROM",
+      "sprite": "assets/previews/lugia_front.png"
+    },
+    {
+      "name": "Ho-Oh",
+      "number": 436,
+      "location": "Mt. Silver Summit",
+      "how": "Golden Ho-Oh finale: catch all seven RELICS, complete the Elite 20 and meet Professor Oak on the summit.",
+      "group": "Finale",
+      "status": "SOURCE",
+      "sprite": "assets/previews/ho-oh_front.png"
+    },
+    {
+      "name": "Alphoracle",
+      "number": 437,
+      "location": "Ruins of Alph — lower ruins",
+      "how": "After six RELICS, inspect the final stone statue at the far-right end.",
+      "group": "RELICS",
+      "status": "ROM",
+      "sprite": "assets/previews/alphoracle_front.png"
+    },
+    {
+      "name": "Celebi",
+      "number": 438,
+      "location": "Ilex Forest Shrine",
+      "how": "After I-Unown, examine the forest shrine and catch Celebi. This clue is source-backed and awaits exact ROM string verification.",
+      "group": "RELICS",
+      "status": "SOURCE",
+      "sprite": "assets/previews/celebi_front.png"
+    },
+    {
+      "name": "Regirock",
+      "number": 439,
+      "location": "Sinjoh Ruins — Regirock Room",
+      "how": "Find the Regirock chamber. Entrance conditions require Alpha 5 playtesting.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/regirock_front.png"
+    },
+    {
+      "name": "Regice",
+      "number": 440,
+      "location": "Sinjoh Ruins — Regice Room",
+      "how": "Find the Regice chamber. Entrance conditions require Alpha 5 playtesting.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/regice_front.png"
+    },
+    {
+      "name": "Registeel",
+      "number": 441,
+      "location": "Sinjoh Ruins — Registeel Room",
+      "how": "Find the Registeel chamber. Entrance conditions require Alpha 5 playtesting.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/registeel_front.png"
+    },
+    {
+      "name": "Latias",
+      "number": 442,
+      "location": "Southern Island Interior",
+      "how": "Source-documented scripted encounter; travel requirements unverified.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/latias_front.png"
+    },
+    {
+      "name": "Latios",
+      "number": 443,
+      "location": "Southern Island Interior",
+      "how": "Source-documented scripted encounter; travel requirements unverified.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/latios_front.png"
+    },
+    {
+      "name": "Kyogre",
+      "number": 444,
+      "location": "Seafoam Islands — Secret Cave",
+      "how": "Source-documented encounter; Primal form is permanent in PRU.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/kyogre_front.png"
+    },
+    {
+      "name": "Groudon",
+      "number": 445,
+      "location": "Mt. Silver 1F — Legendary Room",
+      "how": "Source-documented encounter; Primal form is permanent in PRU.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/groudon_front.png"
+    },
+    {
+      "name": "Rayquaza",
+      "number": 446,
+      "location": "Dragon's Den — Storm Shrine",
+      "how": "Source-documented encounter; permanent Mega form in PRU.",
+      "group": "Other",
+      "status": "SOURCE",
+      "sprite": "assets/previews/rayquaza_front.png"
+    },
+    {
+      "name": "Coelossus",
+      "number": 447,
+      "location": null,
+      "how": "Exact catchable location and unlock conditions not verified from this test ROM.",
+      "group": "Other",
+      "status": "UNKNOWN",
+      "sprite": "assets/previews/coelossus_front.png"
+    },
+    {
+      "name": "Jirachi",
+      "number": 448,
+      "location": null,
+      "how": "Exact catchable location and unlock conditions not verified from this test ROM.",
+      "group": "Other",
+      "status": "UNKNOWN",
+      "sprite": "assets/previews/jirachi_front.png"
+    },
+    {
+      "name": "Astrachi",
+      "number": 449,
+      "location": null,
+      "how": "Exact catchable location and unlock conditions not verified from this test ROM.",
+      "group": "Other",
+      "status": "UNKNOWN",
+      "sprite": "assets/previews/astrachi_front.png"
+    },
+    {
+      "name": "Deoxys",
+      "number": 450,
+      "location": null,
+      "how": "Exact catchable location and unlock conditions not verified from this test ROM.",
+      "group": "Other",
+      "status": "UNKNOWN",
+      "sprite": "assets/previews/deoxys-normal_front.png"
+    },
+    {
+      "name": "I-Unown (Eye Relic)",
+      "number": 246,
+      "location": "Ruins of Alph — Eye statue",
+      "how": "The I clue sends you below Ruins of Alph to the Eye statue after Lugia. This form shares the Unown Pokédex number.",
+      "group": "RELICS",
+      "status": "ROM",
+      "sprite": "assets/previews/unown_front.png"
+    },
+    {
+      "name": "Ancient Guardian Dragonite",
+      "number": 198,
+      "location": "Tin Tower Roof",
+      "how": "A separate Kimono Girls ceremony, reached by the Bellchime Trail roof shortcut. It is not one of the seven RELICS.",
+      "group": "Special",
+      "status": "SOURCE",
+      "sprite": "assets/previews/dragonite_front.png"
+    }
+  ]
+}
