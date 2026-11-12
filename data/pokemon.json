@@ -26019,8 +26019,121 @@
     "locationStatus": "wild"
   },
   {
-    "id": "kangaskhan",
+    "id": "kan",
     "number": 139,
+    "name": "Kan",
+    "speciesConstant": "SPECIES_KAN",
+    "category": "Joey",
+    "types": [
+      "Normal"
+    ],
+    "stats": {
+      "hp": 50,
+      "attack": 50,
+      "defense": 45,
+      "spAttack": 25,
+      "spDefense": 40,
+      "speed": 50
+    },
+    "bst": 260,
+    "abilities": [
+      "Early Bird",
+      "Scrappy",
+      "Inner Focus"
+    ],
+    "evolutions": [
+      {
+        "method": "Level",
+        "requirement": "20",
+        "targetConstant": "SPECIES_KANGASKHAN"
+      }
+    ],
+    "levelUpMoves": [
+      {
+        "level": 1,
+        "move": "Scratch"
+      },
+      {
+        "level": 1,
+        "move": "Tail Whip"
+      },
+      {
+        "level": 5,
+        "move": "Fake Out"
+      },
+      {
+        "level": 8,
+        "move": "Baby Doll Eyes"
+      },
+      {
+        "level": 11,
+        "move": "Helping Hand"
+      },
+      {
+        "level": 14,
+        "move": "Bite"
+      },
+      {
+        "level": 17,
+        "move": "Headbutt"
+      },
+      {
+        "level": 20,
+        "move": "Comet Punch"
+      },
+      {
+        "level": 24,
+        "move": "Stomp"
+      },
+      {
+        "level": 28,
+        "move": "Endure"
+      },
+      {
+        "level": 32,
+        "move": "Crunch"
+      },
+      {
+        "level": 36,
+        "move": "Dizzy Punch"
+      },
+      {
+        "level": 40,
+        "move": "Mega Punch"
+      },
+      {
+        "level": 45,
+        "move": "Reversal"
+      }
+    ],
+    "heightM": 0.6,
+    "weightKg": 11.5,
+    "dexEntry": "It practises quick punches on fallen branches. The plate on its head grows harder as it prepares for adulthood.",
+    "locations": [],
+    "specialLocations": [
+      {
+        "area": "Route 34 Day Care",
+        "method": "Secret Odd Egg",
+        "note": "Secret Odd Egg"
+      }
+    ],
+    "locationStatus": "egg_only",
+    "region": "Kanto",
+    "trainerVariants": [],
+    "sourceTier": "PRU Alpha 5 approved",
+    "sourceStatus": "COMPILED_ROM_QA_PENDING",
+    "sourceFile": "src/data/pokemon/species_info/pru_custom.h",
+    "sprite": {
+      "front": "assets/sprites/kan/front.png",
+      "back": "assets/sprites/kan/back.png",
+      "icon": "assets/sprites/kan/icon.png",
+      "shiny": "assets/sprites/kan/shiny.png"
+    },
+    "evolvesFrom": []
+  },
+  {
+    "id": "kangaskhan",
+    "number": 140,
     "name": "Kangaskhan",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_KANGASKHAN",
@@ -26175,9 +26288,9 @@
   },
   {
     "id": "khang",
-    "number": 140,
+    "number": 141,
     "name": "Khang",
-    "category": "PRU custom / exception",
+    "category": "Heir",
     "speciesConstant": "SPECIES_KHANG",
     "types": [
       "Normal",
@@ -26257,7 +26370,7 @@
     "evolvesFrom": [
       {
         "source": "Kangaskhan",
-        "sourceNumber": 139,
+        "sourceNumber": 140,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -26269,11 +26382,12 @@
       "icon": "assets/sprites/khang/icon.png"
     },
     "specialLocations": [],
-    "locationStatus": "evolution"
+    "locationStatus": "evolution",
+    "dexEntry": "It wears the tooth of its fallen mother Kangaskhan around its neck. Once a Kan, it now fights to honour her memory."
   },
   {
     "id": "horsea",
-    "number": 141,
+    "number": 142,
     "name": "Horsea",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_HORSEA",
@@ -26491,7 +26605,7 @@
   },
   {
     "id": "seadra",
-    "number": 142,
+    "number": 143,
     "name": "Seadra",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SEADRA",
@@ -26703,7 +26817,7 @@
     "evolvesFrom": [
       {
         "source": "Horsea",
-        "sourceNumber": 141,
+        "sourceNumber": 142,
         "method": "Level",
         "requirement": "32",
         "verification": "donor draft / ROM QA pending"
@@ -26719,7 +26833,7 @@
   },
   {
     "id": "kingdra",
-    "number": 143,
+    "number": 144,
     "name": "Kingdra",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_KINGDRA",
@@ -26831,7 +26945,7 @@
     "evolvesFrom": [
       {
         "source": "Seadra",
-        "sourceNumber": 142,
+        "sourceNumber": 143,
         "method": "Trade",
         "requirement": "0",
         "verification": "donor draft / ROM QA pending"
@@ -26847,7 +26961,7 @@
   },
   {
     "id": "goldeen",
-    "number": 144,
+    "number": 145,
     "name": "Goldeen",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_GOLDEEN",
@@ -27326,7 +27440,7 @@
   },
   {
     "id": "seaking",
-    "number": 145,
+    "number": 146,
     "name": "Seaking",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SEAKING",
@@ -27734,7 +27848,7 @@
     "evolvesFrom": [
       {
         "source": "Goldeen",
-        "sourceNumber": 144,
+        "sourceNumber": 145,
         "method": "Level",
         "requirement": "33",
         "verification": "donor draft / ROM QA pending"
@@ -27750,7 +27864,7 @@
   },
   {
     "id": "staryu",
-    "number": 146,
+    "number": 147,
     "name": "Staryu",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_STARYU",
@@ -28017,7 +28131,7 @@
   },
   {
     "id": "starmie",
-    "number": 147,
+    "number": 148,
     "name": "Starmie",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_STARMIE",
@@ -28109,7 +28223,7 @@
     "evolvesFrom": [
       {
         "source": "Staryu",
-        "sourceNumber": 146,
+        "sourceNumber": 147,
         "method": "Item",
         "requirement": "ITEM_WATER_STONE",
         "verification": "donor draft / ROM QA pending"
@@ -28125,7 +28239,7 @@
   },
   {
     "id": "mr-mime",
-    "number": 148,
+    "number": 149,
     "name": "Mr. Mime",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MR_MIME",
@@ -28297,7 +28411,7 @@
   },
   {
     "id": "scyther",
-    "number": 149,
+    "number": 150,
     "name": "Scyther",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SCYTHER",
@@ -28538,7 +28652,7 @@
   },
   {
     "id": "scizor",
-    "number": 150,
+    "number": 151,
     "name": "Scizor",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SCIZOR",
@@ -28666,7 +28780,7 @@
   },
   {
     "id": "smoochum",
-    "number": 151,
+    "number": 152,
     "name": "Smoochum",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SMOOCHUM",
@@ -28829,7 +28943,7 @@
   },
   {
     "id": "jynx",
-    "number": 152,
+    "number": 153,
     "name": "Jynx",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_JYNX",
@@ -29039,7 +29153,7 @@
     "evolvesFrom": [
       {
         "source": "Smoochum",
-        "sourceNumber": 151,
+        "sourceNumber": 152,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -29055,7 +29169,7 @@
   },
   {
     "id": "mystynx",
-    "number": 153,
+    "number": 154,
     "name": "Mystynx",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_MYSTYNX",
@@ -29183,9 +29297,10 @@
     ],
     "recommendedSet": null,
     "sprite": {
-      "front": "assets/previews/mystynx_front.png",
-      "back": "assets/previews/mystynx_back.png",
-      "icon": "assets/sprites/mystynx/icon.png"
+      "front": "assets/sprites/mystynx/front.png",
+      "back": "assets/sprites/mystynx/back.png",
+      "icon": "assets/sprites/mystynx/icon.png",
+      "shiny": "assets/sprites/mystynx/shiny.png"
     },
     "spriteNote": "PRL sprite archive (PRU exceptions above override)",
     "bst": 535,
@@ -29197,7 +29312,7 @@
     "evolvesFrom": [
       {
         "source": "Jynx",
-        "sourceNumber": 152,
+        "sourceNumber": 153,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -29213,7 +29328,7 @@
   },
   {
     "id": "elekid",
-    "number": 154,
+    "number": 155,
     "name": "Elekid",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_ELEKID",
@@ -29342,7 +29457,7 @@
   },
   {
     "id": "electabuzz",
-    "number": 155,
+    "number": 156,
     "name": "Electabuzz",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_ELECTABUZZ",
@@ -29532,7 +29647,7 @@
     "evolvesFrom": [
       {
         "source": "Elekid",
-        "sourceNumber": 154,
+        "sourceNumber": 155,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -29548,7 +29663,7 @@
   },
   {
     "id": "electivire",
-    "number": 156,
+    "number": 157,
     "name": "Electivire",
     "category": "PRU approved Pokémon",
     "speciesConstant": "SPECIES_ELECTIVIRE",
@@ -29589,7 +29704,7 @@
     "evolvesFrom": [
       {
         "source": "Electabuzz",
-        "sourceNumber": 155,
+        "sourceNumber": 156,
         "method": "Evolution",
         "requirement": "Check in-game evolution method",
         "verification": "Species family; specific method pending"
@@ -29599,7 +29714,7 @@
   },
   {
     "id": "magby",
-    "number": 157,
+    "number": 158,
     "name": "Magby",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MAGBY",
@@ -29752,7 +29867,7 @@
   },
   {
     "id": "magmar",
-    "number": 158,
+    "number": 159,
     "name": "Magmar",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MAGMAR",
@@ -29967,7 +30082,7 @@
     "evolvesFrom": [
       {
         "source": "Magby",
-        "sourceNumber": 157,
+        "sourceNumber": 158,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -29983,7 +30098,7 @@
   },
   {
     "id": "magmortar",
-    "number": 159,
+    "number": 160,
     "name": "Magmortar",
     "category": "PRU approved Pokémon",
     "speciesConstant": "SPECIES_MAGMORTAR",
@@ -30024,7 +30139,7 @@
     "evolvesFrom": [
       {
         "source": "Magmar",
-        "sourceNumber": 158,
+        "sourceNumber": 159,
         "method": "Evolution",
         "requirement": "Check in-game evolution method",
         "verification": "Species family; specific method pending"
@@ -30034,7 +30149,7 @@
   },
   {
     "id": "pinsir",
-    "number": 160,
+    "number": 161,
     "name": "Pinsir",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_PINSIR",
@@ -30211,7 +30326,7 @@
   },
   {
     "id": "pinsirex",
-    "number": 161,
+    "number": 162,
     "name": "Pinsirex",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_PINSIREX",
@@ -30337,7 +30452,7 @@
     "evolvesFrom": [
       {
         "source": "Pinsir",
-        "sourceNumber": 160,
+        "sourceNumber": 161,
         "method": "Level",
         "requirement": "42",
         "verification": "donor draft / ROM QA pending"
@@ -30353,7 +30468,7 @@
   },
   {
     "id": "tauros",
-    "number": 162,
+    "number": 163,
     "name": "Tauros",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TAUROS",
@@ -30520,7 +30635,7 @@
   },
   {
     "id": "magikarp",
-    "number": 163,
+    "number": 164,
     "name": "Magikarp",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MAGIKARP",
@@ -31876,7 +31991,7 @@
   },
   {
     "id": "gyarados",
-    "number": 164,
+    "number": 165,
     "name": "Gyarados",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_GYARADOS",
@@ -32060,7 +32175,7 @@
     "evolvesFrom": [
       {
         "source": "Magikarp",
-        "sourceNumber": 163,
+        "sourceNumber": 164,
         "method": "Level",
         "requirement": "20",
         "verification": "donor draft / ROM QA pending"
@@ -32076,7 +32191,7 @@
   },
   {
     "id": "lapras",
-    "number": 165,
+    "number": 166,
     "name": "Lapras",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LAPRAS",
@@ -32229,7 +32344,7 @@
   },
   {
     "id": "ditto",
-    "number": 166,
+    "number": 167,
     "name": "Ditto",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_DITTO",
@@ -32373,7 +32488,7 @@
   },
   {
     "id": "eevee",
-    "number": 167,
+    "number": 168,
     "name": "Eevee",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_EEVEE",
@@ -32609,7 +32724,7 @@
   },
   {
     "id": "eeveeon",
-    "number": 168,
+    "number": 169,
     "name": "Eeveeon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_EEVEEON",
@@ -32758,7 +32873,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Ancient Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -32774,7 +32889,7 @@
   },
   {
     "id": "nimbeon",
-    "number": 169,
+    "number": 170,
     "name": "Aereon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_NIMBEON",
@@ -32903,7 +33018,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Shiny Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -32919,7 +33034,7 @@
   },
   {
     "id": "champeon",
-    "number": 170,
+    "number": 171,
     "name": "Champeon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_CHAMPEON",
@@ -33067,7 +33182,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Expert Belt",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -33083,7 +33198,7 @@
   },
   {
     "id": "lepideon",
-    "number": 171,
+    "number": 172,
     "name": "Moffeon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_LEPIDEON",
@@ -33219,7 +33334,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Silver Powder",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -33235,7 +33350,7 @@
   },
   {
     "id": "sphynxeon",
-    "number": 172,
+    "number": 173,
     "name": "Eartheon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SPHYNXEON",
@@ -33379,7 +33494,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Soft Sand",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -33395,7 +33510,7 @@
   },
   {
     "id": "guardeon",
-    "number": 173,
+    "number": 174,
     "name": "Galveon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_GUARDEON",
@@ -33535,7 +33650,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Metal Coat",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -33551,7 +33666,7 @@
   },
   {
     "id": "obsideon",
-    "number": 174,
+    "number": 175,
     "name": "Pebleon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_OBSIDEON",
@@ -33695,7 +33810,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Hard Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -33711,7 +33826,7 @@
   },
   {
     "id": "toxeon",
-    "number": 175,
+    "number": 176,
     "name": "Toxeon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_TOXEON",
@@ -33839,7 +33954,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Poison Barb",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -33855,7 +33970,7 @@
   },
   {
     "id": "omeon",
-    "number": 176,
+    "number": 177,
     "name": "Obliveon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_OMEON",
@@ -33995,7 +34110,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Dusk Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34011,7 +34126,7 @@
   },
   {
     "id": "drakeon",
-    "number": 177,
+    "number": 178,
     "name": "Mytheon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_DRAKEON",
@@ -34123,7 +34238,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Dragon Fang",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34139,7 +34254,7 @@
   },
   {
     "id": "vaporeon",
-    "number": 178,
+    "number": 179,
     "name": "Vaporeon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_VAPOREON",
@@ -34241,7 +34356,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Water Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34257,7 +34372,7 @@
   },
   {
     "id": "jolteon",
-    "number": 179,
+    "number": 180,
     "name": "Jolteon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_JOLTEON",
@@ -34359,7 +34474,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Thunder Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34375,7 +34490,7 @@
   },
   {
     "id": "flareon",
-    "number": 180,
+    "number": 181,
     "name": "Flareon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_FLAREON",
@@ -34477,7 +34592,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Fire Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34493,7 +34608,7 @@
   },
   {
     "id": "espeon",
-    "number": 181,
+    "number": 182,
     "name": "Espeon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_ESPEON",
@@ -34596,7 +34711,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Sun Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34612,7 +34727,7 @@
   },
   {
     "id": "umbreon",
-    "number": 182,
+    "number": 183,
     "name": "Umbreon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_UMBREON",
@@ -34715,7 +34830,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Moon Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34731,7 +34846,7 @@
   },
   {
     "id": "leafeon",
-    "number": 183,
+    "number": 184,
     "name": "Leafeon",
     "category": "PRU approved Pokémon",
     "speciesConstant": "SPECIES_LEAFEON",
@@ -34772,7 +34887,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Leaf Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34782,7 +34897,7 @@
   },
   {
     "id": "glaceon",
-    "number": 184,
+    "number": 185,
     "name": "Glaceon",
     "category": "PRU approved Pokémon",
     "speciesConstant": "SPECIES_GLACEON",
@@ -34823,7 +34938,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Ice Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34833,7 +34948,7 @@
   },
   {
     "id": "sylveon",
-    "number": 185,
+    "number": 186,
     "name": "Sylveon",
     "category": "PRU approved Pokémon",
     "speciesConstant": "SPECIES_SYLVEON",
@@ -34874,7 +34989,7 @@
     "evolvesFrom": [
       {
         "source": "Eevee",
-        "sourceNumber": 167,
+        "sourceNumber": 168,
         "method": "Item",
         "requirement": "Dawn Stone",
         "verification": "PRU Alpha 01 HNS-only source table"
@@ -34884,7 +34999,7 @@
   },
   {
     "id": "porygon",
-    "number": 186,
+    "number": 187,
     "name": "Porygon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_PORYGON",
@@ -35018,7 +35133,7 @@
   },
   {
     "id": "porygon2",
-    "number": 187,
+    "number": 188,
     "name": "Porygon2",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_PORYGON2",
@@ -35135,7 +35250,7 @@
     "evolvesFrom": [
       {
         "source": "Porygon",
-        "sourceNumber": 186,
+        "sourceNumber": 187,
         "method": "Trade",
         "requirement": "0",
         "verification": "donor draft / ROM QA pending"
@@ -35151,7 +35266,7 @@
   },
   {
     "id": "omanyte",
-    "number": 188,
+    "number": 189,
     "name": "Omanyte",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_OMANYTE",
@@ -35285,7 +35400,7 @@
   },
   {
     "id": "omastar",
-    "number": 189,
+    "number": 190,
     "name": "Omastar",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_OMASTAR",
@@ -35392,7 +35507,7 @@
     "evolvesFrom": [
       {
         "source": "Omanyte",
-        "sourceNumber": 188,
+        "sourceNumber": 189,
         "method": "Level",
         "requirement": "40",
         "verification": "donor draft / ROM QA pending"
@@ -35408,7 +35523,7 @@
   },
   {
     "id": "kabuto",
-    "number": 190,
+    "number": 191,
     "name": "Kabuto",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_KABUTO",
@@ -35538,7 +35653,7 @@
   },
   {
     "id": "kabutops",
-    "number": 191,
+    "number": 192,
     "name": "Kabutops",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_KABUTOPS",
@@ -35653,7 +35768,7 @@
     "evolvesFrom": [
       {
         "source": "Kabuto",
-        "sourceNumber": 190,
+        "sourceNumber": 191,
         "method": "Level",
         "requirement": "40",
         "verification": "donor draft / ROM QA pending"
@@ -35669,7 +35784,7 @@
   },
   {
     "id": "aerodactyl",
-    "number": 192,
+    "number": 193,
     "name": "Aerodactyl",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_AERODACTYL",
@@ -35809,7 +35924,7 @@
   },
   {
     "id": "snorlax",
-    "number": 193,
+    "number": 194,
     "name": "Snorlax",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SNORLAX",
@@ -35927,7 +36042,7 @@
   },
   {
     "id": "nolax",
-    "number": 194,
+    "number": 195,
     "name": "Nolax",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_NOLAX",
@@ -36021,7 +36136,7 @@
     "evolvesFrom": [
       {
         "source": "Snorlax",
-        "sourceNumber": 193,
+        "sourceNumber": 194,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -36037,7 +36152,7 @@
   },
   {
     "id": "dratini",
-    "number": 195,
+    "number": 196,
     "name": "Dratini",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_DRATINI",
@@ -36204,7 +36319,7 @@
   },
   {
     "id": "dragonair",
-    "number": 196,
+    "number": 197,
     "name": "Dragonair",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_DRAGONAIR",
@@ -36355,7 +36470,7 @@
     "evolvesFrom": [
       {
         "source": "Dratini",
-        "sourceNumber": 195,
+        "sourceNumber": 196,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -36371,7 +36486,7 @@
   },
   {
     "id": "dragonite",
-    "number": 197,
+    "number": 198,
     "name": "Dragonite",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_DRAGONITE",
@@ -36494,7 +36609,7 @@
     "evolvesFrom": [
       {
         "source": "Dragonair",
-        "sourceNumber": 196,
+        "sourceNumber": 197,
         "method": "Level",
         "requirement": "55",
         "verification": "donor draft / ROM QA pending"
@@ -36518,7 +36633,7 @@
   },
   {
     "id": "chikorita",
-    "number": 198,
+    "number": 199,
     "name": "Chikorita",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_CHIKORITA",
@@ -36648,7 +36763,7 @@
   },
   {
     "id": "bayleef",
-    "number": 199,
+    "number": 200,
     "name": "Bayleef",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_BAYLEEF",
@@ -36764,7 +36879,7 @@
     "evolvesFrom": [
       {
         "source": "Chikorita",
-        "sourceNumber": 198,
+        "sourceNumber": 199,
         "method": "Level",
         "requirement": "16",
         "verification": "donor draft / ROM QA pending"
@@ -36780,7 +36895,7 @@
   },
   {
     "id": "meganium",
-    "number": 200,
+    "number": 201,
     "name": "Meganium",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MEGANIUM",
@@ -36916,7 +37031,7 @@
     "evolvesFrom": [
       {
         "source": "Bayleef",
-        "sourceNumber": 199,
+        "sourceNumber": 200,
         "method": "Level",
         "requirement": "32",
         "verification": "donor draft / ROM QA pending"
@@ -36932,7 +37047,7 @@
   },
   {
     "id": "faeranium",
-    "number": 201,
+    "number": 202,
     "name": "Faeranium",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_FAERANIUM",
@@ -37044,7 +37159,7 @@
     "evolvesFrom": [
       {
         "source": "Meganium",
-        "sourceNumber": 200,
+        "sourceNumber": 201,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -37060,7 +37175,7 @@
   },
   {
     "id": "cyndaquil",
-    "number": 202,
+    "number": 203,
     "name": "Cyndaquil",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_CYNDAQUIL",
@@ -37186,7 +37301,7 @@
   },
   {
     "id": "quilava",
-    "number": 203,
+    "number": 204,
     "name": "Quilava",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_QUILAVA",
@@ -37308,7 +37423,7 @@
     "evolvesFrom": [
       {
         "source": "Cyndaquil",
-        "sourceNumber": 202,
+        "sourceNumber": 203,
         "method": "Level",
         "requirement": "14",
         "verification": "donor draft / ROM QA pending"
@@ -37324,7 +37439,7 @@
   },
   {
     "id": "typhlosion",
-    "number": 204,
+    "number": 205,
     "name": "Typhlosion",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TYPHLOSION",
@@ -37455,7 +37570,7 @@
     "evolvesFrom": [
       {
         "source": "Quilava",
-        "sourceNumber": 203,
+        "sourceNumber": 204,
         "method": "Level",
         "requirement": "36",
         "verification": "donor draft / ROM QA pending"
@@ -37471,7 +37586,7 @@
   },
   {
     "id": "pyroclast",
-    "number": 205,
+    "number": 206,
     "name": "Pyroclast",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_PYROCLAST",
@@ -37579,7 +37694,7 @@
     "evolvesFrom": [
       {
         "source": "Typhlosion",
-        "sourceNumber": 204,
+        "sourceNumber": 205,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -37595,7 +37710,7 @@
   },
   {
     "id": "totodile",
-    "number": 206,
+    "number": 207,
     "name": "Totodile",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TOTODILE",
@@ -37728,7 +37843,7 @@
   },
   {
     "id": "croconaw",
-    "number": 207,
+    "number": 208,
     "name": "Croconaw",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_CROCONAW",
@@ -37857,7 +37972,7 @@
     "evolvesFrom": [
       {
         "source": "Totodile",
-        "sourceNumber": 206,
+        "sourceNumber": 207,
         "method": "Level",
         "requirement": "18",
         "verification": "donor draft / ROM QA pending"
@@ -37873,7 +37988,7 @@
   },
   {
     "id": "feraligatr",
-    "number": 208,
+    "number": 209,
     "name": "Feraligatr",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_FERALIGATR",
@@ -38012,7 +38127,7 @@
     "evolvesFrom": [
       {
         "source": "Croconaw",
-        "sourceNumber": 207,
+        "sourceNumber": 208,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -38028,7 +38143,7 @@
   },
   {
     "id": "feralodon",
-    "number": 209,
+    "number": 210,
     "name": "Feralodon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_FERALODON",
@@ -38140,7 +38255,7 @@
     "evolvesFrom": [
       {
         "source": "Feraligatr",
-        "sourceNumber": 208,
+        "sourceNumber": 209,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -38156,7 +38271,7 @@
   },
   {
     "id": "sentret",
-    "number": 210,
+    "number": 211,
     "name": "Sentret",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SENTRET",
@@ -38299,7 +38414,7 @@
   },
   {
     "id": "furret",
-    "number": 211,
+    "number": 212,
     "name": "Furret",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_FURRET",
@@ -38495,7 +38610,7 @@
     "evolvesFrom": [
       {
         "source": "Sentret",
-        "sourceNumber": 210,
+        "sourceNumber": 211,
         "method": "Level",
         "requirement": "15",
         "verification": "donor draft / ROM QA pending"
@@ -38511,7 +38626,7 @@
   },
   {
     "id": "hoothoot",
-    "number": 212,
+    "number": 213,
     "name": "Hoothoot",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_HOOTHOOT",
@@ -38743,7 +38858,7 @@
   },
   {
     "id": "noctowl",
-    "number": 213,
+    "number": 214,
     "name": "Noctowl",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_NOCTOWL",
@@ -39129,7 +39244,7 @@
     "evolvesFrom": [
       {
         "source": "Hoothoot",
-        "sourceNumber": 212,
+        "sourceNumber": 213,
         "method": "Level",
         "requirement": "20",
         "verification": "donor draft / ROM QA pending"
@@ -39145,7 +39260,7 @@
   },
   {
     "id": "grimfowl",
-    "number": 214,
+    "number": 215,
     "name": "Grimfowl",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_GRIMFOWL",
@@ -39278,7 +39393,7 @@
     "evolvesFrom": [
       {
         "source": "Noctowl",
-        "sourceNumber": 213,
+        "sourceNumber": 214,
         "method": "Item",
         "requirement": "ITEM_DUSK_STONE",
         "verification": "donor draft / ROM QA pending"
@@ -39294,7 +39409,7 @@
   },
   {
     "id": "ledyba",
-    "number": 215,
+    "number": 216,
     "name": "Ledyba",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LEDYBA",
@@ -39887,7 +40002,7 @@
   },
   {
     "id": "ledian",
-    "number": 216,
+    "number": 217,
     "name": "Ledian",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LEDIAN",
@@ -40020,7 +40135,7 @@
     "evolvesFrom": [
       {
         "source": "Ledyba",
-        "sourceNumber": 215,
+        "sourceNumber": 216,
         "method": "Level",
         "requirement": "18",
         "verification": "donor draft / ROM QA pending"
@@ -40036,7 +40151,7 @@
   },
   {
     "id": "spinarak",
-    "number": 217,
+    "number": 218,
     "name": "Spinarak",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SPINARAK",
@@ -40632,7 +40747,7 @@
   },
   {
     "id": "ariados",
-    "number": 218,
+    "number": 219,
     "name": "Ariados",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_ARIADOS",
@@ -40784,7 +40899,7 @@
     "evolvesFrom": [
       {
         "source": "Spinarak",
-        "sourceNumber": 217,
+        "sourceNumber": 218,
         "method": "Level",
         "requirement": "22",
         "verification": "donor draft / ROM QA pending"
@@ -40800,7 +40915,7 @@
   },
   {
     "id": "chinchou",
-    "number": 219,
+    "number": 220,
     "name": "Chinchou",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_CHINCHOU",
@@ -41092,7 +41207,7 @@
   },
   {
     "id": "lanturn",
-    "number": 220,
+    "number": 221,
     "name": "Lanturn",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LANTURN",
@@ -41362,7 +41477,7 @@
     "evolvesFrom": [
       {
         "source": "Chinchou",
-        "sourceNumber": 219,
+        "sourceNumber": 220,
         "method": "Level",
         "requirement": "27",
         "verification": "donor draft / ROM QA pending"
@@ -41378,7 +41493,7 @@
   },
   {
     "id": "togepi",
-    "number": 221,
+    "number": 222,
     "name": "Togepi",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TOGEPI",
@@ -41502,7 +41617,7 @@
   },
   {
     "id": "togetic",
-    "number": 222,
+    "number": 223,
     "name": "Togetic",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TOGETIC",
@@ -41619,7 +41734,7 @@
     "evolvesFrom": [
       {
         "source": "Togepi",
-        "sourceNumber": 221,
+        "sourceNumber": 222,
         "method": "Level",
         "requirement": "0",
         "verification": "donor draft / ROM QA pending"
@@ -41635,7 +41750,7 @@
   },
   {
     "id": "natu",
-    "number": 223,
+    "number": 224,
     "name": "Natu",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_NATU",
@@ -41821,7 +41936,7 @@
   },
   {
     "id": "xatu",
-    "number": 224,
+    "number": 225,
     "name": "Xatu",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_XATU",
@@ -41946,7 +42061,7 @@
     "evolvesFrom": [
       {
         "source": "Natu",
-        "sourceNumber": 223,
+        "sourceNumber": 224,
         "method": "Level",
         "requirement": "25",
         "verification": "donor draft / ROM QA pending"
@@ -41962,7 +42077,7 @@
   },
   {
     "id": "mareep",
-    "number": 225,
+    "number": 226,
     "name": "Mareep",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MAREEP",
@@ -42092,7 +42207,7 @@
   },
   {
     "id": "flaaffy",
-    "number": 226,
+    "number": 227,
     "name": "Flaaffy",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_FLAAFFY",
@@ -42196,7 +42311,7 @@
     "evolvesFrom": [
       {
         "source": "Mareep",
-        "sourceNumber": 225,
+        "sourceNumber": 226,
         "method": "Level",
         "requirement": "15",
         "verification": "donor draft / ROM QA pending"
@@ -42212,7 +42327,7 @@
   },
   {
     "id": "ampharos",
-    "number": 227,
+    "number": 228,
     "name": "Ampharos",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_AMPHAROS",
@@ -42335,7 +42450,7 @@
     "evolvesFrom": [
       {
         "source": "Flaaffy",
-        "sourceNumber": 226,
+        "sourceNumber": 227,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -42351,7 +42466,7 @@
   },
   {
     "id": "azurill",
-    "number": 228,
+    "number": 229,
     "name": "Azurill",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_AZURILL",
@@ -42449,7 +42564,7 @@
   },
   {
     "id": "marill",
-    "number": 229,
+    "number": 230,
     "name": "Marill",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MARILL",
@@ -42627,7 +42742,7 @@
     "evolvesFrom": [
       {
         "source": "Azurill",
-        "sourceNumber": 228,
+        "sourceNumber": 229,
         "method": "Level",
         "requirement": "0",
         "verification": "donor draft / ROM QA pending"
@@ -42643,7 +42758,7 @@
   },
   {
     "id": "azumarill",
-    "number": 230,
+    "number": 231,
     "name": "Azumarill",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_AZUMARILL",
@@ -42745,7 +42860,7 @@
     "evolvesFrom": [
       {
         "source": "Marill",
-        "sourceNumber": 229,
+        "sourceNumber": 230,
         "method": "Level",
         "requirement": "18",
         "verification": "donor draft / ROM QA pending"
@@ -42761,7 +42876,7 @@
   },
   {
     "id": "sudowoodo",
-    "number": 231,
+    "number": 232,
     "name": "Sudowoodo",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SUDOWOODO",
@@ -42890,7 +43005,7 @@
   },
   {
     "id": "hoppip",
-    "number": 232,
+    "number": 233,
     "name": "Hoppip",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_HOPPIP",
@@ -43089,7 +43204,7 @@
   },
   {
     "id": "skiploom",
-    "number": 233,
+    "number": 234,
     "name": "Skiploom",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SKIPLOOM",
@@ -43244,7 +43359,7 @@
     "evolvesFrom": [
       {
         "source": "Hoppip",
-        "sourceNumber": 232,
+        "sourceNumber": 233,
         "method": "Level",
         "requirement": "18",
         "verification": "donor draft / ROM QA pending"
@@ -43260,7 +43375,7 @@
   },
   {
     "id": "jumpluff",
-    "number": 234,
+    "number": 235,
     "name": "Jumpluff",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_JUMPLUFF",
@@ -43396,7 +43511,7 @@
     "evolvesFrom": [
       {
         "source": "Skiploom",
-        "sourceNumber": 233,
+        "sourceNumber": 234,
         "method": "Level",
         "requirement": "27",
         "verification": "donor draft / ROM QA pending"
@@ -43412,7 +43527,7 @@
   },
   {
     "id": "aipom",
-    "number": 235,
+    "number": 236,
     "name": "Aipom",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_AIPOM",
@@ -43814,7 +43929,7 @@
   },
   {
     "id": "sunkern",
-    "number": 236,
+    "number": 237,
     "name": "Sunkern",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SUNKERN",
@@ -43952,7 +44067,7 @@
   },
   {
     "id": "sunflora",
-    "number": 237,
+    "number": 238,
     "name": "Sunflora",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SUNFLORA",
@@ -44061,7 +44176,7 @@
     "evolvesFrom": [
       {
         "source": "Sunkern",
-        "sourceNumber": 236,
+        "sourceNumber": 237,
         "method": "Item",
         "requirement": "ITEM_SUN_STONE",
         "verification": "donor draft / ROM QA pending"
@@ -44077,7 +44192,7 @@
   },
   {
     "id": "sunflorid",
-    "number": 238,
+    "number": 239,
     "name": "Sunflorid",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SUNFLORID",
@@ -44243,7 +44358,7 @@
     "evolvesFrom": [
       {
         "source": "Sunflora",
-        "sourceNumber": 237,
+        "sourceNumber": 238,
         "method": "Item",
         "requirement": "ITEM_FIRE_STONE",
         "verification": "donor draft / ROM QA pending"
@@ -44259,7 +44374,7 @@
   },
   {
     "id": "yanma",
-    "number": 239,
+    "number": 240,
     "name": "Yanma",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_YANMA",
@@ -44411,7 +44526,7 @@
   },
   {
     "id": "wooper",
-    "number": 240,
+    "number": 241,
     "name": "Wooper",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_WOOPER",
@@ -44648,7 +44763,7 @@
   },
   {
     "id": "quagsire",
-    "number": 241,
+    "number": 242,
     "name": "Quagsire",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_QUAGSIRE",
@@ -45032,7 +45147,7 @@
     "evolvesFrom": [
       {
         "source": "Wooper",
-        "sourceNumber": 240,
+        "sourceNumber": 241,
         "method": "Level",
         "requirement": "20",
         "verification": "donor draft / ROM QA pending"
@@ -45048,7 +45163,7 @@
   },
   {
     "id": "clodsire",
-    "number": 242,
+    "number": 243,
     "name": "Clodsire",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_CLODSIRE",
@@ -45152,7 +45267,7 @@
   },
   {
     "id": "murkrow",
-    "number": 243,
+    "number": 244,
     "name": "Murkrow",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MURKROW",
@@ -45331,7 +45446,7 @@
   },
   {
     "id": "misdreavus",
-    "number": 244,
+    "number": 245,
     "name": "Misdreavus",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MISDREAVUS",
@@ -45649,7 +45764,7 @@
   },
   {
     "id": "unown",
-    "number": 245,
+    "number": 246,
     "name": "Unown",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_UNOWN",
@@ -45775,7 +45890,7 @@
   },
   {
     "id": "wynaut",
-    "number": 246,
+    "number": 247,
     "name": "Wynaut",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_WYNAUT",
@@ -45876,7 +45991,7 @@
   },
   {
     "id": "wobbuffet",
-    "number": 247,
+    "number": 248,
     "name": "Wobbuffet",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_WOBBUFFET",
@@ -45975,7 +46090,7 @@
     "evolvesFrom": [
       {
         "source": "Wynaut",
-        "sourceNumber": 246,
+        "sourceNumber": 247,
         "method": "Level",
         "requirement": "15",
         "verification": "donor draft / ROM QA pending"
@@ -45991,7 +46106,7 @@
   },
   {
     "id": "girafarig",
-    "number": 248,
+    "number": 249,
     "name": "Girafarig",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_GIRAFARIG",
@@ -46155,7 +46270,7 @@
   },
   {
     "id": "pineco",
-    "number": 249,
+    "number": 250,
     "name": "Pineco",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_PINECO",
@@ -46947,7 +47062,7 @@
   },
   {
     "id": "forretress",
-    "number": 250,
+    "number": 251,
     "name": "Forretress",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_FORRETRESS",
@@ -47126,7 +47241,7 @@
     "evolvesFrom": [
       {
         "source": "Pineco",
-        "sourceNumber": 249,
+        "sourceNumber": 250,
         "method": "Level",
         "requirement": "31",
         "verification": "donor draft / ROM QA pending"
@@ -47142,7 +47257,7 @@
   },
   {
     "id": "dunsparce",
-    "number": 251,
+    "number": 252,
     "name": "Dunsparce",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_DUNSPARCE",
@@ -47284,7 +47399,7 @@
   },
   {
     "id": "gligar",
-    "number": 252,
+    "number": 253,
     "name": "Gligar",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_GLIGAR",
@@ -47436,7 +47551,7 @@
   },
   {
     "id": "snubbull",
-    "number": 253,
+    "number": 254,
     "name": "Snubbull",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SNUBBULL",
@@ -47630,7 +47745,7 @@
   },
   {
     "id": "granbull",
-    "number": 254,
+    "number": 255,
     "name": "Granbull",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_GRANBULL",
@@ -47749,7 +47864,7 @@
     "evolvesFrom": [
       {
         "source": "Snubbull",
-        "sourceNumber": 253,
+        "sourceNumber": 254,
         "method": "Level",
         "requirement": "23",
         "verification": "donor draft / ROM QA pending"
@@ -47765,7 +47880,7 @@
   },
   {
     "id": "qwilfish",
-    "number": 255,
+    "number": 256,
     "name": "Qwilfish",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_QWILFISH",
@@ -47942,7 +48057,7 @@
   },
   {
     "id": "kablowfish",
-    "number": 256,
+    "number": 257,
     "name": "Kablowfish",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_KABLOWFISH",
@@ -48108,7 +48223,7 @@
     "evolvesFrom": [
       {
         "source": "Qwilfish",
-        "sourceNumber": 255,
+        "sourceNumber": 256,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -48124,7 +48239,7 @@
   },
   {
     "id": "shuckle",
-    "number": 257,
+    "number": 258,
     "name": "Shuckle",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SHUCKLE",
@@ -48266,7 +48381,7 @@
   },
   {
     "id": "shuckolosse",
-    "number": 258,
+    "number": 259,
     "name": "Shuckolosse",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SHUCKOLOSSE",
@@ -48380,7 +48495,7 @@
     "evolvesFrom": [
       {
         "source": "Shuckle",
-        "sourceNumber": 257,
+        "sourceNumber": 258,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -48396,7 +48511,7 @@
   },
   {
     "id": "scarabub",
-    "number": 259,
+    "number": 260,
     "name": "Scarabub",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SCARABUB",
@@ -48491,7 +48606,7 @@
   },
   {
     "id": "heracross",
-    "number": 260,
+    "number": 261,
     "name": "Heracross",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_HERACROSS",
@@ -48816,7 +48931,7 @@
     "evolvesFrom": [
       {
         "source": "Scarabub",
-        "sourceNumber": 259,
+        "sourceNumber": 260,
         "method": "Level",
         "requirement": "18",
         "verification": "donor draft / ROM QA pending"
@@ -48832,7 +48947,7 @@
   },
   {
     "id": "heracurion",
-    "number": 261,
+    "number": 262,
     "name": "Heracurion",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_HERACURION",
@@ -48967,7 +49082,7 @@
     "evolvesFrom": [
       {
         "source": "Heracross",
-        "sourceNumber": 260,
+        "sourceNumber": 261,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -48983,7 +49098,7 @@
   },
   {
     "id": "sneasel",
-    "number": 262,
+    "number": 263,
     "name": "Sneasel",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SNEASEL",
@@ -49198,7 +49313,7 @@
   },
   {
     "id": "teddiursa",
-    "number": 263,
+    "number": 264,
     "name": "Teddiursa",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TEDDIURSA",
@@ -49340,7 +49455,7 @@
   },
   {
     "id": "ursaring",
-    "number": 264,
+    "number": 265,
     "name": "Ursaring",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_URSARING",
@@ -49587,7 +49702,7 @@
     "evolvesFrom": [
       {
         "source": "Teddiursa",
-        "sourceNumber": 263,
+        "sourceNumber": 264,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -49603,7 +49718,7 @@
   },
   {
     "id": "slugma",
-    "number": 265,
+    "number": 266,
     "name": "Slugma",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SLUGMA",
@@ -49755,7 +49870,7 @@
   },
   {
     "id": "magcargo",
-    "number": 266,
+    "number": 267,
     "name": "Magcargo",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MAGCARGO",
@@ -49887,7 +50002,7 @@
     "evolvesFrom": [
       {
         "source": "Slugma",
-        "sourceNumber": 265,
+        "sourceNumber": 266,
         "method": "Level",
         "requirement": "38",
         "verification": "donor draft / ROM QA pending"
@@ -49903,7 +50018,7 @@
   },
   {
     "id": "swinub",
-    "number": 267,
+    "number": 268,
     "name": "Swinub",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SWINUB",
@@ -50082,7 +50197,7 @@
   },
   {
     "id": "piloswine",
-    "number": 268,
+    "number": 269,
     "name": "Piloswine",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_PILOSWINE",
@@ -50282,7 +50397,7 @@
     "evolvesFrom": [
       {
         "source": "Swinub",
-        "sourceNumber": 267,
+        "sourceNumber": 268,
         "method": "Level",
         "requirement": "33",
         "verification": "donor draft / ROM QA pending"
@@ -50298,7 +50413,7 @@
   },
   {
     "id": "corsola",
-    "number": 269,
+    "number": 270,
     "name": "Corsola",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_CORSOLA",
@@ -50571,7 +50686,7 @@
   },
   {
     "id": "remoraid",
-    "number": 270,
+    "number": 271,
     "name": "Remoraid",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_REMORAID",
@@ -50752,7 +50867,7 @@
   },
   {
     "id": "octillery",
-    "number": 271,
+    "number": 272,
     "name": "Octillery",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_OCTILLERY",
@@ -50880,7 +50995,7 @@
     "evolvesFrom": [
       {
         "source": "Remoraid",
-        "sourceNumber": 270,
+        "sourceNumber": 271,
         "method": "Level",
         "requirement": "25",
         "verification": "donor draft / ROM QA pending"
@@ -50896,7 +51011,7 @@
   },
   {
     "id": "delibird",
-    "number": 272,
+    "number": 273,
     "name": "Delibird",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_DELIBIRD",
@@ -51059,7 +51174,7 @@
   },
   {
     "id": "jollibird",
-    "number": 273,
+    "number": 274,
     "name": "Jollibird",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_JOLLIBIRD",
@@ -51158,7 +51273,7 @@
     "evolvesFrom": [
       {
         "source": "Delibird",
-        "sourceNumber": 272,
+        "sourceNumber": 273,
         "method": "Item",
         "requirement": "ITEM_SHINY_STONE",
         "verification": "donor draft / ROM QA pending"
@@ -51174,7 +51289,7 @@
   },
   {
     "id": "mantine",
-    "number": 274,
+    "number": 275,
     "name": "Mantine",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MANTINE",
@@ -51364,7 +51479,7 @@
   },
   {
     "id": "skarmet",
-    "number": 275,
+    "number": 276,
     "name": "Skarmet",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SKARMET",
@@ -51464,7 +51579,7 @@
   },
   {
     "id": "skarmory",
-    "number": 276,
+    "number": 277,
     "name": "Skarmory",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SKARMORY",
@@ -51689,7 +51804,7 @@
     "evolvesFrom": [
       {
         "source": "Skarmet",
-        "sourceNumber": 275,
+        "sourceNumber": 276,
         "method": "Level",
         "requirement": "18",
         "verification": "donor draft / ROM QA pending"
@@ -51705,7 +51820,7 @@
   },
   {
     "id": "skarmadon",
-    "number": 277,
+    "number": 278,
     "name": "Skarmadon",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SKARMADON",
@@ -51811,7 +51926,7 @@
     "evolvesFrom": [
       {
         "source": "Skarmory",
-        "sourceNumber": 276,
+        "sourceNumber": 277,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -51827,7 +51942,7 @@
   },
   {
     "id": "houndour",
-    "number": 278,
+    "number": 279,
     "name": "Houndour",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_HOUNDOUR",
@@ -52008,7 +52123,7 @@
   },
   {
     "id": "houndoom",
-    "number": 279,
+    "number": 280,
     "name": "Houndoom",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_HOUNDOOM",
@@ -52175,7 +52290,7 @@
     "evolvesFrom": [
       {
         "source": "Houndour",
-        "sourceNumber": 278,
+        "sourceNumber": 279,
         "method": "Level",
         "requirement": "24",
         "verification": "donor draft / ROM QA pending"
@@ -52191,7 +52306,7 @@
   },
   {
     "id": "phanpy",
-    "number": 280,
+    "number": 281,
     "name": "Phanpy",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_PHANPY",
@@ -52328,7 +52443,7 @@
   },
   {
     "id": "donphan",
-    "number": 281,
+    "number": 282,
     "name": "Donphan",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_DONPHAN",
@@ -52507,7 +52622,7 @@
     "evolvesFrom": [
       {
         "source": "Phanpy",
-        "sourceNumber": 280,
+        "sourceNumber": 281,
         "method": "Level",
         "requirement": "25",
         "verification": "donor draft / ROM QA pending"
@@ -52523,7 +52638,7 @@
   },
   {
     "id": "donphalanx",
-    "number": 282,
+    "number": 283,
     "name": "Donphalanx",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_DONPHALANX",
@@ -52658,7 +52773,7 @@
     "evolvesFrom": [
       {
         "source": "Donphan",
-        "sourceNumber": 281,
+        "sourceNumber": 282,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -52674,7 +52789,7 @@
   },
   {
     "id": "stantler",
-    "number": 283,
+    "number": 284,
     "name": "Stantler",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_STANTLER",
@@ -52842,7 +52957,7 @@
   },
   {
     "id": "smeargle",
-    "number": 284,
+    "number": 285,
     "name": "Smeargle",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SMEARGLE",
@@ -52950,7 +53065,7 @@
   },
   {
     "id": "mootiny",
-    "number": 285,
+    "number": 286,
     "name": "Mootiny",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_MOOTINY",
@@ -53049,7 +53164,7 @@
   },
   {
     "id": "miltank",
-    "number": 286,
+    "number": 287,
     "name": "Miltank",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MILTANK",
@@ -53218,7 +53333,7 @@
     "evolvesFrom": [
       {
         "source": "Mootiny",
-        "sourceNumber": 285,
+        "sourceNumber": 286,
         "method": "Level",
         "requirement": "18",
         "verification": "donor draft / ROM QA pending"
@@ -53234,7 +53349,7 @@
   },
   {
     "id": "miltitan",
-    "number": 287,
+    "number": 288,
     "name": "Miltitan",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_MILTITAN",
@@ -53352,7 +53467,7 @@
     "evolvesFrom": [
       {
         "source": "Miltank",
-        "sourceNumber": 286,
+        "sourceNumber": 287,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -53368,7 +53483,7 @@
   },
   {
     "id": "larvitar",
-    "number": 288,
+    "number": 289,
     "name": "Larvitar",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LARVITAR",
@@ -53531,7 +53646,7 @@
   },
   {
     "id": "pupitar",
-    "number": 289,
+    "number": 290,
     "name": "Pupitar",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_PUPITAR",
@@ -53717,7 +53832,7 @@
     "evolvesFrom": [
       {
         "source": "Larvitar",
-        "sourceNumber": 288,
+        "sourceNumber": 289,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -53733,7 +53848,7 @@
   },
   {
     "id": "tyranitar",
-    "number": 290,
+    "number": 291,
     "name": "Tyranitar",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TYRANITAR",
@@ -53852,7 +53967,7 @@
     "evolvesFrom": [
       {
         "source": "Pupitar",
-        "sourceNumber": 289,
+        "sourceNumber": 290,
         "method": "Level",
         "requirement": "55",
         "verification": "donor draft / ROM QA pending"
@@ -53868,7 +53983,7 @@
   },
   {
     "id": "treecko",
-    "number": 291,
+    "number": 292,
     "name": "Treecko",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TREECKO",
@@ -54002,7 +54117,7 @@
   },
   {
     "id": "grovyle",
-    "number": 292,
+    "number": 293,
     "name": "Grovyle",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_GROVYLE",
@@ -54128,7 +54243,7 @@
     "evolvesFrom": [
       {
         "source": "Treecko",
-        "sourceNumber": 291,
+        "sourceNumber": 292,
         "method": "Level",
         "requirement": "16",
         "verification": "donor draft / ROM QA pending"
@@ -54144,7 +54259,7 @@
   },
   {
     "id": "sceptile",
-    "number": 293,
+    "number": 294,
     "name": "Sceptile",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SCEPTILE",
@@ -54275,7 +54390,7 @@
     "evolvesFrom": [
       {
         "source": "Grovyle",
-        "sourceNumber": 292,
+        "sourceNumber": 293,
         "method": "Level",
         "requirement": "36",
         "verification": "donor draft / ROM QA pending"
@@ -54291,7 +54406,7 @@
   },
   {
     "id": "sceptitan",
-    "number": 294,
+    "number": 295,
     "name": "Sceptitan",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SCEPTITAN",
@@ -54392,7 +54507,7 @@
     "evolvesFrom": [
       {
         "source": "Sceptile",
-        "sourceNumber": 293,
+        "sourceNumber": 294,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -54409,7 +54524,7 @@
   },
   {
     "id": "torchic",
-    "number": 295,
+    "number": 296,
     "name": "Torchic",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TORCHIC",
@@ -54539,7 +54654,7 @@
   },
   {
     "id": "combusken",
-    "number": 296,
+    "number": 297,
     "name": "Combusken",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_COMBUSKEN",
@@ -54666,7 +54781,7 @@
     "evolvesFrom": [
       {
         "source": "Torchic",
-        "sourceNumber": 295,
+        "sourceNumber": 296,
         "method": "Level",
         "requirement": "16",
         "verification": "donor draft / ROM QA pending"
@@ -54682,7 +54797,7 @@
   },
   {
     "id": "blaziken",
-    "number": 297,
+    "number": 298,
     "name": "Blaziken",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_BLAZIKEN",
@@ -54805,7 +54920,7 @@
     "evolvesFrom": [
       {
         "source": "Combusken",
-        "sourceNumber": 296,
+        "sourceNumber": 297,
         "method": "Level",
         "requirement": "36",
         "verification": "donor draft / ROM QA pending"
@@ -54821,7 +54936,7 @@
   },
   {
     "id": "solaziken",
-    "number": 298,
+    "number": 299,
     "name": "Solaziken",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SOLAZIKEN",
@@ -54906,7 +55021,7 @@
     "evolvesFrom": [
       {
         "source": "Blaziken",
-        "sourceNumber": 297,
+        "sourceNumber": 298,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -54923,7 +55038,7 @@
   },
   {
     "id": "mudkip",
-    "number": 299,
+    "number": 300,
     "name": "Mudkip",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MUDKIP",
@@ -55056,7 +55171,7 @@
   },
   {
     "id": "marshtomp",
-    "number": 300,
+    "number": 301,
     "name": "Marshtomp",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MARSHTOMP",
@@ -55182,7 +55297,7 @@
     "evolvesFrom": [
       {
         "source": "Mudkip",
-        "sourceNumber": 299,
+        "sourceNumber": 300,
         "method": "Level",
         "requirement": "16",
         "verification": "donor draft / ROM QA pending"
@@ -55198,7 +55313,7 @@
   },
   {
     "id": "swampert",
-    "number": 301,
+    "number": 302,
     "name": "Swampert",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SWAMPERT",
@@ -55317,7 +55432,7 @@
     "evolvesFrom": [
       {
         "source": "Marshtomp",
-        "sourceNumber": 300,
+        "sourceNumber": 301,
         "method": "Level",
         "requirement": "36",
         "verification": "donor draft / ROM QA pending"
@@ -55333,7 +55448,7 @@
   },
   {
     "id": "swamplith",
-    "number": 302,
+    "number": 303,
     "name": "Swamplith",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SWAMPLITH",
@@ -55417,7 +55532,7 @@
     "evolvesFrom": [
       {
         "source": "Swampert",
-        "sourceNumber": 301,
+        "sourceNumber": 302,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -55433,7 +55548,7 @@
   },
   {
     "id": "poochyena",
-    "number": 303,
+    "number": 304,
     "name": "Poochyena",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_POOCHYENA",
@@ -55564,7 +55679,7 @@
   },
   {
     "id": "mightyena",
-    "number": 304,
+    "number": 305,
     "name": "Mightyena",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MIGHTYENA",
@@ -55687,7 +55802,7 @@
     "evolvesFrom": [
       {
         "source": "Poochyena",
-        "sourceNumber": 303,
+        "sourceNumber": 304,
         "method": "Level",
         "requirement": "18",
         "verification": "donor draft / ROM QA pending"
@@ -55703,7 +55818,7 @@
   },
   {
     "id": "skulberus",
-    "number": 305,
+    "number": 306,
     "name": "Skulberus",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_SKULBERUS",
@@ -55852,7 +55967,7 @@
     "evolvesFrom": [
       {
         "source": "Mightyena",
-        "sourceNumber": 304,
+        "sourceNumber": 305,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -55868,7 +55983,7 @@
   },
   {
     "id": "zigzagoon",
-    "number": 306,
+    "number": 307,
     "name": "Zigzagoon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_ZIGZAGOON",
@@ -55995,7 +56110,7 @@
   },
   {
     "id": "linoone",
-    "number": 307,
+    "number": 308,
     "name": "Linoone",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LINOONE",
@@ -56106,7 +56221,7 @@
     "evolvesFrom": [
       {
         "source": "Zigzagoon",
-        "sourceNumber": 306,
+        "sourceNumber": 307,
         "method": "Level",
         "requirement": "20",
         "verification": "donor draft / ROM QA pending"
@@ -56122,7 +56237,7 @@
   },
   {
     "id": "wurmple",
-    "number": 308,
+    "number": 309,
     "name": "Wurmple",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_WURMPLE",
@@ -56211,7 +56326,7 @@
   },
   {
     "id": "silcoon",
-    "number": 309,
+    "number": 310,
     "name": "Silcoon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SILCOON",
@@ -56270,7 +56385,7 @@
     "evolvesFrom": [
       {
         "source": "Wurmple",
-        "sourceNumber": 308,
+        "sourceNumber": 309,
         "method": "Level",
         "requirement": "7",
         "verification": "donor draft / ROM QA pending"
@@ -56286,7 +56401,7 @@
   },
   {
     "id": "beautifly",
-    "number": 310,
+    "number": 311,
     "name": "Beautifly",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_BEAUTIFLY",
@@ -56389,7 +56504,7 @@
     "evolvesFrom": [
       {
         "source": "Silcoon",
-        "sourceNumber": 309,
+        "sourceNumber": 310,
         "method": "Level",
         "requirement": "10",
         "verification": "donor draft / ROM QA pending"
@@ -56405,7 +56520,7 @@
   },
   {
     "id": "cascoon",
-    "number": 311,
+    "number": 312,
     "name": "Cascoon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_CASCOON",
@@ -56472,7 +56587,7 @@
   },
   {
     "id": "dustox",
-    "number": 312,
+    "number": 313,
     "name": "Dustox",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_DUSTOX",
@@ -56576,7 +56691,7 @@
     "evolvesFrom": [
       {
         "source": "Cascoon",
-        "sourceNumber": 311,
+        "sourceNumber": 312,
         "method": "Level",
         "requirement": "10",
         "verification": "donor draft / ROM QA pending"
@@ -56592,7 +56707,7 @@
   },
   {
     "id": "lotad",
-    "number": 313,
+    "number": 314,
     "name": "Lotad",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LOTAD",
@@ -56711,7 +56826,7 @@
   },
   {
     "id": "lombre",
-    "number": 314,
+    "number": 315,
     "name": "Lombre",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LOMBRE",
@@ -56822,7 +56937,7 @@
     "evolvesFrom": [
       {
         "source": "Lotad",
-        "sourceNumber": 313,
+        "sourceNumber": 314,
         "method": "Level",
         "requirement": "14",
         "verification": "donor draft / ROM QA pending"
@@ -56838,7 +56953,7 @@
   },
   {
     "id": "ludicolo",
-    "number": 315,
+    "number": 316,
     "name": "Ludicolo",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LUDICOLO",
@@ -56902,7 +57017,7 @@
     "evolvesFrom": [
       {
         "source": "Lombre",
-        "sourceNumber": 314,
+        "sourceNumber": 315,
         "method": "Item",
         "requirement": "ITEM_WATER_STONE",
         "verification": "donor draft / ROM QA pending"
@@ -56918,7 +57033,7 @@
   },
   {
     "id": "seedot",
-    "number": 316,
+    "number": 317,
     "name": "Seedot",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SEEDOT",
@@ -57035,7 +57150,7 @@
   },
   {
     "id": "nuzleaf",
-    "number": 317,
+    "number": 318,
     "name": "Nuzleaf",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_NUZLEAF",
@@ -57133,7 +57248,7 @@
     "evolvesFrom": [
       {
         "source": "Seedot",
-        "sourceNumber": 316,
+        "sourceNumber": 317,
         "method": "Level",
         "requirement": "14",
         "verification": "donor draft / ROM QA pending"
@@ -57149,7 +57264,7 @@
   },
   {
     "id": "shiftry",
-    "number": 318,
+    "number": 319,
     "name": "Shiftry",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SHIFTRY",
@@ -57217,7 +57332,7 @@
     "evolvesFrom": [
       {
         "source": "Nuzleaf",
-        "sourceNumber": 317,
+        "sourceNumber": 318,
         "method": "Item",
         "requirement": "ITEM_LEAF_STONE",
         "verification": "donor draft / ROM QA pending"
@@ -57233,7 +57348,7 @@
   },
   {
     "id": "taillow",
-    "number": 319,
+    "number": 320,
     "name": "Taillow",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TAILLOW",
@@ -57360,7 +57475,7 @@
   },
   {
     "id": "swellow",
-    "number": 320,
+    "number": 321,
     "name": "Swellow",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SWELLOW",
@@ -57458,7 +57573,7 @@
     "evolvesFrom": [
       {
         "source": "Taillow",
-        "sourceNumber": 319,
+        "sourceNumber": 320,
         "method": "Level",
         "requirement": "22",
         "verification": "donor draft / ROM QA pending"
@@ -57474,7 +57589,7 @@
   },
   {
     "id": "wingull",
-    "number": 321,
+    "number": 322,
     "name": "Wingull",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_WINGULL",
@@ -57659,7 +57774,7 @@
   },
   {
     "id": "pelipper",
-    "number": 322,
+    "number": 323,
     "name": "Pelipper",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_PELIPPER",
@@ -57799,7 +57914,7 @@
     "evolvesFrom": [
       {
         "source": "Wingull",
-        "sourceNumber": 321,
+        "sourceNumber": 322,
         "method": "Level",
         "requirement": "25",
         "verification": "donor draft / ROM QA pending"
@@ -57815,7 +57930,7 @@
   },
   {
     "id": "ralts",
-    "number": 323,
+    "number": 324,
     "name": "Ralts",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_RALTS",
@@ -57942,7 +58057,7 @@
   },
   {
     "id": "kirlia",
-    "number": 324,
+    "number": 325,
     "name": "Kirlia",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_KIRLIA",
@@ -58059,7 +58174,7 @@
     "evolvesFrom": [
       {
         "source": "Ralts",
-        "sourceNumber": 323,
+        "sourceNumber": 324,
         "method": "Level",
         "requirement": "20",
         "verification": "donor draft / ROM QA pending"
@@ -58075,7 +58190,7 @@
   },
   {
     "id": "gardevoir",
-    "number": 325,
+    "number": 326,
     "name": "Gardevoir",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_GARDEVOIR",
@@ -58209,7 +58324,7 @@
     "evolvesFrom": [
       {
         "source": "Kirlia",
-        "sourceNumber": 324,
+        "sourceNumber": 325,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -58225,7 +58340,7 @@
   },
   {
     "id": "valkyvoir",
-    "number": 326,
+    "number": 327,
     "name": "Valkiri",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_VALKYVOIR",
@@ -58358,7 +58473,7 @@
     "evolvesFrom": [
       {
         "source": "Gardevoir",
-        "sourceNumber": 325,
+        "sourceNumber": 326,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -58375,7 +58490,7 @@
   },
   {
     "id": "surskit",
-    "number": 327,
+    "number": 328,
     "name": "Surskit",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SURSKIT",
@@ -58497,7 +58612,7 @@
   },
   {
     "id": "masquerain",
-    "number": 328,
+    "number": 329,
     "name": "Masquerain",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MASQUERAIN",
@@ -58602,7 +58717,7 @@
     "evolvesFrom": [
       {
         "source": "Surskit",
-        "sourceNumber": 327,
+        "sourceNumber": 328,
         "method": "Level",
         "requirement": "22",
         "verification": "donor draft / ROM QA pending"
@@ -58618,7 +58733,7 @@
   },
   {
     "id": "shroomish",
-    "number": 329,
+    "number": 330,
     "name": "Shroomish",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SHROOMISH",
@@ -58741,7 +58856,7 @@
   },
   {
     "id": "breloom",
-    "number": 330,
+    "number": 331,
     "name": "Breloom",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_BRELOOM",
@@ -58853,7 +58968,7 @@
     "evolvesFrom": [
       {
         "source": "Shroomish",
-        "sourceNumber": 329,
+        "sourceNumber": 330,
         "method": "Level",
         "requirement": "23",
         "verification": "donor draft / ROM QA pending"
@@ -58869,7 +58984,7 @@
   },
   {
     "id": "slakoth",
-    "number": 331,
+    "number": 332,
     "name": "Slakoth",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SLAKOTH",
@@ -58978,7 +59093,7 @@
   },
   {
     "id": "vigoroth",
-    "number": 332,
+    "number": 333,
     "name": "Vigoroth",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_VIGOROTH",
@@ -59077,7 +59192,7 @@
     "evolvesFrom": [
       {
         "source": "Slakoth",
-        "sourceNumber": 331,
+        "sourceNumber": 332,
         "method": "Level",
         "requirement": "18",
         "verification": "donor draft / ROM QA pending"
@@ -59093,7 +59208,7 @@
   },
   {
     "id": "slaking",
-    "number": 333,
+    "number": 334,
     "name": "Slaking",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SLAKING",
@@ -59198,7 +59313,7 @@
     "evolvesFrom": [
       {
         "source": "Vigoroth",
-        "sourceNumber": 332,
+        "sourceNumber": 333,
         "method": "Level",
         "requirement": "36",
         "verification": "donor draft / ROM QA pending"
@@ -59214,7 +59329,7 @@
   },
   {
     "id": "nincada",
-    "number": 334,
+    "number": 335,
     "name": "Nincada",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_NINCADA",
@@ -59340,7 +59455,7 @@
   },
   {
     "id": "ninjask",
-    "number": 335,
+    "number": 336,
     "name": "Ninjask",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_NINJASK",
@@ -59455,7 +59570,7 @@
     "evolvesFrom": [
       {
         "source": "Nincada",
-        "sourceNumber": 334,
+        "sourceNumber": 335,
         "method": "Level",
         "requirement": "20",
         "verification": "donor draft / ROM QA pending"
@@ -59471,7 +59586,7 @@
   },
   {
     "id": "shedinja",
-    "number": 336,
+    "number": 337,
     "name": "Shedinja",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SHEDINJA",
@@ -59573,7 +59688,7 @@
   },
   {
     "id": "whismur",
-    "number": 337,
+    "number": 338,
     "name": "Whismur",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_WHISMUR",
@@ -59690,7 +59805,7 @@
   },
   {
     "id": "loudred",
-    "number": 338,
+    "number": 339,
     "name": "Loudred",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LOUDRED",
@@ -59815,7 +59930,7 @@
     "evolvesFrom": [
       {
         "source": "Whismur",
-        "sourceNumber": 337,
+        "sourceNumber": 338,
         "method": "Level",
         "requirement": "20",
         "verification": "donor draft / ROM QA pending"
@@ -59831,7 +59946,7 @@
   },
   {
     "id": "exploud",
-    "number": 339,
+    "number": 340,
     "name": "Exploud",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_EXPLOUD",
@@ -59956,7 +60071,7 @@
     "evolvesFrom": [
       {
         "source": "Loudred",
-        "sourceNumber": 338,
+        "sourceNumber": 339,
         "method": "Level",
         "requirement": "40",
         "verification": "donor draft / ROM QA pending"
@@ -59972,7 +60087,7 @@
   },
   {
     "id": "makuhita",
-    "number": 340,
+    "number": 341,
     "name": "Makuhita",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MAKUHITA",
@@ -60122,7 +60237,7 @@
   },
   {
     "id": "hariyama",
-    "number": 341,
+    "number": 342,
     "name": "Hariyama",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_HARIYAMA",
@@ -60245,7 +60360,7 @@
     "evolvesFrom": [
       {
         "source": "Makuhita",
-        "sourceNumber": 340,
+        "sourceNumber": 341,
         "method": "Level",
         "requirement": "24",
         "verification": "donor draft / ROM QA pending"
@@ -60261,7 +60376,7 @@
   },
   {
     "id": "nosepass",
-    "number": 342,
+    "number": 343,
     "name": "Nosepass",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_NOSEPASS",
@@ -60429,7 +60544,7 @@
   },
   {
     "id": "skitty",
-    "number": 343,
+    "number": 344,
     "name": "Skitty",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SKITTY",
@@ -60571,7 +60686,7 @@
   },
   {
     "id": "delcatty",
-    "number": 344,
+    "number": 345,
     "name": "Delcatty",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_DELCATTY",
@@ -60633,7 +60748,7 @@
     "evolvesFrom": [
       {
         "source": "Skitty",
-        "sourceNumber": 343,
+        "sourceNumber": 344,
         "method": "Item",
         "requirement": "ITEM_MOON_STONE",
         "verification": "donor draft / ROM QA pending"
@@ -60649,7 +60764,7 @@
   },
   {
     "id": "gemlin",
-    "number": 345,
+    "number": 346,
     "name": "Gemlin",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_GEMLIN",
@@ -60781,7 +60896,7 @@
   },
   {
     "id": "sableye",
-    "number": 346,
+    "number": 347,
     "name": "Sableye",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SABLEYE",
@@ -60935,7 +61050,7 @@
     "evolvesFrom": [
       {
         "source": "Gemlin",
-        "sourceNumber": 345,
+        "sourceNumber": 346,
         "method": "Level",
         "requirement": "20",
         "verification": "donor draft / ROM QA pending"
@@ -60951,7 +61066,7 @@
   },
   {
     "id": "gemigoyle",
-    "number": 347,
+    "number": 348,
     "name": "Gemigoyle",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_GEMIGOYLE",
@@ -61031,7 +61146,7 @@
     "evolvesFrom": [
       {
         "source": "Sableye",
-        "sourceNumber": 346,
+        "sourceNumber": 347,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -61047,7 +61162,7 @@
   },
   {
     "id": "mawile",
-    "number": 348,
+    "number": 349,
     "name": "Mawile",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MAWILE",
@@ -61192,7 +61307,7 @@
   },
   {
     "id": "mawyrm",
-    "number": 349,
+    "number": 350,
     "name": "Mawyrm",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_MAWYRM",
@@ -61272,7 +61387,7 @@
     "evolvesFrom": [
       {
         "source": "Mawile",
-        "sourceNumber": 348,
+        "sourceNumber": 349,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -61288,7 +61403,7 @@
   },
   {
     "id": "aron",
-    "number": 350,
+    "number": 351,
     "name": "Aron",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_ARON",
@@ -61432,7 +61547,7 @@
   },
   {
     "id": "lairon",
-    "number": 351,
+    "number": 352,
     "name": "Lairon",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_LAIRON",
@@ -61554,7 +61669,7 @@
     "evolvesFrom": [
       {
         "source": "Aron",
-        "sourceNumber": 350,
+        "sourceNumber": 351,
         "method": "Level",
         "requirement": "32",
         "verification": "donor draft / ROM QA pending"
@@ -61570,7 +61685,7 @@
   },
   {
     "id": "aggron",
-    "number": 352,
+    "number": 353,
     "name": "Aggron",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_AGGRON",
@@ -61699,7 +61814,7 @@
     "evolvesFrom": [
       {
         "source": "Lairon",
-        "sourceNumber": 351,
+        "sourceNumber": 352,
         "method": "Level",
         "requirement": "42",
         "verification": "donor draft / ROM QA pending"
@@ -61715,7 +61830,7 @@
   },
   {
     "id": "meditite",
-    "number": 353,
+    "number": 354,
     "name": "Meditite",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MEDITITE",
@@ -61857,7 +61972,7 @@
   },
   {
     "id": "medicham",
-    "number": 354,
+    "number": 355,
     "name": "Medicham",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MEDICHAM",
@@ -62009,7 +62124,7 @@
     "evolvesFrom": [
       {
         "source": "Meditite",
-        "sourceNumber": 353,
+        "sourceNumber": 354,
         "method": "Level",
         "requirement": "37",
         "verification": "donor draft / ROM QA pending"
@@ -62025,7 +62140,7 @@
   },
   {
     "id": "electrike",
-    "number": 355,
+    "number": 356,
     "name": "Electrike",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_ELECTRIKE",
@@ -62164,7 +62279,7 @@
   },
   {
     "id": "manectric",
-    "number": 356,
+    "number": 357,
     "name": "Manectric",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MANECTRIC",
@@ -62279,7 +62394,7 @@
     "evolvesFrom": [
       {
         "source": "Electrike",
-        "sourceNumber": 355,
+        "sourceNumber": 356,
         "method": "Level",
         "requirement": "26",
         "verification": "donor draft / ROM QA pending"
@@ -62295,7 +62410,7 @@
   },
   {
     "id": "plusle",
-    "number": 357,
+    "number": 358,
     "name": "Plusle",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_PLUSLE",
@@ -62423,7 +62538,7 @@
   },
   {
     "id": "minun",
-    "number": 358,
+    "number": 359,
     "name": "Minun",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_MINUN",
@@ -62555,7 +62670,7 @@
   },
   {
     "id": "volbeat",
-    "number": 359,
+    "number": 360,
     "name": "Volbeat",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_VOLBEAT",
@@ -62673,7 +62788,7 @@
   },
   {
     "id": "illumise",
-    "number": 360,
+    "number": 361,
     "name": "Illumise",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_ILLUMISE",
@@ -62787,7 +62902,7 @@
   },
   {
     "id": "roselia",
-    "number": 361,
+    "number": 362,
     "name": "Roselia",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_ROSELIA",
@@ -62926,7 +63041,7 @@
   },
   {
     "id": "gulpin",
-    "number": 362,
+    "number": 363,
     "name": "Gulpin",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_GULPIN",
@@ -63057,7 +63172,7 @@
   },
   {
     "id": "swalot",
-    "number": 363,
+    "number": 364,
     "name": "Swalot",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SWALOT",
@@ -63176,7 +63291,7 @@
     "evolvesFrom": [
       {
         "source": "Gulpin",
-        "sourceNumber": 362,
+        "sourceNumber": 363,
         "method": "Level",
         "requirement": "26",
         "verification": "donor draft / ROM QA pending"
@@ -63192,7 +63307,7 @@
   },
   {
     "id": "carvanha",
-    "number": 364,
+    "number": 365,
     "name": "Carvanha",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_CARVANHA",
@@ -63319,7 +63434,7 @@
   },
   {
     "id": "sharpedo",
-    "number": 365,
+    "number": 366,
     "name": "Sharpedo",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SHARPEDO",
@@ -63442,7 +63557,7 @@
     "evolvesFrom": [
       {
         "source": "Carvanha",
-        "sourceNumber": 364,
+        "sourceNumber": 365,
         "method": "Level",
         "requirement": "30",
         "verification": "donor draft / ROM QA pending"
@@ -63458,7 +63573,7 @@
   },
   {
     "id": "wailmer",
-    "number": 366,
+    "number": 367,
     "name": "Wailmer",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_WAILMER",
@@ -63593,7 +63708,7 @@
   },
   {
     "id": "wailord",
-    "number": 367,
+    "number": 368,
     "name": "Wailord",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_WAILORD",
@@ -63712,7 +63827,7 @@
     "evolvesFrom": [
       {
         "source": "Wailmer",
-        "sourceNumber": 366,
+        "sourceNumber": 367,
         "method": "Level",
         "requirement": "40",
         "verification": "donor draft / ROM QA pending"
@@ -63728,7 +63843,7 @@
   },
   {
     "id": "numel",
-    "number": 368,
+    "number": 369,
     "name": "Numel",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_NUMEL",
@@ -63851,7 +63966,7 @@
   },
   {
     "id": "camerupt",
-    "number": 369,
+    "number": 370,
     "name": "Camerupt",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_CAMERUPT",
@@ -63972,7 +64087,7 @@
     "evolvesFrom": [
       {
         "source": "Numel",
-        "sourceNumber": 368,
+        "sourceNumber": 369,
         "method": "Level",
         "requirement": "33",
         "verification": "donor draft / ROM QA pending"
@@ -63988,7 +64103,7 @@
   },
   {
     "id": "torkoal",
-    "number": 370,
+    "number": 371,
     "name": "Torkoal",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_TORKOAL",
@@ -64137,7 +64252,7 @@
   },
   {
     "id": "torkaldera",
-    "number": 371,
+    "number": 372,
     "name": "Torkaldera",
     "category": "PRU custom / exception",
     "speciesConstant": "SPECIES_TORKALDERA",
@@ -64230,7 +64345,7 @@
     "evolvesFrom": [
       {
         "source": "Torkoal",
-        "sourceNumber": 370,
+        "sourceNumber": 371,
         "method": "Ancient Stone",
         "requirement": "Level 45+",
         "verification": "PRU compiled SpeciesInfo"
@@ -64246,7 +64361,7 @@
   },
   {
     "id": "spoink",
-    "number": 372,
+    "number": 373,
     "name": "Spoink",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_SPOINK",
@@ -64376,7 +64491,7 @@
   },
   {
     "id": "grumpig",
-    "number": 373,
+    "number": 374,
     "name": "Grumpig",
     "category": "Standard Kanto–Johto–Hoenn",
     "speciesConstant": "SPECIES_GRUMPIG",
@@ -64491,7 +64606,7 @@
     "evolvesFrom": [
       {
         "source": "Spoink",
-        "sourceNumber": 372,
+        "sourceNumber": 373,
         "method": "Level",
         "requirement": "32",
         "verification": "donor draft / ROM QA pending"
@@ -64504,127 +64619,6 @@
     },
     "specialLocations": [],
     "locationStatus": "evolution"
-  },
-  {
-    "id": "spinda",
-    "number": 374,
-    "name": "Spinda",
-    "category": "Standard Kanto–Johto–Hoenn",
-    "speciesConstant": "SPECIES_SPINDA",
-    "types": [
-      "Normal"
-    ],
-    "stats": {
-      "hp": 60,
-      "attack": 60,
-      "defense": 60,
-      "spAttack": 60,
-      "spDefense": 60,
-      "speed": 60
-    },
-    "abilities": [
-      "Own Tempo",
-      "Tangled Feet",
-      "Contrary"
-    ],
-    "evolutions": [],
-    "levelUpMoves": [
-      {
-        "level": 1,
-        "move": "Tackle"
-      },
-      {
-        "level": 5,
-        "move": "Uproar"
-      },
-      {
-        "level": 10,
-        "move": "Copycat"
-      },
-      {
-        "level": 14,
-        "move": "Feint Attack"
-      },
-      {
-        "level": 19,
-        "move": "Psybeam"
-      },
-      {
-        "level": 23,
-        "move": "Hypnosis"
-      },
-      {
-        "level": 28,
-        "move": "Dizzy Punch"
-      },
-      {
-        "level": 32,
-        "move": "Sucker Punch"
-      },
-      {
-        "level": 37,
-        "move": "Teeter Dance"
-      },
-      {
-        "level": 41,
-        "move": "Psych Up"
-      },
-      {
-        "level": 46,
-        "move": "Double Edge"
-      },
-      {
-        "level": 50,
-        "move": "Flail"
-      },
-      {
-        "level": 55,
-        "move": "Thrash"
-      }
-    ],
-    "notes": "",
-    "sourceTier": "PRL-Hoenn",
-    "sourceStatus": "SOURCE_REFERENCE_ROM_QA_PENDING",
-    "sourceFile": "src/data/pokemon/species_info/gen_3_families.h",
-    "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
-    "region": "Hoenn",
-    "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route5",
-        "map": "MAP_ROUTE5_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 43,
-        "maxLevel": 47
-      }
-    ],
-    "recommendedSet": null,
-    "sprite": {
-      "front": "assets/previews/spinda_front.png",
-      "shiny": "assets/previews/spinda_shiny.png",
-      "icon": "assets/pokesprite/pokemon-gen8/regular/spinda.png"
-    },
-    "spriteNote": "User fork PokéSprite Gen8 68×56 box/menu artwork (not a GBA 64×64 battle front)",
-    "bst": 360,
-    "spriteSourcePriority": "Explicit PRU lock > current approved PRL/PKR/PHR > approved PJR > vanilla fork PokéSprite; candidate banks NOT automatic",
-    "spriteProvenance": "User fork PokéSprite Gen8 68×56 box/menu artwork (not a GBA 64×64 battle front)",
-    "spriteSheetAnimation": false,
-    "spriteDisplayRole": "VANILLA",
-    "approvedVisualVariants": [],
-    "evolvesFrom": [],
-    "spriteOriginal": {
-      "front": "assets/pokesprite/pokemon-gen8/regular/spinda.png",
-      "shiny": "assets/pokesprite/pokemon-gen8/shiny/spinda.png",
-      "icon": "assets/pokesprite/pokemon-gen8/regular/spinda.png"
-    },
-    "specialLocations": [],
-    "locationStatus": "wild"
   },
   {
     "id": "trapinch",
@@ -71979,7 +71973,7 @@
     "locations": [],
     "recommendedSet": null,
     "number": 431,
-    "name": "Mewsion",
+    "name": "Mewduo",
     "id": "mewsion",
     "speciesConstant": "SPECIES_MEWSION",
     "category": "Legendary / Mythical / special",
