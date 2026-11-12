@@ -51,18 +51,6 @@
         "maxLevel": 3
       },
       {
-        "speciesConstant": "SPECIES_CHIKORITA",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 2,
-        "maxLevel": 3
-      },
-      {
         "speciesConstant": "SPECIES_SENTRET",
         "methods": [
           "Grass / cave"
@@ -115,7 +103,8 @@
           "Grass / cave"
         ],
         "times": [
-          "Day"
+          "Day",
+          "Night"
         ],
         "minLevel": 2,
         "maxLevel": 3
@@ -139,18 +128,6 @@
     "name": "Route46",
     "encounters": [
       {
-        "speciesConstant": "SPECIES_CHARMANDER",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 2,
-        "maxLevel": 3
-      },
-      {
         "speciesConstant": "SPECIES_RATTATA",
         "methods": [
           "Grass / cave"
@@ -168,10 +145,11 @@
           "Grass / cave"
         ],
         "times": [
-          "Day"
+          "Day",
+          "Night"
         ],
         "minLevel": 2,
-        "maxLevel": 2
+        "maxLevel": 3
       },
       {
         "speciesConstant": "SPECIES_GEODUDE",
@@ -244,7 +222,8 @@
           "Grass / cave"
         ],
         "times": [
-          "Day"
+          "Day",
+          "Night"
         ],
         "minLevel": 3,
         "maxLevel": 4
@@ -340,18 +319,6 @@
         "maxLevel": 40
       },
       {
-        "speciesConstant": "SPECIES_CYNDAQUIL",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 4,
-        "maxLevel": 4
-      },
-      {
         "speciesConstant": "SPECIES_HOOTHOOT",
         "methods": [
           "Grass / cave"
@@ -401,7 +368,7 @@
         "maxLevel": 10
       },
       {
-        "speciesConstant": "SPECIES_TREECKO",
+        "speciesConstant": "SPECIES_POOCHYENA",
         "methods": [
           "Grass / cave"
         ],
@@ -409,7 +376,7 @@
           "Day",
           "Night"
         ],
-        "minLevel": 3,
+        "minLevel": 4,
         "maxLevel": 4
       }
     ]
@@ -418,18 +385,6 @@
     "id": "MAP_ROUTE31_HNS",
     "name": "Route31",
     "encounters": [
-      {
-        "speciesConstant": "SPECIES_BULBASAUR",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 5,
-        "maxLevel": 5
-      },
       {
         "speciesConstant": "SPECIES_CATERPIE",
         "methods": [
@@ -845,18 +800,6 @@
         "maxLevel": 22
       },
       {
-        "speciesConstant": "SPECIES_QUILAVA",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 19,
-        "maxLevel": 27
-      },
-      {
         "speciesConstant": "SPECIES_NOCTOWL",
         "methods": [
           "Grass / cave"
@@ -912,6 +855,18 @@
           "Night"
         ],
         "minLevel": 27,
+        "maxLevel": 27
+      },
+      {
+        "speciesConstant": "SPECIES_VULPIX",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 19,
         "maxLevel": 27
       }
     ]
@@ -1043,18 +998,6 @@
     "id": "MAP_ROUTE32_HNS",
     "name": "Route32",
     "encounters": [
-      {
-        "speciesConstant": "SPECIES_SQUIRTLE",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 6,
-        "maxLevel": 6
-      },
       {
         "speciesConstant": "SPECIES_PIDGEY",
         "methods": [
@@ -1454,17 +1397,6 @@
         ],
         "minLevel": 15,
         "maxLevel": 24
-      },
-      {
-        "speciesConstant": "SPECIES_MUDKIP",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 8,
-        "maxLevel": 8
       }
     ]
   },
@@ -1609,17 +1541,6 @@
         ],
         "minLevel": 20,
         "maxLevel": 24
-      },
-      {
-        "speciesConstant": "SPECIES_MARSHTOMP",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 21,
-        "maxLevel": 23
       }
     ]
   },
@@ -1645,10 +1566,11 @@
           "Grass / cave"
         ],
         "times": [
-          "Day"
+          "Day",
+          "Night"
         ],
         "minLevel": 8,
-        "maxLevel": 8
+        "maxLevel": 9
       },
       {
         "speciesConstant": "SPECIES_EKANS",
@@ -1709,18 +1631,6 @@
         ],
         "minLevel": 10,
         "maxLevel": 10
-      },
-      {
-        "speciesConstant": "SPECIES_TORCHIC",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 8,
-        "maxLevel": 9
       }
     ]
   },
@@ -1798,17 +1708,6 @@
         ],
         "minLevel": 10,
         "maxLevel": 40
-      },
-      {
-        "speciesConstant": "SPECIES_TOTODILE",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 6,
-        "maxLevel": 8
       }
     ]
   },
@@ -1899,7 +1798,7 @@
         "maxLevel": 40
       },
       {
-        "speciesConstant": "SPECIES_CROCONAW",
+        "speciesConstant": "SPECIES_AZUMARILL",
         "methods": [
           "Grass / cave"
         ],
@@ -1915,28 +1814,6 @@
     "id": "MAP_ILEX_FOREST_HNS",
     "name": "Ilex Forest",
     "encounters": [
-      {
-        "speciesConstant": "SPECIES_BULBASAUR",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 14,
-        "maxLevel": 14
-      },
-      {
-        "speciesConstant": "SPECIES_IVYSAUR",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Night"
-        ],
-        "minLevel": 19,
-        "maxLevel": 19
-      },
       {
         "speciesConstant": "SPECIES_BUTTERFREE",
         "methods": [
@@ -2097,6 +1974,17 @@
         ],
         "minLevel": 18,
         "maxLevel": 18
+      },
+      {
+        "speciesConstant": "SPECIES_GLOOM",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Night"
+        ],
+        "minLevel": 19,
+        "maxLevel": 19
       }
     ]
   },
@@ -2335,7 +2223,7 @@
         "maxLevel": 40
       },
       {
-        "speciesConstant": "SPECIES_GROVYLE",
+        "speciesConstant": "SPECIES_TANGELA",
         "methods": [
           "Grass / cave"
         ],
@@ -2808,7 +2696,7 @@
         "maxLevel": 29
       },
       {
-        "speciesConstant": "SPECIES_COMBUSKEN",
+        "speciesConstant": "SPECIES_MAGMAR",
         "methods": [
           "Grass / cave"
         ],
@@ -2825,18 +2713,6 @@
     "id": "MAP_BURNED_TOWER_1F_HNS",
     "name": "Burned Tower 1F",
     "encounters": [
-      {
-        "speciesConstant": "SPECIES_CHARMELEON",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 28,
-        "maxLevel": 30
-      },
       {
         "speciesConstant": "SPECIES_RATICATE",
         "methods": [
@@ -2895,6 +2771,18 @@
         ],
         "minLevel": 27,
         "maxLevel": 27
+      },
+      {
+        "speciesConstant": "SPECIES_GROWLITHE",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 28,
+        "maxLevel": 30
       }
     ]
   },
@@ -3334,17 +3222,6 @@
     "name": "Route41",
     "encounters": [
       {
-        "speciesConstant": "SPECIES_WARTORTLE",
-        "methods": [
-          "Surf"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 30,
-        "maxLevel": 35
-      },
-      {
         "speciesConstant": "SPECIES_TENTACOOL",
         "methods": [
           "Surf"
@@ -3435,6 +3312,17 @@
         ],
         "minLevel": 30,
         "maxLevel": 36
+      },
+      {
+        "speciesConstant": "SPECIES_POLIWHIRL",
+        "methods": [
+          "Surf"
+        ],
+        "times": [
+          "Day"
+        ],
+        "minLevel": 30,
+        "maxLevel": 35
       }
     ]
   },
@@ -5991,40 +5879,6 @@
     "name": "Mt. Silver Outside",
     "encounters": [
       {
-        "speciesConstant": "SPECIES_VENUSAUR",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 52,
-        "maxLevel": 54
-      },
-      {
-        "speciesConstant": "SPECIES_CHARIZARD",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 50,
-        "maxLevel": 50
-      },
-      {
-        "speciesConstant": "SPECIES_BLASTOISE",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Night"
-        ],
-        "minLevel": 50,
-        "maxLevel": 50
-      },
-      {
         "speciesConstant": "SPECIES_CROBAT",
         "methods": [
           "Grass / cave"
@@ -6202,6 +6056,40 @@
         ],
         "minLevel": 52,
         "maxLevel": 53
+      },
+      {
+        "speciesConstant": "SPECIES_VILEPLUME",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 52,
+        "maxLevel": 54
+      },
+      {
+        "speciesConstant": "SPECIES_ARCANINE",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day"
+        ],
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "speciesConstant": "SPECIES_POLIWRATH",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Night"
+        ],
+        "minLevel": 50,
+        "maxLevel": 50
       }
     ]
   },
@@ -7153,40 +7041,6 @@
         "maxLevel": 40
       },
       {
-        "speciesConstant": "SPECIES_MEGANIUM",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 44,
-        "maxLevel": 44
-      },
-      {
-        "speciesConstant": "SPECIES_TYPHLOSION",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 44,
-        "maxLevel": 44
-      },
-      {
-        "speciesConstant": "SPECIES_FERALIGATR",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Night"
-        ],
-        "minLevel": 44,
-        "maxLevel": 44
-      },
-      {
         "speciesConstant": "SPECIES_MURKROW",
         "methods": [
           "Grass / cave"
@@ -7208,15 +7062,9 @@
         ],
         "minLevel": 46,
         "maxLevel": 46
-      }
-    ]
-  },
-  {
-    "id": "MAP_ROUTE26_HNS",
-    "name": "Route26",
-    "encounters": [
+      },
       {
-        "speciesConstant": "SPECIES_VENUSAUR",
+        "speciesConstant": "SPECIES_BELLOSSOM",
         "methods": [
           "Grass / cave"
         ],
@@ -7228,7 +7076,7 @@
         "maxLevel": 44
       },
       {
-        "speciesConstant": "SPECIES_CHARIZARD",
+        "speciesConstant": "SPECIES_ARCANINE",
         "methods": [
           "Grass / cave"
         ],
@@ -7239,7 +7087,7 @@
         "maxLevel": 44
       },
       {
-        "speciesConstant": "SPECIES_BLASTOISE",
+        "speciesConstant": "SPECIES_GYARADOS",
         "methods": [
           "Grass / cave"
         ],
@@ -7248,7 +7096,13 @@
         ],
         "minLevel": 44,
         "maxLevel": 44
-      },
+      }
+    ]
+  },
+  {
+    "id": "MAP_ROUTE26_HNS",
+    "name": "Route26",
+    "encounters": [
       {
         "speciesConstant": "SPECIES_ARBOK",
         "methods": [
@@ -7382,6 +7236,40 @@
         ],
         "minLevel": 46,
         "maxLevel": 46
+      },
+      {
+        "speciesConstant": "SPECIES_VILEPLUME",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "speciesConstant": "SPECIES_ARCANINE",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day"
+        ],
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "speciesConstant": "SPECIES_POLIWRATH",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Night"
+        ],
+        "minLevel": 44,
+        "maxLevel": 44
       }
     ]
   },
@@ -16938,39 +16826,6 @@
         ],
         "minLevel": 5,
         "maxLevel": 5
-      },
-      {
-        "speciesConstant": "SPECIES_TREECKO",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 5,
-        "maxLevel": 5
-      },
-      {
-        "speciesConstant": "SPECIES_TORCHIC",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 5,
-        "maxLevel": 5
-      },
-      {
-        "speciesConstant": "SPECIES_MUDKIP",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 5,
-        "maxLevel": 5
       }
     ]
   },
@@ -18289,17 +18144,6 @@
         "maxLevel": 45
       },
       {
-        "speciesConstant": "SPECIES_SCEPTILE",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Any"
-        ],
-        "minLevel": 43,
-        "maxLevel": 45
-      },
-      {
         "speciesConstant": "SPECIES_TAILLOW",
         "methods": [
           "Grass / cave"
@@ -18325,6 +18169,17 @@
         "speciesConstant": "SPECIES_CLAMPERL",
         "methods": [
           "Super Rod"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 43,
+        "maxLevel": 45
+      },
+      {
+        "speciesConstant": "SPECIES_VILEPLUME",
+        "methods": [
+          "Grass / cave"
         ],
         "times": [
           "Any"
@@ -20548,6 +20403,111 @@
         ],
         "minLevel": 63,
         "maxLevel": 65
+      }
+    ]
+  },
+  {
+    "id": "MAP_ROUTE34_DAY_CARE_HNS",
+    "name": "Route 34 Day-Care",
+    "encounters": [
+      {
+        "speciesConstant": "SPECIES_CHIKORITA",
+        "methods": [
+          "Odd Egg password: CHIKORITA"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "speciesConstant": "SPECIES_CYNDAQUIL",
+        "methods": [
+          "Odd Egg password: CYNDAQUIL"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "speciesConstant": "SPECIES_TOTODILE",
+        "methods": [
+          "Odd Egg password: TOTODILE"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "speciesConstant": "SPECIES_BULBASAUR",
+        "methods": [
+          "Odd Egg password: BULBASAUR"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "speciesConstant": "SPECIES_CHARMANDER",
+        "methods": [
+          "Odd Egg password: CHARMANDER"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "speciesConstant": "SPECIES_SQUIRTLE",
+        "methods": [
+          "Odd Egg password: SQUIRTLE"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "speciesConstant": "SPECIES_TREECKO",
+        "methods": [
+          "Odd Egg password: TREECKO"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "speciesConstant": "SPECIES_TORCHIC",
+        "methods": [
+          "Odd Egg password: TORCHIC"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5
+      },
+      {
+        "speciesConstant": "SPECIES_MUDKIP",
+        "methods": [
+          "Odd Egg password: MUDKIP"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ]
   }

@@ -95,29 +95,16 @@
     "trainerVariants": [],
     "locations": [
       {
-        "area": "Route31",
-        "map": "MAP_ROUTE31_HNS",
+        "area": "Route 34 Day-Care",
+        "map": "MAP_ROUTE34_DAY_CARE_HNS",
         "methods": [
-          "Grass / cave"
+          "Odd Egg password: BULBASAUR"
         ],
         "times": [
-          "Day",
-          "Night"
+          "Any"
         ],
         "minLevel": 5,
         "maxLevel": 5
-      },
-      {
-        "area": "Ilex Forest",
-        "map": "MAP_ILEX_FOREST_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 14,
-        "maxLevel": 14
       }
     ],
     "recommendedSet": null,
@@ -244,20 +231,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Kanto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Ilex Forest",
-        "map": "MAP_ILEX_FOREST_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Night"
-        ],
-        "minLevel": 19,
-        "maxLevel": 19
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/ivysaur_front.png",
@@ -400,34 +374,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Kanto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Mt. Silver Outside",
-        "map": "MAP_MT_SILVER_OUTSIDE_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 52,
-        "maxLevel": 54
-      },
-      {
-        "area": "Route26",
-        "map": "MAP_ROUTE26_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 44,
-        "maxLevel": 44
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/venusaur_front.png",
@@ -644,17 +591,16 @@
     "trainerVariants": [],
     "locations": [
       {
-        "area": "Route46",
-        "map": "MAP_ROUTE46_HNS",
+        "area": "Route 34 Day-Care",
+        "map": "MAP_ROUTE34_DAY_CARE_HNS",
         "methods": [
-          "Grass / cave"
+          "Odd Egg password: CHARMANDER"
         ],
         "times": [
-          "Day",
-          "Night"
+          "Any"
         ],
-        "minLevel": 2,
-        "maxLevel": 3
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ],
     "recommendedSet": null,
@@ -759,21 +705,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Kanto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Burned Tower 1F",
-        "map": "MAP_BURNED_TOWER_1F_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 28,
-        "maxLevel": 30
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/charmeleon_front.png",
@@ -915,32 +847,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Kanto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Mt. Silver Outside",
-        "map": "MAP_MT_SILVER_OUTSIDE_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 50,
-        "maxLevel": 50
-      },
-      {
-        "area": "Route26",
-        "map": "MAP_ROUTE26_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 44,
-        "maxLevel": 44
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/charizard_front.png",
@@ -1176,17 +1083,16 @@
     "trainerVariants": [],
     "locations": [
       {
-        "area": "Route32",
-        "map": "MAP_ROUTE32_HNS",
+        "area": "Route 34 Day-Care",
+        "map": "MAP_ROUTE34_DAY_CARE_HNS",
         "methods": [
-          "Grass / cave"
+          "Odd Egg password: SQUIRTLE"
         ],
         "times": [
-          "Day",
-          "Night"
+          "Any"
         ],
-        "minLevel": 6,
-        "maxLevel": 6
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ],
     "recommendedSet": null,
@@ -1311,20 +1217,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Kanto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route41",
-        "map": "MAP_ROUTE41_HNS",
-        "methods": [
-          "Surf"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 30,
-        "maxLevel": 35
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/wartortle_front.png",
@@ -1465,32 +1358,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Kanto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Mt. Silver Outside",
-        "map": "MAP_MT_SILVER_OUTSIDE_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Night"
-        ],
-        "minLevel": 50,
-        "maxLevel": 50
-      },
-      {
-        "area": "Route26",
-        "map": "MAP_ROUTE26_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Night"
-        ],
-        "minLevel": 44,
-        "maxLevel": 44
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/blastoise_front.png",
@@ -1684,7 +1552,8 @@
           "Grass / cave"
         ],
         "times": [
-          "Day"
+          "Day",
+          "Night"
         ],
         "minLevel": 3,
         "maxLevel": 4
@@ -4074,10 +3943,11 @@
           "Grass / cave"
         ],
         "times": [
-          "Day"
+          "Day",
+          "Night"
         ],
         "minLevel": 2,
-        "maxLevel": 2
+        "maxLevel": 3
       },
       {
         "area": "Route33",
@@ -4086,10 +3956,11 @@
           "Grass / cave"
         ],
         "times": [
-          "Day"
+          "Day",
+          "Night"
         ],
         "minLevel": 8,
-        "maxLevel": 8
+        "maxLevel": 9
       },
       {
         "area": "Route4",
@@ -7136,6 +7007,19 @@
     "trainerVariants": [],
     "locations": [
       {
+        "area": "Route36",
+        "map": "MAP_ROUTE36_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 19,
+        "maxLevel": 27
+      },
+      {
         "area": "Route37",
         "map": "MAP_ROUTE37_HNS",
         "methods": [
@@ -9120,6 +9004,18 @@
     "trainerVariants": [],
     "locations": [
       {
+        "area": "Ilex Forest",
+        "map": "MAP_ILEX_FOREST_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Night"
+        ],
+        "minLevel": 19,
+        "maxLevel": 19
+      },
+      {
         "area": "Route47",
         "map": "MAP_ROUTE47_HNS",
         "methods": [
@@ -9240,7 +9136,46 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Kanto",
     "trainerVariants": [],
-    "locations": [],
+    "locations": [
+      {
+        "area": "Mt. Silver Outside",
+        "map": "MAP_MT_SILVER_OUTSIDE_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 52,
+        "maxLevel": 54
+      },
+      {
+        "area": "Route26",
+        "map": "MAP_ROUTE26_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "area": "Melemele Isle",
+        "map": "MAP_MELEMELE_ISLE_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Any"
+        ],
+        "minLevel": 43,
+        "maxLevel": 45
+      }
+    ],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/vileplume_front.png",
@@ -9329,7 +9264,21 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Kanto",
     "trainerVariants": [],
-    "locations": [],
+    "locations": [
+      {
+        "area": "Route27",
+        "map": "MAP_ROUTE27_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/bellossom_front.png",
@@ -11988,6 +11937,19 @@
         "maxLevel": 29
       },
       {
+        "area": "Burned Tower 1F",
+        "map": "MAP_BURNED_TOWER_1F_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 28,
+        "maxLevel": 30
+      },
+      {
         "area": "Route48",
         "map": "MAP_ROUTE48_HNS",
         "methods": [
@@ -12090,6 +12052,42 @@
     "region": "Kanto",
     "trainerVariants": [],
     "locations": [
+      {
+        "area": "Mt. Silver Outside",
+        "map": "MAP_MT_SILVER_OUTSIDE_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day"
+        ],
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "area": "Route27",
+        "map": "MAP_ROUTE27_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day"
+        ],
+        "minLevel": 44,
+        "maxLevel": 44
+      },
+      {
+        "area": "Route26",
+        "map": "MAP_ROUTE26_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day"
+        ],
+        "minLevel": 44,
+        "maxLevel": 44
+      },
       {
         "area": "Newsinjoh Hotsprings",
         "map": "MAP_NEWSINJOH_HOTSPRINGS_HNS",
@@ -12877,6 +12875,18 @@
         "maxLevel": 40
       },
       {
+        "area": "Route41",
+        "map": "MAP_ROUTE41_HNS",
+        "methods": [
+          "Surf"
+        ],
+        "times": [
+          "Day"
+        ],
+        "minLevel": 30,
+        "maxLevel": 35
+      },
+      {
         "area": "Route44",
         "map": "MAP_ROUTE44_HNS",
         "methods": [
@@ -13264,7 +13274,32 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Kanto",
     "trainerVariants": [],
-    "locations": [],
+    "locations": [
+      {
+        "area": "Mt. Silver Outside",
+        "map": "MAP_MT_SILVER_OUTSIDE_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Night"
+        ],
+        "minLevel": 50,
+        "maxLevel": 50
+      },
+      {
+        "area": "Route26",
+        "map": "MAP_ROUTE26_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Night"
+        ],
+        "minLevel": 44,
+        "maxLevel": 44
+      }
+    ],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/poliwrath_front.png",
@@ -26002,6 +26037,19 @@
     "trainerVariants": [],
     "locations": [
       {
+        "area": "Route34",
+        "map": "MAP_ROUTE34_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 21,
+        "maxLevel": 22
+      },
+      {
         "area": "Route44",
         "map": "MAP_ROUTE44_HNS",
         "methods": [
@@ -30031,6 +30079,19 @@
     "trainerVariants": [],
     "locations": [
       {
+        "area": "Route37",
+        "map": "MAP_ROUTE37_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 27,
+        "maxLevel": 29
+      },
+      {
         "area": "Burned Tower B1F",
         "map": "MAP_BURNED_TOWER_B1F_HNS",
         "methods": [
@@ -32158,6 +32219,18 @@
         ],
         "minLevel": 27,
         "maxLevel": 40
+      },
+      {
+        "area": "Route27",
+        "map": "MAP_ROUTE27_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Night"
+        ],
+        "minLevel": 44,
+        "maxLevel": 44
       },
       {
         "area": "Fuchsia City",
@@ -36854,17 +36927,16 @@
     "trainerVariants": [],
     "locations": [
       {
-        "area": "Route29",
-        "map": "MAP_ROUTE29_HNS",
+        "area": "Route 34 Day-Care",
+        "map": "MAP_ROUTE34_DAY_CARE_HNS",
         "methods": [
-          "Grass / cave"
+          "Odd Egg password: CHIKORITA"
         ],
         "times": [
-          "Day",
-          "Night"
+          "Any"
         ],
-        "minLevel": 2,
-        "maxLevel": 3
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ],
     "recommendedSet": null,
@@ -37128,21 +37200,7 @@
     "sourceCommit": "PRU branch current HEAD",
     "region": "Johto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route27",
-        "map": "MAP_ROUTE27_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 44,
-        "maxLevel": 44
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/meganium_front.png",
@@ -37396,17 +37454,16 @@
     "trainerVariants": [],
     "locations": [
       {
-        "area": "Route30",
-        "map": "MAP_ROUTE30_HNS",
+        "area": "Route 34 Day-Care",
+        "map": "MAP_ROUTE34_DAY_CARE_HNS",
         "methods": [
-          "Grass / cave"
+          "Odd Egg password: CYNDAQUIL"
         ],
         "times": [
-          "Day",
-          "Night"
+          "Any"
         ],
-        "minLevel": 4,
-        "maxLevel": 4
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ],
     "recommendedSet": null,
@@ -37524,21 +37581,7 @@
     "sourceCommit": "PRU branch current HEAD",
     "region": "Johto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route36",
-        "map": "MAP_ROUTE36_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 19,
-        "maxLevel": 27
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/quilava_front.png",
@@ -37672,20 +37715,7 @@
     "sourceCommit": "PRU branch current HEAD",
     "region": "Johto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route27",
-        "map": "MAP_ROUTE27_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 44,
-        "maxLevel": 44
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/typhlosion_front.png",
@@ -37943,16 +37973,16 @@
     "trainerVariants": [],
     "locations": [
       {
-        "area": "Slowpoke Well B1F",
-        "map": "MAP_SLOWPOKE_WELL_B1F_HNS",
+        "area": "Route 34 Day-Care",
+        "map": "MAP_ROUTE34_DAY_CARE_HNS",
         "methods": [
-          "Grass / cave"
+          "Odd Egg password: TOTODILE"
         ],
         "times": [
-          "Day"
+          "Any"
         ],
-        "minLevel": 6,
-        "maxLevel": 8
+        "minLevel": 5,
+        "maxLevel": 5
       }
     ],
     "recommendedSet": null,
@@ -38078,20 +38108,7 @@
     "sourceCommit": "PRU branch current HEAD",
     "region": "Johto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Slowpoke Well B2F",
-        "map": "MAP_SLOWPOKE_WELL_B2F_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 20,
-        "maxLevel": 22
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/croconaw_front.png",
@@ -38233,20 +38250,7 @@
     "sourceCommit": "PRU branch current HEAD",
     "region": "Johto",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route27",
-        "map": "MAP_ROUTE27_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Night"
-        ],
-        "minLevel": 44,
-        "maxLevel": 44
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/feraligatr_front.png",
@@ -42991,7 +42995,20 @@
     "sourceCommit": "PRU branch current HEAD",
     "region": "Johto",
     "trainerVariants": [],
-    "locations": [],
+    "locations": [
+      {
+        "area": "Slowpoke Well B2F",
+        "map": "MAP_SLOWPOKE_WELL_B2F_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day"
+        ],
+        "minLevel": 20,
+        "maxLevel": 22
+      }
+    ],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/azumarill_front.png",
@@ -43262,7 +43279,8 @@
           "Grass / cave"
         ],
         "times": [
-          "Day"
+          "Day",
+          "Night"
         ],
         "minLevel": 2,
         "maxLevel": 3
@@ -54263,26 +54281,13 @@
     "trainerVariants": [],
     "locations": [
       {
-        "area": "Route30",
-        "map": "MAP_ROUTE30_HNS",
+        "area": "Route 34 Day-Care",
+        "map": "MAP_ROUTE34_DAY_CARE_HNS",
         "methods": [
-          "Grass / cave"
+          "Odd Egg password: TREECKO"
         ],
         "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 3,
-        "maxLevel": 4
-      },
-      {
-        "area": "Faraway Island Entrance",
-        "map": "MAP_FARAWAY_ISLAND_ENTRANCE_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
+          "Any"
         ],
         "minLevel": 5,
         "maxLevel": 5
@@ -54407,21 +54412,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Hoenn",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route34",
-        "map": "MAP_ROUTE34_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 21,
-        "maxLevel": 22
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/grovyle_front.png",
@@ -54555,20 +54546,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Hoenn",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Melemele Isle",
-        "map": "MAP_MELEMELE_ISLE_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Any"
-        ],
-        "minLevel": 43,
-        "maxLevel": 45
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/sceptile_front.png",
@@ -54804,26 +54782,13 @@
     "trainerVariants": [],
     "locations": [
       {
-        "area": "Route33",
-        "map": "MAP_ROUTE33_HNS",
+        "area": "Route 34 Day-Care",
+        "map": "MAP_ROUTE34_DAY_CARE_HNS",
         "methods": [
-          "Grass / cave"
+          "Odd Egg password: TORCHIC"
         ],
         "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 8,
-        "maxLevel": 9
-      },
-      {
-        "area": "Faraway Island Entrance",
-        "map": "MAP_FARAWAY_ISLAND_ENTRANCE_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
+          "Any"
         ],
         "minLevel": 5,
         "maxLevel": 5
@@ -54949,21 +54914,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Hoenn",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Route37",
-        "map": "MAP_ROUTE37_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day",
-          "Night"
-        ],
-        "minLevel": 27,
-        "maxLevel": 29
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/combusken_front.png",
@@ -55326,25 +55277,13 @@
     "trainerVariants": [],
     "locations": [
       {
-        "area": "Union Cave B1F",
-        "map": "MAP_UNION_CAVE_B1F_HNS",
+        "area": "Route 34 Day-Care",
+        "map": "MAP_ROUTE34_DAY_CARE_HNS",
         "methods": [
-          "Grass / cave"
+          "Odd Egg password: MUDKIP"
         ],
         "times": [
-          "Day"
-        ],
-        "minLevel": 8,
-        "maxLevel": 8
-      },
-      {
-        "area": "Faraway Island Entrance",
-        "map": "MAP_FARAWAY_ISLAND_ENTRANCE_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
+          "Any"
         ],
         "minLevel": 5,
         "maxLevel": 5
@@ -55470,20 +55409,7 @@
     "sourceCommit": "6ee9b984521ac6f2beaf995f771a726379e55c88",
     "region": "Hoenn",
     "trainerVariants": [],
-    "locations": [
-      {
-        "area": "Union Cave B2F",
-        "map": "MAP_UNION_CAVE_B2F_HNS",
-        "methods": [
-          "Grass / cave"
-        ],
-        "times": [
-          "Day"
-        ],
-        "minLevel": 21,
-        "maxLevel": 23
-      }
-    ],
+    "locations": [],
     "recommendedSet": null,
     "sprite": {
       "front": "assets/previews/marshtomp_front.png",
@@ -55848,6 +55774,19 @@
     "region": "Hoenn",
     "trainerVariants": [],
     "locations": [
+      {
+        "area": "Route30",
+        "map": "MAP_ROUTE30_HNS",
+        "methods": [
+          "Grass / cave"
+        ],
+        "times": [
+          "Day",
+          "Night"
+        ],
+        "minLevel": 4,
+        "maxLevel": 4
+      },
       {
         "area": "Route1",
         "map": "MAP_ROUTE1_HNS",
