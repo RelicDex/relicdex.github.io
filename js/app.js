@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 const BASE=(()=>{const t=document.querySelector('script[src*="js/app.js"]');return t?new URL('../',t.src).href:'./'})();
 // PRU-approved single-front assets; prevent old Pokédex exports reverting approved art.
 const APPROVED_FRONT_LOCKS=Object.freeze({"Edensaur":"assets/sprites/edensaur/front.png","Charaxis":"assets/pru-art/dex/charaxis_black_orange.png","Adnokana":"assets/sprites/web-fronts/028_adnokana.png","Mimikyu":"assets/sprites/web-fronts/033_mimikyu.png","Cheauking":"assets/sprites/web-fronts/131_cheauking.png","Frytning":"assets/sprites/web-fronts/132_frytning.png","Rhyperior":"assets/sprites/web-fronts/135_rhyperior.png","Electivire":"assets/sprites/web-fronts/157_electivire.png","Magmortar":"assets/sprites/web-fronts/160_magmortar.png","Galveon":"assets/sprites/web-fronts/174_galveon.png","Pebleon":"assets/sprites/web-fronts/175_pebleon.png","Toxeon":"assets/sprites/web-fronts/176_toxeon.png","Leafeon":"assets/sprites/web-fronts/184_leafeon.png","Glaceon":"assets/sprites/web-fronts/185_glaceon.png","Sylveon":"assets/sprites/web-fronts/186_sylveon.png","Faeranium":"assets/sprites/web-fronts/202_faeranium.png","Pyroclast":"assets/sprites/web-fronts/206_pyroclast.png","Feralodon":"assets/sprites/feralodon/front.png","Heracurion":"assets/sprites/web-fronts/262_heracurion.png","Donphalanx":"assets/sprites/web-fronts/283_donphalanx.png","Mewduo":"assets/sprites/web-fronts/431_mewduo.png","Raikou":"assets/sprites/relic_raikou/approved_front_still.png","Entei":"assets/sprites/relic_entei/approved_front_still.png","Suicune":"assets/sprites/relic_suicune/approved_front_still.png","Lugia":"assets/sprites/relic_lugia/front.png","Ho-Oh":"assets/sprites/relic_ho_oh/front.png","Celebi":"assets/sprites/relic_celebi/front.png","Rayquaza":"assets/previews/rayquaza_shiny.png","Mew":"assets/sprites/approved-front-updates/mew_space.png","Mewtwo":"assets/sprites/approved-front-updates/mewtwo_shadow.png","Kyogre":"assets/sprites/approved-front-updates/kyogre_primal_black.png","Groudon":"assets/sprites/approved-front-updates/groudon_primal_black.png"});
@@ -39,15 +39,74 @@ function openDex(m){const modal=$('#detail-modal');if(!modal)return;$('#detail-t
  if(m.signatureMove){
    const sm=m.signatureMove;
    const s=E('section','detail-section');s.append(E('h3','','Signature move'));
-   s.append(E('p','',sm.name+' · '+sm.type+' · '+sm.category));
+   const sigLine=E('p');
+   const sigLink=E('a','dex-record-link',sm.name);
+   sigLink.href=BASE+'move.html?move='+encodeURIComponent(sm.name);
+   sigLine.append(sigLink);
+   sigLine.append(document.createTextNode(' · '+sm.type+' · '+sm.category));
+   s.append(sigLine);
    s.append(E('p','muted','Power '+sm.power+' · Accuracy '+sm.accuracy+'%'+(sm.pp!=null?' · PP '+sm.pp:'')+' · Learned at Lv '+sm.learnLevel));
    s.append(E('p','muted',sm.effect));
    if(sm.designStatus)s.append(E('p','muted',sm.designStatus));
    body.append(s);
  }
 
- const evo=E('section','detail-section');evo.innerHTML='<h3>Evolution</h3>';if(m.evolvesFrom?.length){for(const x of m.evolvesFrom)evo.append(E('p','muted',`Evolves from ${x.source} (#${String(x.sourceNumber).padStart(3,'0')}) — ${x.method}: ${x.requirement}`))} if(m.evolutions?.length){for(const x of m.evolutions)evo.append(E('p','muted',`${x.method}: ${x.requirement} → ${(mons.find(target=>target.speciesConstant===x.targetConstant)?.name||x.targetConstant.replace('SPECIES_','').replaceAll('_',' '))}`))}else evo.append(E('p','muted','No outgoing evolution listed in the current source record. This does not prove it is a final-stage Pokémon.'));body.append(evo);
- const lv=E('section','detail-section');lv.innerHTML='<h3>Level-up moves <small class="muted">source reference — ROM verification pending</small></h3>';if(m.levelUpMoves?.length){let table=E('table','moves-table');table.innerHTML='<thead><tr><th>Level</th><th>Move</th></tr></thead>';let tbody=E('tbody');for(const mov of m.levelUpMoves){let r=E('tr');r.innerHTML=`<td>${mov.level}</td><td>${escapeHTML(mov.move)}</td>`;tbody.append(r)}table.append(tbody);lv.append(table)}else lv.append(E('p','muted','Learnset not yet source-matched.'));body.append(lv);
+ const evo=E('section','detail-section');
+ evo.append(E('h3','','Evolution'));
+ const makeDexLink=(mon,label)=>{
+   const link=E('a','dex-record-link',label||mon.name);
+   link.href=BASE+'pokedex.html?no='+encodeURIComponent(mon.number);
+   return link;
+ };
+ const readableReq=value=>{
+   const v=String(value??'Unknown');
+   return v.replace(/^ITEM_/,'').replaceAll('_',' ').replace(/^\s+|\s+$/g,'');
+ };
+ if(m.evolvesFrom?.length){
+   for(const x of m.evolvesFrom){
+     const line=E('p','muted');
+     line.append(document.createTextNode('Evolves from '));
+     const previous=mons.find(target=>target.number===Number(x.sourceNumber))||mons.find(target=>target.name===x.source);
+     if(previous)line.append(makeDexLink(previous,x.source));
+     else line.append(document.createTextNode(x.source));
+     line.append(document.createTextNode(' — '+x.method+': '+readableReq(x.requirement)));
+     evo.append(line);
+   }
+ }
+ if(m.evolutions?.length){
+   for(const x of m.evolutions){
+     const line=E('p','muted');
+     line.append(document.createTextNode(x.method+': '+readableReq(x.requirement)+' → '));
+     const next=mons.find(target=>target.speciesConstant===x.targetConstant);
+     if(next)line.append(makeDexLink(next,next.name));
+     else line.append(document.createTextNode(String(x.targetConstant||'Unknown').replace('SPECIES_','').replaceAll('_',' ')));
+     evo.append(line);
+   }
+ }else{
+   evo.append(E('p','muted','No further evolution listed.'));
+ }
+ body.append(evo);
+ const lv=E('section','detail-section');
+ lv.innerHTML='<h3>Level-up moves <small class="muted">source reference — ROM verification pending</small></h3>';
+ if(m.levelUpMoves?.length){
+   const table=E('table','moves-table');
+   table.innerHTML='<thead><tr><th>Level</th><th>Move</th></tr></thead>';
+   const tbody=E('tbody');
+   for(const mov of m.levelUpMoves){
+     const row=E('tr');
+     row.append(E('td','',String(mov.level)));
+     const cell=E('td');
+     const link=E('a','dex-record-link',String(mov.move));
+     const clean=String(mov.move).replace(/\s*\(evolution\)$/i,'');
+     link.href=BASE+'move.html?move='+encodeURIComponent(clean);
+     cell.append(link);
+     row.append(cell);
+     tbody.append(row);
+   }
+   table.append(tbody);
+   lv.append(table);
+ }else lv.append(E('p','muted','Learnset not yet source-matched.'));
+ body.append(lv);
  const loc=E('section','detail-section');loc.append(E('h3','','Where to find it'));const fixed=m.specialLocations||[],found=m.locations||[];
  for(const x of fixed){const p=E('p','muted');p.innerHTML='<strong>'+escapeHTML(x.area)+'</strong> · '+escapeHTML(x.method)+(x.note?' · '+escapeHTML(x.note):'');loc.append(p)}
  for(const x of found.slice(0,24)){const lvl=x.minLevel===x.maxLevel?'Lv '+x.minLevel:'Lv '+x.minLevel+'–'+x.maxLevel;const time=(x.times||[]).includes('Any')?'':(x.times||[]).join(' / ');const p=E('p','muted');p.innerHTML='<strong>'+escapeHTML(x.area)+'</strong> · '+escapeHTML((x.methods||[]).join(', '))+' · '+escapeHTML(lvl)+(time?' · '+escapeHTML(time):'');loc.append(p)}

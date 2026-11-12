@@ -22,3 +22,7 @@ body.classic-site{background:#0d1323;color:#f3f6ff;font:15px/1.5 system-ui,-appl
 .classic-site .site-footer{background:#11192c;border-color:#35405a}
 .classic-site a{color:#d7ccff}
 @media(max-width:680px){.classic-site .classic-logo img{max-height:165px}.classic-site .site-header .nav a{font-size:13px;padding:6px 11px}.classic-site .page-hero{padding:19px 0}.classic-site .site-header .header-row{padding-bottom:12px}}
+
+/* Linked evolution species and move details in Pokédex records */
+.detail-section a.dex-record-link,.moves-table a.dex-record-link{color:#c6b8ff;font-weight:700;text-decoration:underline;text-underline-offset:3px}
+.detail-section a.dex-record-link:hover,.moves-table a.dex-record-link:hover{color:#fff}

@@ -7,7 +7,7 @@
   "date": "2026-11-12",
   "source": "PRU National Pokédex specification and source candidate registry",
   "dexCount": 450,
-  "revision": "2026-11-12 website corrections: Noxichu, Space Mew, Shadow Mewtwo, black primal fronts, legendary encounter guide and Guardian Dragonite",
+  "revision": "2026-11-12 Moves directory and linked Pokémon evolutions",
   "sourceStatus": "450 entries; Alpha 5 test ROM confirmation for RELICS clues; final release remains pending",
   "spriteDelivery": "local static files only: PokéSprite fork + approved custom sprites + PRL donor",
   "pendingArtwork": [
@@ -141,5 +141,11 @@
     ],
     "legendaryLocations": "Source-checked Kanto birds, roaming Latias/Latios, Mt Moon Jirachi and Astrachi, Birth Island Deoxys",
     "items": "Unfinished Items page removed from navigation"
+  },
+  "movesDirectory": {
+    "total": 981,
+    "index": "moves.html",
+    "details": "move.html",
+    "verified": "Development move source; final Alpha 5 QA pending"
   }
 }
