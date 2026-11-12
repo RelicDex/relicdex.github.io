@@ -55,8 +55,9 @@ function openDex(m){const modal=$('#detail-modal');if(!modal)return;$('#detail-t
  if(!fixed.length&&!found.length){const from=(m.evolvesFrom||[]).map(x=>x.source);loc.append(E('p','muted',from.length?'No direct wild encounter listed in this PRU build. Obtain by evolving '+from.join(' / ')+' where supported.':'No location in the current PRU wild-encounter tables or verified scripted encounters. Availability needs in-game QA.'))}
  if(found.length||fixed.length){const egg=fixed.some(x=>/Odd Egg/i.test(x.method));const link=E('a','btn btn-small',egg?'Odd Egg guide':'Explore locations');link.href=egg?BASE+'odd-eggs.html':BASE+'locations.html?q='+encodeURIComponent(m.name);loc.append(link)}
  body.append(loc);
- if(m.trainerVariants?.length){const tr=E('section','detail-section');tr.innerHTML='<h3>Trainer-exclusive sprite gallery</h3>';
- for(const v of m.trainerVariants){const card=E('article','trainer-variant');card.innerHTML=`<h4>${escapeHTML(v.label||v.trainer?.name)}</h4><div class="variant-pair"><div class="variant-picture"><span class="variant-art-title">TRAINER</span>${v.trainer?.portrait?`<img src="${escapeHTML(/^https?:\/\//.test(v.trainer.portrait)?v.trainer.portrait:BASE+v.trainer.portrait)}" alt="${escapeHTML(v.trainer.name)}">`:'<div class="variant-placeholder">?</div>'}</div><div class="variant-cross">×</div><div class="variant-picture"><span class="variant-art-title">EXCLUSIVE SPRITE</span>${v.sprite?.front?`<img src="${escapeHTML(/^https?:\/\//.test(v.sprite.front)?v.sprite.front:BASE+v.sprite.front)}" alt="${escapeHTML(v.label)}">`:'<div class="variant-placeholder">?</div>'}</div></div>`;tr.append(card)}body.append(tr);}
+
+ // Removed the unapproved trainer-exclusive sprite gallery from all species records.
+
   modal.hidden=false;document.body.style.overflow='hidden';modal.querySelector('button')?.focus();}
 function initBuilder(){const box=$('#team-slots');if(!box)return;const slots=Array(6).fill(null);try{const prev=JSON.parse(localStorage.getItem('relicdex-party')||'[]');prev.slice(0,6).forEach((n,i)=>slots[i]=findmon(n)||null)}catch{}let active=0;const picker=$('#pokemon-picker'),res=$('#pick-results'),search=$('#pick-search'),mode=$('#team-mode'),stage=$('#team-stage');
  function save(){try{localStorage.setItem('relicdex-party',JSON.stringify(slots.map(x=>x?.number??null)))}catch{}}

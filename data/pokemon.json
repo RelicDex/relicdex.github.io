@@ -5194,7 +5194,7 @@
     "evolutions": [
       {
         "method": "Item",
-        "requirement": "ITEM_MOON_STONE",
+        "requirement": "ITEM_ANCIENT_STONE",
         "targetConstant": "SPECIES_NOXICHU"
       }
     ],
@@ -5460,7 +5460,7 @@
         "move": "Dark Pulse"
       }
     ],
-    "notes": "Approved Alpha 5 buff: Relic Overdrive boosts Electric/Dark moves by 20%. Learns Eclipse Bolt at Level 54. ROM gameplay QA pending.",
+    "notes": "Approved Alpha 5 buff: Relic Overdrive boosts Electric/Dark moves by 20%. Evolves using Ancient Stone at any Pikachu level; learns Eclipse Bolt at Level 54. ROM gameplay QA pending.",
     "sourceTier": "PRL-Kanto",
     "sourceStatus": "SOURCE_REFERENCE_ROM_QA_PENDING",
     "sourceFile": "include/constants/species.h + src/data/pokemon/level_up_learnsets/prl_custom.h",
@@ -5496,8 +5496,8 @@
         "source": "Pikachu",
         "sourceNumber": 30,
         "method": "Item",
-        "requirement": "ITEM_MOON_STONE",
-        "verification": "donor draft / ROM QA pending"
+        "requirement": "ITEM_ANCIENT_STONE",
+        "verification": "Approved Alpha 5 design: Ancient Stone, any Pikachu level; ROM gameplay QA pending"
       }
     ],
     "spriteOriginal": {
