@@ -1,7 +1,28 @@
 <!doctype html><html lang="en-GB"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#141b31"><meta name="description" content="Build a six-Pokémon team and analyse coverage for Pokémon Relics Ultimate.">
 <link rel="icon" href="assets/relicdex-logo.svg" type="image/svg+xml"><link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="css/relicdex-tools.css">
-<title>Team Builder · RelicDex</title></head>
+<title>Team Builder · RelicDex</title><style>
+.dex-tool-site .tb-overview{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:12px;margin:14px 0 22px}
+.dex-tool-site .tb-analysis-card{background:#111c31;border:1px solid #354766;border-radius:13px;padding:15px}
+.dex-tool-site .tb-analysis-card h3,.dex-tool-site .tb-heading{font-size:16px;margin:0 0 9px;color:#f9e2a0}
+.dex-tool-site .tb-analysis-card p{margin:8px 0}
+.dex-tool-site .tb-help,.dex-tool-site .tb-empty{font-size:12px;color:#b9c5d8;line-height:1.6}
+.dex-tool-site .tb-weak-row{display:flex;justify-content:space-between;gap:9px;font-size:12px;padding:6px 0;border-bottom:1px solid #2b3853}
+.dex-tool-site .tb-weak-row span{text-align:right;color:#b9c5d8}
+.dex-tool-site .tb-suggestion{display:block;margin:11px 0;background:#18243b;border:1px solid #3c4963;border-radius:13px;padding:13px}
+.dex-tool-site .tb-suggest-top,.dex-tool-site .tb-suggest-mon{display:flex;align-items:center;gap:10px}
+.dex-tool-site .tb-suggest-top{justify-content:space-between}
+.dex-tool-site .tb-suggest-mon{min-width:0}
+.dex-tool-site .tb-suggest-mon img,.dex-tool-site .tb-suggest-mon .sprite-fallback{width:56px;height:56px;object-fit:contain;flex-shrink:0}
+.dex-tool-site .tb-suggest-mon strong{font-size:15px}
+.dex-tool-site .tb-rank{color:#ffdb9e}
+.dex-tool-site .tb-reasons{padding-left:18px;margin:7px 0 3px;color:#e0e8f5;font-size:12px}
+.dex-tool-site .tb-reasons li{margin:3px 0}
+.dex-tool-site .tb-risk{font-size:12px;color:#edc7a2;margin:8px 0 0}
+.dex-tool-site .tb-controls-right{display:flex;flex-wrap:wrap;gap:8px}
+.dex-tool-site .tb-empty{margin:12px 0}
+@media(max-width:520px){.dex-tool-site .tb-suggest-top{align-items:flex-start}.dex-tool-site .tb-suggest-mon img{width:44px;height:44px}.dex-tool-site .tb-suggest-mon small{font-size:11px}.dex-tool-site .team-controls .field-select{min-width:0;max-width:100%}.dex-tool-site .tb-weak-row{font-size:11px}}
+</style></head>
 <body class="dex-tool-site"><header class="dex-header"><div class="dex-wrap">
 <a href="index.html" aria-label="RelicDex Pokédex"><img class="dex-main-logo" src="assets/relicdex-hd-header.webp" alt="Official RelicDex logo" width="2172" height="724"></a>
 <div class="dex-brand-row"><div><div class="dex-brand">PRU <em>RelicDex</em></div><div class="dex-subtitle">Pokémon Relics Ultimate · illustrated reference</div></div><div class="dex-count">450 species<br>Current PRU source</div></div>
@@ -9,21 +30,21 @@
 <a class="dex-tab" href="index.html">Pokémon</a><a class="dex-tab" href="index.html?tab=trainers">Trainers</a><a class="dex-tab" href="index.html?tab=about">About</a><a class="dex-tab active" href="team-builder.html" aria-current="page">Team Builder</a><a class="dex-tab" href="randomizer-scanner.html" data-tool="scanner">Save Scanner</a><a class="dex-tab" href="locations.html">Locations</a>
 <a class="dex-tab" href="legendaries.html">Legendaries</a><a class="dex-tab" href="moves.html">Moves</a></nav></div></header>
 <main class="dex-wrap dex-content"><h1>Team Builder</h1>
-<p class="dex-intro">Build a party of six from the PRU Pokédex, see defensive weaknesses and find useful partners. Basic type suggestions are available now; badge-specific availability and optimized movesets remain unverified.</p>
+<p class="dex-intro">Build a six-Pokémon PRU team, discover shared weaknesses and immunities, and find partners ranked by defensive synergy, attacking coverage and battle roles. Recommendations update after every selection.</p>
 <div class="team-controls">
 <label for="team-mode">Build mode</label><select id="team-mode" class="field-select"><option value="story">Story Mode</option><option value="ultimate">Ultimate Team</option></select>
-<label for="team-stage">Badges</label><select id="team-stage" class="field-select"><option value="0">0 badges</option><option value="1">1 badge</option><option value="2">2 badges</option><option value="3">3 badges</option><option value="4">4 badges</option><option value="5">5 badges</option><option value="6">6 badges</option><option value="7">7 badges</option><option value="8">8 badges</option><option value="99">Postgame</option></select>
+<label for="team-pool">Recommend</label><select id="team-pool" class="field-select"><option value="all">All 450 Pokémon</option><option value="ancient">Relic evolutions (Ancient Stone)</option><option value="eevee">Eeveelutions only</option><option value="custom">PRU custom Pokémon</option></select><label for="team-stage">Badges (availability unverified)</label><select id="team-stage" class="field-select" disabled title="Badge-gated availability has not been verified against Alpha 5"><option value="0">0 badges</option><option value="1">1 badge</option><option value="2">2 badges</option><option value="3">3 badges</option><option value="4">4 badges</option><option value="5">5 badges</option><option value="6">6 badges</option><option value="7">7 badges</option><option value="8">8 badges</option><option value="99">Postgame</option></select>
 </div>
 <div class="team-workspace">
 <section class="panel"><div class="panel-head"><div><h2>Your team</h2><p>Tap a slot to choose a Pokémon.</p></div><span class="tag" id="team-size">0 / 6 selected</span></div><div class="team-slots" id="team-slots"></div>
 <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:18px;flex-wrap:wrap">
-<p class="dex-caption" style="margin:0">Saved locally in this browser.</p><button id="clear-team" class="btn btn-small" type="button">Clear team</button></div></section>
-<section class="panel"><div class="panel-head"><div><h2>Team coverage and partners</h2><p>Type matchups and suggestions</p></div></div>
-<div id="team-coming-soon" class="team-hint"><b>Basic type analysis.</b> Recommendations are based on provisional PRU data, not verified badge availability or complete move/item sets.</div><div id="suggestions" aria-live="polite"></div>
+<p class="dex-caption" style="margin:0">Saved locally in this browser.</p><div class="tb-controls-right"><button id="load-relic-team" class="btn btn-small" type="button">Try Noxichu Relic team</button><button id="clear-team" class="btn btn-small" type="button">Clear team</button></div></div></section>
+<section class="panel"><div class="panel-head"><div><h2>Team coverage and partners</h2><p>Full type chart, team balance and ranked partners</p></div></div>
+<div id="team-coming-soon" class="team-hint"><b>Type-based recommendations.</b> Badge-specific encounters, abilities, items and move access are not yet independently validated.</div><div id="team-analysis" aria-live="polite"></div><h3 class="tb-heading">Best next teammates</h3><div id="suggestions" aria-live="polite"></div>
 </section></div></main>
 <div id="pokemon-picker" class="modal" role="dialog" aria-modal="true" aria-label="Choose a Pokémon" hidden>
 <div class="modal-card"><div class="modal-head"><h2 style="margin:0">Choose a Pokémon</h2><button class="modal-close" type="button" id="picker-close" aria-label="Close picker">✕</button></div>
 <label class="searchbar" style="margin:14px 0"><span aria-hidden="true">⌕</span><input id="pick-search" type="search" placeholder="Search Pokémon..." aria-label="Search Pokémon"></label>
 <div id="pick-results" style="max-height:55vh;overflow:auto"></div></div></div>
 <div id="toast" class="toast" role="status" aria-live="polite" hidden></div><footer class="dex-footer">RelicDex · Pokémon Relics Ultimate · Unofficial non-commercial fan project</footer>
-<script src="js/app.js" defer></script></body></html>
+<script src="js/team-advisor.js?v=20261113-advisor" defer></script><script src="js/app.js?v=20261113-advisor" defer></script></body></html>
