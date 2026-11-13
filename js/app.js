@@ -94,7 +94,7 @@ function openDex(m){const modal=$('#detail-modal');if(!modal)return;$('#detail-t
    const tbody=E('tbody');
    for(const mov of m.levelUpMoves){
      const row=E('tr');
-     row.append(E('td','',String(mov.level)));
+     row.append(E('td','',mov.level===0?'Evolution':String(mov.level)));
      const cell=E('td');
      const link=E('a','dex-record-link',String(mov.move));
      const clean=String(mov.move).replace(/\s*\(evolution\)$/i,'');

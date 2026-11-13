@@ -64,7 +64,7 @@ async function detailPage(data){
    const mons=await resp.json();
    const learners=[];
    for(const mon of mons){
-    const levels=(mon.levelUpMoves||[]).filter(x=>compact(x.move)===compact(m.name)).map(x=>x.level);
+    const levels=(mon.levelUpMoves||[]).filter(x=>compact(x.move)===compact(m.name)).map(x=>x.level===0?'Evolution':x.level);
     if(mon.signatureMove&&compact(mon.signatureMove.name)===compact(m.name)&&!levels.length)levels.push(mon.signatureMove.learnLevel??'?');
     if(levels.length)learners.push({mon,level:levels.join(', ')});
    }
